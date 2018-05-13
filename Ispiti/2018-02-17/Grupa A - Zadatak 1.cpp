@@ -1,3 +1,9 @@
+/*
+   Napisati program koji učitava prirodan broj n. Program treba ispisati najmanji prirodan broj m,
+   veći ili jednak n, koji je potencija nekog prirodnog broja, tj. m = k ^ l, gdje su k i l prirodni
+   brojevi >= 2.
+*/
+
 #include <iostream>
 #include <cmath>
  
