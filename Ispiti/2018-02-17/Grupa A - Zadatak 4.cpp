@@ -1,4 +1,3 @@
-```cpp
 #include <iostream>
  
 using namespace std;
@@ -98,4 +97,3 @@ void unos(int niz[][d])
         }
     }
 }
-```
