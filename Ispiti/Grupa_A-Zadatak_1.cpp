@@ -15,14 +15,13 @@ int main()
     int i = 0;
        
    
-    do
+    while(prihodB < prihodA || prihodC < prihodA)
     {
         prihodA = prihodA + prihodA * godRastPrihodaA / 100;
         prihodB = prihodB + prihodB * godRastPrihodaB / 100;
         prihodC = prihodC + prihodC * godRastPrihodaC / 100;
-        i++;
-       
-    }while(prihodB < prihodA || prihodC < prihodA);
+        i++;  
+    }
    
     if(prihodB > prihodC)
         cout << "Firma B ce prva prestici firmu A za " << i << " godina" << endl;
