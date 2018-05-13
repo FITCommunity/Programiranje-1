@@ -1,3 +1,10 @@
+/*
+  Napisati program koji će omogućiti unos elemenata matrice dimenzija 10x10 cijelim brojevima sa
+  neparnim brojem cifara. Za provjeru broja cifara koristiti funkciju brCif(int). Zatim pronaći
+  i ispisati red sa najvećim presjekom (aritmetičkom sredinom) elemenata, te kolonu sa najmanjim
+  prosjekom elemenata.
+*/
+
 #include <iostream>
  
 using namespace std;
