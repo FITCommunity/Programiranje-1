@@ -80,7 +80,7 @@ int main()
         cout << "Unesite 0 za izlaz" << endl;
         cin >> izbor;
        
-    }while(izbor != 0);*/
+    }while(izbor != 0);
    
     // Zavrsi komentar
    
