@@ -1,3 +1,9 @@
+/*
+   Napisati program koji korisniku omogućava unos cijelog broja N, te izračunava geometrijsku sredinu svih 
+   neparnih brojeva u intervalu [1, N] koji su djeljivi sa 5. Rezultat treba biti zaokružen na dvije decimale.
+   Geometrijska sredina n brojeva se računa po formuli: (a1 * a2 * ... an) ^ 1/n
+*/
+
 #include <iostream>
 #include <cmath>
  
