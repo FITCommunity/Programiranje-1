@@ -1,16 +1,20 @@
 /*
-  Neka je dat 2D niz tipa int dimenzija 5x5. Kreirati, a potom u glavnom programu testirati, sljedeæe funkcije:
-a)	Funkciju koja vrši generisanje Fibonaccijevih brojeva u 2D nizu dok se niz ne popuni
-b)	Funkcija koja ispisuje najveæe zajednièke djelitelje brojeva na suprotnim indeksima matrice koristeæi Euklidov algoritam, kad se indeksi izjednaèe petlja se treba prekinuti:
-Euklidov algoritam(a,b):
-Dok(b>0)
+  Neka je dat 2D niz tipa int dimenzija 5x5. Kreirati, a potom u glavnom programu 
+  testirati, sljedeÄ‡e funkcije:
+  a) Funkciju koja vrÅ¡i generisanje Fibonaccijevih brojeva u 2D nizu dok se niz ne popuni
+  b) Funkcija koja ispisuje najveÃ¦e zajedniÃ¨ke djelitelje brojeva na suprotnim indeksima 
+     matrice koristeÃ¦i Euklidov algoritam, kad se indeksi izjednaÃ¨e petlja se treba prekinuti:
+     Euklidov algoritam(a,b):
+      Dok(b>0)
 	p=a;
 	a=b;
 	b = p mod b;
-NZD=a;
-Gdje je 'p' pomoæna varijabla. Suprotni indeksi matrice su matrica[0,0] i matrica[5,5], zatim matrica[0,1] i matrica [5,4] itd .
-Primjer:
-Najveæi zajednièki djelitelj za brojeve 610 i 34 je 2. Najveæi zajednièki djelitelj za brojeve 8 i 2584 je 8 itd. 
+      NZD=a;
+     Gdje je 'p' pomoÄ‡na varijabla. Suprotni indeksi matrice su matrica[0,0] i matrica[5,5], 
+     zatim matrica[0,1] i matrica [5,4] itd.
+     
+  Primjer: NajveÄ‡i zajedniÄki djelitelj za brojeve 610 i 34 je 2. NajveÄ‡i zajedniÄki djelitelj 
+  za brojeve 8 i 2584 je 8 itd. 
 
 */
 
