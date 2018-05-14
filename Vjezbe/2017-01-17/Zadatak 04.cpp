@@ -6,9 +6,9 @@
   niza i služi samo za prekid. Nakon toga, program računa aritmetičku sredinu unesenih brojeva, 
   te iz niza izbacuje sve one elemente čija je udaljenost od aritmetičke sredine veća od 10, 
   na način da se sačuva redoslijed dodavanja elemenata. Implementaciju uraditi upotrebom sljedećih funkcija:
-  •	void unos (double[], int, int&); gdje je treći parametar stvarna veličina niza nakon unosa;
-  •	double aritmeticka_sredina(double[], int);
-  •	void ukloni(double[], int, double, int&); gdje je drugi parametar aritmetička sredina, 
+  •void unos (double[], int, int&); gdje je treći parametar stvarna veličina niza nakon unosa;
+  •double aritmeticka_sredina(double[], int);
+  •void ukloni(double[], int, double, int&); gdje je drugi parametar aritmetička sredina, 
   a posljednji veličina niza nakon uklanjanja elemenata.
   
   U glavnom programu testirati dostupne funkcije, te obaviti ispis elemenata niza nakon uklanjanja 
