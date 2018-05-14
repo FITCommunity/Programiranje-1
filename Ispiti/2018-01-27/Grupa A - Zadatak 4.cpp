@@ -1,6 +1,6 @@
 /*
   Napisati program koji će učitati elemente matrice dimenzije nxn (const int n vrijednost
-  izaberite po želji) te ispisati da li je matrica centralno simetrična s obrzirom na na
+  izaberite po želji) te ispisati da li je matrica centralno simetrična s obrzirom na
   središnji element. Ako jeste, program treba ispisati 1, ako nije ispisati 0, a ako je
   broj redova paran (pa nema središnjeg elementa) ispisati -1. Koristite posebne funkcije
   za unos elemenata i provjeru simetričnosti.
