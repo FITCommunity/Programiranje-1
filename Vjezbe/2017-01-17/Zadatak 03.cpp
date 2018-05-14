@@ -1,13 +1,13 @@
 /*
   Napisati program koji će omogućiti:
-  •	Unos 2D niza od 10x10 elemanata vodeći računa da su svi elementi dvocifreni 
+  •Unos 2D niza od 10x10 elemanata vodeći računa da su svi elementi dvocifreni 
     (ukoliko unos nekog elementa ne zadovoljava uslov, ponavljati unos tog elementa 
     dok se ne zadovolji uslov) – Koristiti funkciju unos 
-  •	Izvršiti transpoziciju niza tako što će se zamjeniti redovi i kolone – Koristiti 
+  •Izvršiti transpoziciju niza tako što će se zamjeniti redovi i kolone – Koristiti 
     funkciju transpose, a zatim na osnovu izmijenjenog 2D niza:
-  •	Izračunati aritmetičku sredinu svih prostih brojeva ispod sporedne dijagonale – Koristiti 
+  •Izračunati aritmetičku sredinu svih prostih brojeva ispod sporedne dijagonale – Koristiti 
     dvije funkcije: aritmeticka i prost_broj (pozivati će se iz funkcije aritmeticka)
-  •	Napisati funkciju simpatican koja će provjeriti da li su brojevi iznad sporedne dijagonale simpatični*.
+  •Napisati funkciju simpatican koja će provjeriti da li su brojevi iznad sporedne dijagonale simpatični*.
   
   Obavezno koristiti navedene funkcije, a parametre i eventualne povratne vrijednosti 
   definisati prema potrebi. U main() funkciji napisati testni program koji će omogućiti 
@@ -20,7 +20,7 @@
   [e][e][e][e][e]        [a][b][c][d][e]
 
   Pomoć: Broj je simpatičan ukoliko je zbir cifara njegovog kvadrata jednak kvadratu zbira njegovih cifara. 
-  Broj 21 je simpatičan jer je s(421) = s(21) * s(21)  pri čemu je s(n) zbir cifara prirodnog broja n. 
+  Broj 21 je simpatičan jer je s(441) = s(21) * s(21)  pri čemu je s(n) zbir cifara prirodnog broja n.
 */
 
 #include <iostream>
