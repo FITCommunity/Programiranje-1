@@ -9,12 +9,12 @@
 	p=a;
 	a=b;
 	b = p mod b;
-      NZD=a;
+        NZD=a;
      Gdje je 'p' pomoćna varijabla. Suprotni indeksi matrice su matrica[0,0] i matrica[5,5], 
      zatim matrica[0,1] i matrica [5,4] itd.
      
-  Primjer: Najveći zajednički djelitelj za brojeve 610 i 34 je 2. Najveći zajednički djelitelj 
-  za brojeve 8 i 2584 je 8 itd. 
+  Primjer: Najveći zajednički djelitelj za brojeve 610 i 34 je 2. 
+  	   Najveći zajednički djelitelj za brojeve 8 i 2584 je 8 itd. 
 
 */
 
