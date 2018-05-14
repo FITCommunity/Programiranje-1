@@ -1,5 +1,40 @@
-// https://goo.gl/DZtfsE
-// Zadatak 7
+/*
+  Deklarisati kvadratnu matricu cijelih brojeva proizvoljnih dimenzija, te 
+  implementirati sljedeće funkcije:
+  •Funkciju za unos i formiranje elemenata matrice prema sljedećem obrascu: 
+  elemente neparnih redova matrice (1., 3., 5. itd.) čine minimalno trocifreni 
+  brojevi koje unosi korisnik programa (u slučaju unosa bilo kojeg broja koji 
+  ne zadovoljava postavljeni uslov, ponoviti unos); elementi parnih redova matrice 
+  se formiraju na osnovu elemenata iz prethodnog reda u istoj koloni matrice i to 
+  na način da je svaki novokreirani element matrice zapravo element s obrnutim 
+  redoslijedom cifri elementa iznad njega. 
+  •Za određivanje broja s obrnutim redoslijedom cifri kreirati zasebnu funkciju 
+  obratno, te je pozvati u funkciji unos. 
+  •Takvu matricu proslijediti zasebnoj funkciji max koja će formirati novi 
+  jednodimenzionalni niz čije članove čine najveći članovi matrice po redovima 
+  te ispisati ove članove.
+  •Formirati posebnu funkciju iznad_dijagonala koja će ispisati broj elemenata matrice 
+  koji se nalaze iznad glavne i sporedne dijagonale. Ove elemente unutar funkcije spremati 
+  u niz čija veličina zavisi od dimenzije matrice. Veličina niza treba biti fiksna i mora 
+  odgovarati točnom broju elemenata. 
+  
+  Kreirati kratki testni program koji demonstrira funcionalnost kreiranih funkcija.
+  Primjer matrice dimenzija 4x4 i očekivanih rezultata:
+  
+  +--------+--------+--------+--------+
+  |  2163  |  123   |  30425 |   671  |  
+  +--------+--------+--------+--------+
+  |  3612  |  321   |  52403 |   176  |  
+  +--------+--------+--------+--------+
+  |  7331  |  6113  | 741232 |   798  |  
+  +--------+--------+--------+--------+
+  |  1337  |  3116  | 232147 |   897  |  
+  +--------+--------+--------+--------+
+  
+  Elementi iznad obje dijagonale su: 123, 30452.
+  Funkcija max će ispisati sljedeće brojeve: 
+  30452, 25403, 741232, 232147 jer su to najveći brojevi po redovima. 
+*/
 
 #include <iostream>
 #include <cmath>
@@ -31,6 +66,9 @@ int main()
     max(niz, dimenzija);
     cout << endl;
     iznadDijagonala(niz, dimenzija);
+    
+    system("pause>0");
+    return 0;
 }
 
 void iznadDijagonala(int niz[][100], int d)
