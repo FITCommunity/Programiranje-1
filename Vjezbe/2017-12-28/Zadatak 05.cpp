@@ -2,8 +2,8 @@
   Napišite  program  koja  provjerava  je  li  vaš  Bingo  listić  sadrži  dobitnu 
   kombinaciju brojeva. Dobitna kombinacija sadrži 15 brojeva (5 brojeva raspoređenih u tri 
   retka),  a  Bingo  listić  sadrži  tri  kombinacije  od  po  15  brojeva.  Koristite  funkcije  
-  i  ni zove. Predvidite i manje dobitke, „peterce“ (svi brojevi u istom redu) i 
-  „deseterce“(svi brojevi u dva reda).
+  i  ni zove. Predvidite i manje dobitke, "peterce“ (svi brojevi u istom redu) i 
+  "deseterce“ (svi brojevi u dva reda).
 */
 
 #include <iostream>
