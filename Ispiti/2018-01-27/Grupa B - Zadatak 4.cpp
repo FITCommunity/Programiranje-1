@@ -1,3 +1,20 @@
+/*
+  Napisati program koji će omogućiti unos elemenata tipa integer u matricu
+  dimenzija 10x10 te izvršiti transponovanje matrice (zamjeniti redove i
+  kolone kao na slici). Zatim napraviti funkciju koja će izračunati aritmetičku
+  sredinu svih parnih brojeva iznad glavne dijagonale i aritmetičku sredinu svih
+  neparnih brojeva iznad sporedne dijagonale transponovane matrice. Provjeriti
+  koja aritmetička sredina je veća i ispisati odgovarajuću poruku i dobivenu
+  vrijednost u main programu.
+  
+  [a][a][a][a][a]        [a][b][c][d][e]
+  [b][b][b][b][b]        [a][b][c][d][e]
+  [c][c][c][c][c]  --->  [a][b][c][d][e]
+  [d][d][d][d][d]        [a][b][c][d][e]
+  [e][e][e][e][e]        [a][b][c][d][e]
+  	Transponovanje matrice
+*/
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
