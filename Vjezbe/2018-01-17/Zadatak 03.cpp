@@ -1,17 +1,17 @@
 /*
-  Napisati program koji Ä‡e omoguÄ‡iti:
-  â€¢Unos 2D niza od 10x10 elemanata vodeÄ‡i raÄuna da su svi elementi dvocifreni 
+  Napisati program koji æe omoguæiti:
+  •Unos 2D niza od 10x10 elemanata vodeæi raèuna da su svi elementi dvocifreni 
    (ukoliko unos nekog elementa ne zadovoljava uslov, ponavljati unos tog elementa 
-   dok se ne zadovolji uslov) â€“ Koristiti funkciju unos 
-  â€¢IzvrÅ¡iti transpoziciju niza tako Å¡to Ä‡e se zamjeniti redovi i kolone â€“ Koristiti 
+   dok se ne zadovolji uslov) – Koristiti funkciju unos 
+  •Izvršiti transpoziciju niza tako što æe se zamjeniti redovi i kolone – Koristiti 
    funkciju transpose, a zatim na osnovu izmijenjenog 2D niza:
-  â€¢IzraÄunati aritmetiÄku sredinu svih prostih brojeva ispod sporedne dijagonale â€“ Koristiti 
-   dvije funkcije: aritmeticka i prost_broj (pozivati Ä‡e se iz funkcije aritmeticka)
-  â€¢Napisati funkciju simpatican koja Ä‡e provjeriti da li su brojevi iznad sporedne dijagonale simpatiÄni*.
+  •Izraèunati aritmetièku sredinu svih prostih brojeva ispod sporedne dijagonale – Koristiti 
+   dvije funkcije: aritmeticka i prost_broj (pozivati æe se iz funkcije aritmeticka)
+  •Napisati funkciju simpatican koja æe provjeriti da li su brojevi iznad sporedne dijagonale    simpatièni*.
   
   Obavezno koristiti navedene funkcije, a parametre i eventualne povratne vrijednosti 
-  definisati prema potrebi. U main() funkciji napisati testni program koji Ä‡e omoguÄ‡iti 
-  izvrÅ¡enje svih funkcija navedenim redoslijedom.
+  definisati prema potrebi. U main() funkciji napisati testni program koji æe omoguæiti 
+  izvršenje svih funkcija navedenim redoslijedom.
   
   [a][a][a][a][a]        [a][b][c][d][e]
   [b][b][b][b][b]        [a][b][c][d][e]
@@ -19,8 +19,7 @@
   [d][d][d][d][d]        [a][b][c][d][e]
   [e][e][e][e][e]        [a][b][c][d][e]
 
-  PomoÄ‡: Broj je simpatiÄan ukoliko je zbir cifara njegovog kvadrata jednak kvadratu zbira njegovih cifara. 
-  Broj 21 je simpatiÄan jer je s(441) = s(21) * s(21)  pri Äemu je s(n) zbir cifara prirodnog broja n.
+  Pomoæ: Broj je simpatièan ukoliko je zbir cifara njegovog kvadrata jednak kvadratu zbira njegovih    cifara. Broj 21 je simpatièan jer je s(441) = s(21) * s(21)  pri èemu je s(n) zbir cifara       prirodnog broja n.
 */
 
 #include <iostream>

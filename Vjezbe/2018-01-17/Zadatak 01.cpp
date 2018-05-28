@@ -1,7 +1,7 @@
 /*
-  PoÅ¡tujuÄ‡i sve faze procesa programiranje, napisati program Ä‡e odrediti i ispisati 
-  zadnje tri cifre broja x^n. Unos brojeva x i n vrÅ¡iti u glavnoj funkciji uz uslov 
-  10 < x < 100 i 2 < n < 10, a funkciju za odreÄ‘ivanje zadnje tri cifre napraviti zasebno.
+  Poštujuæi sve faze procesa programiranje, napisati program æe odrediti i ispisati 
+  zadnje tri cifre broja x^n. Unos brojeva x i n vršiti u glavnoj funkciji uz uslov 
+  10 < x < 100 i 2 < n < 10, a funkciju za odreğivanje zadnje tri cifre napraviti zasebno.
   
   Primjer izlaza:
   Unesite brojeve x i n: 64 i 5

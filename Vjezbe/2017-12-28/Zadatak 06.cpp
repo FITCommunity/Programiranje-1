@@ -1,17 +1,16 @@
 /*
-  NapiÅ¡ite  program  u  kojem  Ä‡ete  omoguÄ‡iti  unos  Å¡esteroznamenkastog 
+  Napišite  program  u  kojem  æete  omoguæiti  unos  šesteroznamenkastog 
   prirodnog broja i kreiranje niza od 6 cjelobrojnih elemenata. 
-  â€¢ definirati  i  upotrijebiti  funkciju  void  inicijaliziraj(int[],  int,  int);  koja  Ä‡e 
+  • definirati  i  upotrijebiti  funkciju  void  inicijaliziraj(int[],  int,  int);  koja  æe 
     elemente  niza  inicijalizirate  tako  da  svakom  od  elemenata  niza  dodijeli  po  jednu 
-    znamenku unesenog Å¡esteroznamenkastog prirodnog broja;
-  â€¢ definirati i upotrijebiti funkciju float aritmeticka(int [], int); koja Ä‡e izraÄunati 
-    aritmetiÄku sredinu (prosjeÄnu vrijednost) elemenata niza;
-  â€¢ definirati  i  upotrijebiti  funkciju  int  pronaci(int  [],  int,   float)  koja  treba 
-    pronaÄ‡i  i  vratiti  element  niza  koji  je  po  svojoj  vrijednosti  najbliÅ¾i  prethodno 
-    izraÄunatoj aritmetiÄkoj sredini;
+    znamenku unesenog šesteroznamenkastog prirodnog broja;
+  • definirati i upotrijebiti funkciju float aritmeticka(int [], int); koja æe izraèunati 
+    aritmetièku sredinu (prosjeènu vrijednost) elemenata niza;
+  • definirati  i  upotrijebiti  funkciju  int  pronaci(int  [],  int,   float)  koja  treba 
+    pronaæi  i  vratiti  element  niza  koji  je  po  svojoj  vrijednosti  najblii  prethodno 
+    izraèunatoj aritmetièkoj sredini;
     
-  Ispis  aritmetiÄke  sredine  i  elementa  koji  je  po  svojoj  vrijednosti  najbliÅ¾i  aritmetiÄkoj 
-  sredini vrÅ¡iti u funkciji main.
+  Ispis  aritmetièke  sredine  i  elementa  koji  je  po  svojoj  vrijednosti  najblii    aritmetièkoj sredini vršiti u funkciji main.
 */
 
 #include <iostream>
@@ -49,8 +48,6 @@ int pronaci(int niz[], int duzina, float prosjek)
         razlika[i] = (float)niz[i] - prosjek;
         if(razlika[i] < 0) razlika[i] = -razlika[i];
     }
-    
-    
     
     min = 0;
     for(int i = 1; i < duzina; i++)

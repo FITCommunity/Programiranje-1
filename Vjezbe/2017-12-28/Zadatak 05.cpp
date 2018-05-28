@@ -1,9 +1,9 @@
 /*
-  NapiÅ¡ite  program  koja  provjerava  je  li  vaÅ¡  Bingo  listiÄ‡  sadrÅ¾i  dobitnu 
-  kombinaciju brojeva. Dobitna kombinacija sadrÅ¾i 15 brojeva (5 brojeva rasporeÄ‘enih u tri 
-  retka),  a  Bingo  listiÄ‡  sadrÅ¾i  tri  kombinacije  od  po  15  brojeva.  Koristite  funkcije  
-  i  ni zove. Predvidite i manje dobitke, "peterceâ€œ (svi brojevi u istom redu) i 
-  "deseterceâ€œ (svi brojevi u dva reda).
+  Napišite  program  koja  provjerava  je  li  vaš  Bingo  listiæ  sadri  dobitnu 
+  kombinaciju brojeva. Dobitna kombinacija sadri 15 brojeva (5 brojeva rasporeğenih u tri 
+  retka),  a  Bingo  listiæ  sadri  tri  kombinacije  od  po  15  brojeva.  Koristite  funkcije  
+  i  ni zove. Predvidite i manje dobitke, "peterce“ (svi brojevi u istom redu) i 
+  "deseterce" (svi brojevi u dva reda).
 */
 
 #include <iostream>

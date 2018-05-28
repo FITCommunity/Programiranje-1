@@ -1,25 +1,25 @@
 /*
   Deklarisati kvadratnu matricu cijelih brojeva proizvoljnih dimenzija, te 
-  implementirati sljedeÄ‡e funkcije:
-  â€¢Funkciju za unos i formiranje elemenata matrice prema sljedeÄ‡em obrascu: 
-  elemente neparnih redova matrice (1., 3., 5. itd.) Äine minimalno trocifreni 
-  brojevi koje unosi korisnik programa (u sluÄaju unosa bilo kojeg broja koji 
+  implementirati sljedeæe funkcije:
+  •Funkciju za unos i formiranje elemenata matrice prema sljedeæem obrascu: 
+  elemente neparnih redova matrice (1., 3., 5. itd.) èine minimalno trocifreni 
+  brojevi koje unosi korisnik programa (u sluèaju unosa bilo kojeg broja koji 
   ne zadovoljava postavljeni uslov, ponoviti unos); elementi parnih redova matrice 
   se formiraju na osnovu elemenata iz prethodnog reda u istoj koloni matrice i to 
-  na naÄin da je svaki novokreirani element matrice zapravo element s obrnutim 
+  na naèin da je svaki novokreirani element matrice zapravo element s obrnutim 
   redoslijedom cifri elementa iznad njega. 
-  â€¢Za odreÄ‘ivanje broja s obrnutim redoslijedom cifri kreirati zasebnu funkciju 
+  •Za odreğivanje broja s obrnutim redoslijedom cifri kreirati zasebnu funkciju 
   obratno, te je pozvati u funkciji unos. 
-  â€¢Takvu matricu proslijediti zasebnoj funkciji max koja Ä‡e formirati novi 
-  jednodimenzionalni niz Äije Älanove Äine najveÄ‡i Älanovi matrice po redovima 
-  te ispisati ove Älanove.
-  â€¢Formirati posebnu funkciju iznad_dijagonala koja Ä‡e ispisati broj elemenata matrice 
+  •Takvu matricu proslijediti zasebnoj funkciji max koja æe formirati novi 
+  jednodimenzionalni niz èije èlanove èine najveæi èlanovi matrice po redovima 
+  te ispisati ove èlanove.
+  •Formirati posebnu funkciju iznad_dijagonala koja æe ispisati broj elemenata matrice 
   koji se nalaze iznad glavne i sporedne dijagonale. Ove elemente unutar funkcije spremati 
-  u niz Äija veliÄina zavisi od dimenzije matrice. VeliÄina niza treba biti fiksna i mora 
-  odgovarati toÄnom broju elemenata. 
+  u niz èija velièina zavisi od dimenzije matrice. Velièina niza treba biti fiksna i mora 
+  odgovarati toènom broju elemenata. 
   
   Kreirati kratki testni program koji demonstrira funcionalnost kreiranih funkcija.
-  Primjer matrice dimenzija 4x4 i oÄekivanih rezultata:
+  Primjer matrice dimenzija 4x4 i oèekivanih rezultata:
   
   +--------+--------+--------+--------+
   |  2163  |  123   |  30425 |   671  |  
@@ -32,8 +32,8 @@
   +--------+--------+--------+--------+
   
   Elementi iznad obje dijagonale su: 123, 30452.
-  Funkcija max Ä‡e ispisati sljedeÄ‡e brojeve: 
-  30452, 25403, 741232, 232147 jer su to najveÄ‡i brojevi po redovima. 
+  Funkcija max æe ispisati sljedeæe brojeve: 
+  30452, 25403, 741232, 232147 jer su to najveæi brojevi po redovima. 
 */
 
 #include <iostream>

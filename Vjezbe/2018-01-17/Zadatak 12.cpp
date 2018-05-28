@@ -1,13 +1,12 @@
 /*
   Neka je dat 2D niz tipa int dimenzija 10x10. Kreirati, a potom u glavnom programu 
-  testirati, sljedeÄ‡e funkcije:
+  testirati, sljedeæe funkcije:
   a) Funkciju koja za vrsi generisanje podataka u 2D nizu na nacin da se u elementu sa 
      indexom [0][0] upise vrijednost 1 a svaki slijedeci element da ima vrijednost prethodnog 
-     elementa pomnozenog sa 2 kao na slici. Generisanje se prekida ako se desi overflow na varijabli int.
-  b) Funkciju koja popunjenu matricu iz pod-zadatka a) transponuje tako sto joj zamjeni redove i kolone.
+     elementa pomnozenog sa 2 kao na slici. Generisanje se prekida ako se desi overflow na varijabli      int.
+  b) Funkciju koja popunjenu matricu iz pod-zadatka a) transponuje tako sto joj zamjeni redove i      kolone.
   c) Funkciju koja kao parametar prima pomenuti niz i index kolone te silazno sortira kompletan 
-     2D niz po izabranoj koloni na nacin da se kompletni redovi zamjene prema vrijednosti u izabranoj 
-     koloni (princip sortiranja po koloni kao u MS Excel tabeli)
+     2D niz po izabranoj koloni na nacin da se kompletni redovi zamjene prema vrijednosti u      izabranoj koloni (princip sortiranja po koloni kao u MS Excel tabeli)
      
      +------+------+------+------+------+------+------+------+------+------+
      |  1   |  2   |  4   |  8   |  16  |  32  |  64  | 128  | 256  | 512  |

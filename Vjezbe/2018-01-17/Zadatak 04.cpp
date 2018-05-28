@@ -1,18 +1,18 @@
 /*
-  Napisati program koji od korisnika zahtijeva unos niza od najviÅ¡e 20 realnih brojeva 
-  u rasponu od -100 do 100. U sluÄaju da korisnik unese bilo koji broj izvan datog 
-  raspona korisnik ponavlja unos tog elementa niza. TakoÄ‘er, unos je moguÄ‡e prekinuti 
-  prije nego Å¡to se dostigne kapacitet niza unosom broja 0 koji ne treba da bude element 
-  niza i sluÅ¾i samo za prekid. Nakon toga, program raÄuna aritmetiÄku sredinu unesenih brojeva, 
-  te iz niza izbacuje sve one elemente Äija je udaljenost od aritmetiÄke sredine veÄ‡a od 10, 
-  na naÄin da se saÄuva redoslijed dodavanja elemenata. Implementaciju uraditi upotrebom sljedeÄ‡ih funkcija:
-  â€¢void unos (double[], int, int&); gdje je treÄ‡i parametar stvarna veliÄina niza nakon unosa;
-  â€¢double aritmeticka_sredina(double[], int);
-  â€¢void ukloni(double[], int, double, int&); gdje je drugi parametar aritmetiÄka sredina, 
-  a posljednji veliÄina niza nakon uklanjanja elemenata.
+  Napisati program koji od korisnika zahtijeva unos niza od najviše 20 realnih brojeva 
+  u rasponu od -100 do 100. U sluèaju da korisnik unese bilo koji broj izvan datog 
+  raspona korisnik ponavlja unos tog elementa niza. Takoğer, unos je moguæe prekinuti 
+  prije nego što se dostigne kapacitet niza unosom broja 0 koji ne treba da bude element 
+  niza i slui samo za prekid. Nakon toga, program raèuna aritmetièku sredinu unesenih brojeva, 
+  te iz niza izbacuje sve one elemente èija je udaljenost od aritmetièke sredine veæa od 10, 
+  na naèin da se saèuva redoslijed dodavanja elemenata. Implementaciju uraditi upotrebom sljedeæih funkcija:
+  •void unos (double[], int, int&); gdje je treæi parametar stvarna velièina niza nakon unosa;
+  •double aritmeticka_sredina(double[], int);
+  •void ukloni(double[], int, double, int&); gdje je drugi parametar aritmetièka sredina, 
+  a posljednji velièina niza nakon uklanjanja elemenata.
   
   U glavnom programu testirati dostupne funkcije, te obaviti ispis elemenata niza nakon uklanjanja 
-  vodeÄ‡i se datim primjerom izlaza.
+  vodeæi se datim primjerom izlaza.
   
   Unesite elemente niza: 2.5 -8.9 15.89 16.78 34 25 11 0
   Aritmeticka sredina elemenata niza iznosi: 13.75

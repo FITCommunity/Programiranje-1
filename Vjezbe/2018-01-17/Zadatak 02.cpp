@@ -1,8 +1,8 @@
 /*
-  Napisati program koji Ä‡e uÄitati prirodni broj n â‰¤ 10, a zatim n prirodnih trocifrenih 
-  brojeva koje treba pospremiti u odgovarajuÄ‡i niz.Taj niz brojeva treba sortirati uzlazno 
+  Napisati program koji æe uèitati prirodni broj n <= 10, a zatim n prirodnih trocifrenih 
+  brojeva koje treba pospremiti u odgovarajuæi niz.Taj niz brojeva treba sortirati uzlazno 
   po srednjoj cifri. Nakon sortiranja treba ispisati dobiveni niz. Za sortiranje koristiti 
-  zasebnu funkciju kojoj se proslijeÄ‘uje nesortiran niz.
+  zasebnu funkciju kojoj se proslijeğuje nesortiran niz.
 */
 
 #include <iostream>

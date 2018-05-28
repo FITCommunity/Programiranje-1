@@ -1,13 +1,13 @@
 /*
-  NapiÅ¡ite  program  poÅ¡tujuÄ‡i  sve  faze  procesa  programiranja  u  kojem  se  od 
-  korisnika  traÅ¾i  unos  tri  broja.  Program  treba  ispisati  najveÄ‡u  i  najmanju  od  unesenih 
-  vrijednosti.  Za  pronalaÅ¾enje  najmanjeg  i  najveÄ‡eg  broja  upotrijebite  funkcije  najmanji  i 
-  najveci Äiji su prototipovi dati u nastavku:
+  Napišite  program  poštujuæi  sve  faze  procesa  programiranja  u  kojem  se  od 
+  korisnika  trai  unos  tri  broja.  Program  treba  ispisati  najveæu  i  najmanju  od  unesenih 
+  vrijednosti.  Za  pronalaenje  najmanjeg  i  najveæeg  broja  upotrijebite  funkcije  najmanji  i 
+  najveci èiji su prototipovi dati u nastavku:
   float najmanji (float, float, float);
   float najveci (float, float, float);
   
   Prilikom pisanja definicija funkcija najveci i najmanji upotrebite i funkcije min i max koje
-  veÄ‡aju manji/veÄ‡i od dva broja, a Äiji prototipovi su dati u nastavku: 
+  veæaju manji/veæi od dva broja, a èiji prototipovi su dati u nastavku: 
   float min (float, float);
   float max (float, float);
 */

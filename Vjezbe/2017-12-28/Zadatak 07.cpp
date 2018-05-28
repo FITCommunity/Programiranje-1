@@ -1,11 +1,10 @@
 /*
-  NapiÅ¡ite program koji Ä‡e omoguÄ‡iti kreiranje matrice 4x4. Uz pomoÄ‡:
-  â€¢ funkcije: void unos(int[][4]); omoguÄ‡ite unos samo parnih elemenata u matricu;
-  â€¢ funkcije: void zamijeniR(int[][4], int, int); zamijeniti mjesta izabranim recima; izbor redaka vrÅ¡i korisnik;
-  â€¢ funkcije: float avrgd(int[][4]); izraÄunati prosjeÄnu vrijednost elemenata iznad glavne dijagonale; 
-
-  Ispis prosjeÄne vrijednosti elemenata  iznad  glavne dijagonale kao i izbor redaka matrice 
-  za zamjenu vrÅ¡ite u funkciji main.
+  Napišite program koji æe omoguæiti kreiranje matrice 4x4. Uz pomoæ:
+  • funkcije: void unos(int[][4]); omoguæite unos samo parnih elemenata u matricu;
+  • funkcije: void zamijeniR(int[][4], int, int); zamijeniti mjesta izabranim recima; izbor redaka     vrši korisnik;
+  • funkcije: float avrgd(int[][4]); izraèunati prosjeènu vrijednost elemenata iznad glavne     dijagonale; 
+  Ispis prosjeène vrijednosti elemenata  iznad  glavne dijagonale kao i izbor redaka matrice 
+  za zamjenu vršite u funkciji main.
 */
 
 #include <iostream>

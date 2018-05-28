@@ -1,12 +1,12 @@
 /*
-  Napisati program koji Ä‡e uÄitati cijeli broj n (1 <= n <= 10), (ukoliko unesena vrijednost 
-  nije unutar intervala, uÄitavanje treba ponavljati sve dok se ne unese ispravna vrijednost)  
-  i elemente matrice dimenzije nxn te ispisati da li je matrica centralno simetriÄna s obrzirom na
-  srediÅ¡nji element. Ako jeste, program treba ispisati 1, ako nije ispisati 0, a ako je
-  broj redova paran (pa nema srediÅ¡njeg elementa) ispisati -1. Koristite posebne funkcije
-  za unos elemenata i provjeru simetriÄnosti.
+  Napisati program koji æe uèitati cijeli broj n (1 <= n <= 10), (ukoliko unesena vrijednost 
+  nije unutar intervala, uèitavanje treba ponavljati sve dok se ne unese ispravna vrijednost)  
+  i elemente matrice dimenzije nxn te ispisati da li je matrica centralno simetrièna s obrzirom na
+  središnji element. Ako jeste, program treba ispisati 1, ako nije ispisati 0, a ako je
+  broj redova paran (pa nema središnjeg elementa) ispisati -1. Koristite posebne funkcije
+  za unos elemenata i provjeru simetriènosti.
   
-  Primjer centralno simetriÄne matrice:
+  Primjer centralno simetriène matrice:
   
   3 1 2             [1]  4  [5]  8  [7]
   5 4 5              3  [1] [2] [4]  6

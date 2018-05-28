@@ -1,12 +1,11 @@
 /*
-  Napisati funkciju koja niz od 10 cijelih brojeva sortira u opadajuÄ‡em 
-  ili rastuÄ‡em poretku. Unos elemenata niza se obavlja u glavnom programu, 
-  kao i odabir opcije koja odreÃ°uje da li rezultirajuÃ¦i niz treba biti opadajuÄ‡i ili rastuÄ‡i. 
-  Obavezno testirati implementiranu funkciju vodeÃ¦i se datim primjerom ispisa. 
+  Napisati funkciju koja niz od 10 cijelih brojeva sortira u opadajuæem 
+  ili rastuæem poretku. Unos elemenata niza se obavlja u glavnom programu, 
+  kao i odabir opcije koja odreğuje da li rezultirajuæi niz treba biti opadajuæi ili rastuæi. 
+  Obavezno testirati implementiranu funkciju vodeæi se datim primjerom ispisa. 
   
   (Pojasnjenje: Nema posebnog pojasnjenja jer se radi o najjednostavijem sortiranju uzlazno 
   ili silazno u odnosu na korisnicki izbor.)
-
   Unesite elemente niza: 12 2 3 0 45 6 98 -9 3 -10
   
   Kako zelite sortirati niz (unesite 1 ili 2): 

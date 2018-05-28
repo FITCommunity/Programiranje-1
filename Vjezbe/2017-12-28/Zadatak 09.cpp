@@ -1,7 +1,7 @@
 /*
-   Napi≈°ite program, po≈°tujuƒái sve faze procesa programiranja, za rezervaciju 
-   autobusnih karata. U autobusu je 20 sjedi≈°ta. Korisnik ima pravo birati ≈æeli li sjedi≈°te do 
-   prozora ili do prolaza (sjedi≈°ta do prozora oznaƒçena sa x).
+   Napiöite program, poötujuÊi sve faze procesa programiranja, za rezervaciju 
+   autobusnih karata. U autobusu je 20 sjediöta. Korisnik ima pravo birati ûeli li sjediöte do 
+   prozora ili do prolaza (sjediöta do prozora oznaËena sa x).
    
    +---+---+    +---+---+
    | x |   |    |   | x |
@@ -16,10 +16,10 @@
    +---+---+    +---+---+
    
    Kreirajte funkcije za: 
-    ‚Ä¢ rezervaciju sjedi≈°ta, 
-    ‚Ä¢ otkazivanje rezervacije sjedi≈°ta
-    ‚Ä¢ provjeru je li neko sjedi≈°te slobodno, 
-    ‚Ä¢ ispis slobodnih i zauzetih sjedi≈°ta. 
+    ï rezervaciju sjediöta, 
+    ï otkazivanje rezervacije sjediöta
+    ï provjeru je li neko sjediöte slobodno, 
+    ï ispis slobodnih i zauzetih sjediöta. 
    Po potrebi kreirajte i dodatne funkcije. 
 */
 

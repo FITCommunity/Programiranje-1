@@ -1,18 +1,18 @@
 /*
-  NapiÅ¡ite program u kojem Ä‡ete kreirati matricu 5x5, te napiÅ¡ite i pozovite sljedeÄ‡e funkcije:
-  o funkciju koja Ä‡e inicijalizirati matricu da izgleda ovako:
+  Napišite program u kojem æete kreirati matricu 5x5, te napišite i pozovite sljedeæe funkcije:
+  o funkciju koja æe inicijalizirati matricu da izgleda ovako:
     0  1  1  1  1
     1  0  1  1  1
     1  1  0  1  1
     1  1  1  0  1
     1  1  1  1  0
-  o funkciju koja Ä‡e izraÄunati sumu elemenata na sporednoj dijagonali;
-  o funkciju koja Ä‡e promijeniti vrijednosti elemenata matrice tako da nakon poziva 
+  o funkciju koja æe izraèunati sumu elemenata na sporednoj dijagonali;
+  o funkciju koja æe promijeniti vrijednosti elemenata matrice tako da nakon poziva 
     funkcije matrica izgleda ovako:
     1  0  0  0  0
     0  1  0  0  0
     0  0  1  0  0
-    0  1  0  1  0
+    0  0  0  1  0
     0  0  0  0  1
     
   Broj i vrstu parametara, kao i o povratne vrijednosti funkcija odredite sami.

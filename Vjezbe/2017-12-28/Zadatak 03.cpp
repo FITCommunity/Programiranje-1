@@ -1,9 +1,9 @@
 /*
-  NapiÅ¡ite program poÅ¡tujuÄ‡i sve faze procesa programiranja u kojem Ä‡ete omoguÄ‡iti:
-  o  unos elemenata dva niza od po 9 znakova pomoÄ‡u funkcije: void unos (char [], int);
-  o  uz pomoÄ‡ funkcije int slova(char [], char [], int); izraÄunati i vratiti 
+  Napišite program poštujuæi sve faze procesa programiranja u kojem æete omoguæiti:
+  o  unos elemenata dva niza od po 9 znakova pomoæu funkcije: void unos (char [], int);
+  o  uz pomoæ funkcije int slova(char [], char [], int); izraèunati i vratiti 
      ukupan broj slova (bez obzira na to jesu li slova mala ili velika) u oba niza;
-  o  uz  pomoÄ‡  funkcije:  int  vokali(char  [],  int);  prebrojati  koliko  meÄ‘u 
+  o  uz  pomoæ  funkcije:  int  vokali(char  [],  int);  prebrojati  koliko  meğu 
      elementima prvog niza ima samoglasnika (vokala) .
 */
 
