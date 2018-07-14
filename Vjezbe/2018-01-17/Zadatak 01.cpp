@@ -1,13 +1,3 @@
-/*
-  Poštujuæi sve faze procesa programiranje, napisati program æe odrediti i ispisati 
-  zadnje tri cifre broja x^n. Unos brojeva x i n vršiti u glavnoj funkciji uz uslov 
-  10 < x < 100 i 2 < n < 10, a funkciju za odreðivanje zadnje tri cifre napraviti zasebno.
-  
-  Primjer izlaza:
-  Unesite brojeve x i n: 64 i 5
-  Zadnje tri cifre broja su: 824
-*/
-
 #include <iostream>
 #include <cmath>
  

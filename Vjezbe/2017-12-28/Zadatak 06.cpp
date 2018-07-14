@@ -1,18 +1,3 @@
-/*
-  Napišite  program  u  kojem  æete  omoguæiti  unos  šesteroznamenkastog 
-  prirodnog broja i kreiranje niza od 6 cjelobrojnih elemenata. 
-  • definirati  i  upotrijebiti  funkciju  void  inicijaliziraj(int[],  int,  int);  koja  æe 
-    elemente  niza  inicijalizirate  tako  da  svakom  od  elemenata  niza  dodijeli  po  jednu 
-    znamenku unesenog šesteroznamenkastog prirodnog broja;
-  • definirati i upotrijebiti funkciju float aritmeticka(int [], int); koja æe izraèunati 
-    aritmetièku sredinu (prosjeènu vrijednost) elemenata niza;
-  • definirati  i  upotrijebiti  funkciju  int  pronaci(int  [],  int,   float)  koja  treba 
-    pronaæi  i  vratiti  element  niza  koji  je  po  svojoj  vrijednosti  najbliži  prethodno 
-    izraèunatoj aritmetièkoj sredini;
-    
-  Ispis  aritmetièke  sredine  i  elementa  koji  je  po  svojoj  vrijednosti  najbliži    aritmetièkoj sredini vršiti u funkciji main.
-*/
-
 #include <iostream>
 
 using namespace std;

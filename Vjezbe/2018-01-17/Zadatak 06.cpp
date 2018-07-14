@@ -1,17 +1,3 @@
-/*
-  Napisati program koji æe korisniku omoguæiti unos pozitivnih neparnih cijelih      
-  brojeva za koje æe se ispitivati da li im je prva cifra parna (npr. 4993 ili 4999).    
-  Ukoliko je zadovoljen uslov broj se smješta u niz od 10 elemenata. 
-  Unos se ponavlja dok se ne popuni niz od 10 elemenata koji zadovoljavaju uslov     
-  unosa. Unos se prekida ukoliko korisnik unese vrijednost 0 te se i 
-  izvršenje program završava uz poruku "Forsirani prekid". Zatim se za sve 
-  elementi niza ispituje da li je broj prost i da li ima samo jednu parnu cifru. 
-  Ako broj nije prost i ako ima više od jedne parne cifre, broj se izbacuje 
-  iz niza tako što se njegova vrijednost mijenja sa 0. Na kraju niz sortirati od     
-  najveæeg ka najmanjem broju te ga ispisati. Koristiti odvojene funkcije za 
-  provjeru da li je broj prost, za sortiranje i ispis niza. 
-*/
-
 #include <iostream>
 #include <cmath>
 

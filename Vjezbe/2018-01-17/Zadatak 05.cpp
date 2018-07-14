@@ -1,25 +1,3 @@
-/*
-  Neka je data matrica kompetencija studenata dimenzija 10x5, gdje svaki red matrice predstavlja 
-  studenta, a svaka kolona matrice kompetenciju koju je potrebno evaluirati. Matrica sadrži podatke 
-  o studentima sa dva studijska programa, prvih 5 redova za jedan i drugih 5 redova za drugi   program. 
-  Kompetencije se definišu putem sljedeæe skale: 
-  A (ekspert), 
-  B (struènjak), 
-  C (zadovoljava), 
-  D (djelimièno zadovoljava) i 
-  E (ne zadovoljava). 
-  Napisati program koji æe implementirati i testirati sljedeæe funkcije:
-  •evaluiraj – funkcija omoguæava unos evaluacije za odreðenog (odabranog u glavnom programu)    studenta (unosi se samo jedan red matrice), na naèin da su dozvoljene samo vrijednosti usvojene      prethodnom skalom (A, B, C, D i E). U sluèaju unosa bilo kojeg karaktera izvan ovog opsega,          potrebno je ponoviti unos. Prilikom unosa ispisati poruku za svaku kompetenciju na sljedeæi    naèin: „Unesite evaluaciju za kompetenciju C1“, i tako redom za svaku kolonu.
-  •najuspjesnija_kompetencija – funkcija pronalazi kompetenciju (u oba studijska programa) koja je 
-   najuspješnija, odnosno na kojoj su studenti ostvarili najbolji rezultat, te vraæa i prosjeènu 
-   ocjenu za tu kompetenciju. 
-   Napomena: Pridružiti svakoj oznaci numerièku vrijednost, radi jednostavnosti kalkulacije i    poreðenja uspjeha pojedinih kompetencija. Koristiti prosljeðivanje najmanje jednog parametra po      referenci, te ispis rezultata ne vršiti u funkciji.
-  •najuspjesniji_student – funkcija pronalazi najuspješnijeg studenta u odabranom studijskom    programu (studijski program se bira u glavnom programu putem vrijednost 1 (prvih 5 redova) ili 2    (drugih 5 redova),te vraæa i prosjeènu ocjenu tog studenta. Vrijede iste napomene kao i za    prethodnu funkciju.
-  
-  U glavnom programu testirati implementirane funkcije na naèin da se uz uspjeh kompetencije ili   studenta definiše opisna evaluacija (ekspert, struènjak,...). Dodatno ispisati podatke o     najuspješnijem studentu, posmatrajuæi oba studijska programa. Ispis najsupješnije kompetencije ili   studenta izvršiti sa oznakama C ili S, uz redni broj kolone ili reda gdje se nalaze u matrici. 
-  Npr. Najuspješniji student je S2 sa prosjeènom ocjenom „struènjak“.
-*/
-
 #include <iostream>
 #include <ctime>
  

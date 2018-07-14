@@ -1,12 +1,3 @@
-/*
-  Napišite program poštujuæi sve faze procesa programiranja u kojem æete omoguæiti:
-  o  unos elemenata dva niza od po 9 znakova pomoæu funkcije: void unos (char [], int);
-  o  uz pomoæ funkcije int slova(char [], char [], int); izraèunati i vratiti 
-     ukupan broj slova (bez obzira na to jesu li slova mala ili velika) u oba niza;
-  o  uz  pomoæ  funkcije:  int  vokali(char  [],  int);  prebrojati  koliko  meðu 
-     elementima prvog niza ima samoglasnika (vokala) .
-*/
-
 #include <iostream>
 
 using namespace std;

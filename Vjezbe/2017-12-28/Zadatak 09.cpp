@@ -1,28 +1,3 @@
-/*
-   Napišite program, poštujuæi sve faze procesa programiranja, za rezervaciju 
-   autobusnih karata. U autobusu je 20 sjedišta. Korisnik ima pravo birati želi li sjedište do 
-   prozora ili do prolaza (sjedišta do prozora oznaèena sa x).
-   
-   +---+---+    +---+---+
-   | x |   |    |   | x |
-   +---+---+    +---+---+
-   | x |   |    |   | x |
-   +---+---+    +---+---+
-   | x |   |    |   | x |
-   +---+---+    +---+---+
-   | x |   |    |   | x |
-   +---+---+    +---+---+
-   | x |   |    |   | x |
-   +---+---+    +---+---+
-   
-   Kreirajte funkcije za: 
-    • rezervaciju sjedišta, 
-    • otkazivanje rezervacije sjedišta
-    • provjeru je li neko sjedište slobodno, 
-    • ispis slobodnih i zauzetih sjedišta. 
-   Po potrebi kreirajte i dodatne funkcije. 
-*/
-
 #include <iostream>
 
 using namespace std;

@@ -1,26 +1,3 @@
-*
-  Uz pomoæ matrice realnih brojeva dimenzija 5x7 izraditi program za evidenciju i kalkulaciju 
-  uspješnosti vremenskih prognoza (prosjeènih dnevnih temperatura) odreðenog grada. Redovi 
-  matrice predstavljaju meteorologe èije se prognoze unose, dok se kolone odnose na vremenski 
-  period od 7 dana. Uz matricu je neophodno krerati globalni jednodimenzionalni niz od 7 elemenata 
-  koji æe èuvati stvarna mjerenja temperatura za isti vremenski period, a na osnovu kojeg æe se 
-  procijeniti uspješnost prognoza pojedinih meteorologa. Vrijednosti elemenata ovog niza prilikom 
-  deklaracije postaviti na: 25.5, 26.8, 21, 32, 35.6, 36, 33.5.
-  
-  Implementaciju programa uraditi pomoæu sljedeæih funkcija:
-  •UnesiPrognoze – funkcija za unos prognoza odreðenog meteorologa za kompletan period od 7 dana. 
-   Vrijednosti prosjeènih temperatura moraju biti unutar intervala [-20, 50] °C. 
-   (Pojasnjenje: unose se podaci za samo jedan izabrani red. Tako ce se korisniku omoguciti da unese 
-   prognoze za jednog po jednog meteorologa.)
-  •IzracunajUspjesnost – funkciju koja vraæa procentualnu vrijednost uspješnosti prognoza za    željenog meteorologa. Prognoza, odnosno prosjeèna temperatura na odreðeni dan, smatra se    uspješnom ako od stvarnog mjerenja ne odstupa više od 5 °C. (Pojasnjenje: poredi se podaci iz    jednog reda odnosno za jednog meteorologa sa podacima iz posebnog niza koji sadrži stvarne    vrijednosti mjerenja, te ako je razlika manja od +/-5 taj podatak se smatra uspjesnom prognozom.    Na kraju treba podjeliti broj uspjesnih prognoza sa 7 koliko ima dana u sedmici i vratiti    procenat uspjesnosti.)
-  •PronadjiNajuspjesnijegMeteorologa – funkciju koja pronalazi meteorologa sa najtaènijim vremenskim 
-   prognozama, odnosno najveæim procentom uspjeha. (Pojasnjenje: Red koji ima najveci procenat koji 
-   se dobije iz prethodno opisane funkcije IzracunajUspjesnost je u stvari red sa najuspjesnijim    meteorologom.)  
-  •PronadjiDanSaNajnizimPrognozama – funkciju koja pronalazi dan koji je imao u prosjeku najnize    prognoze. (Pojasnjenje: Naci kolonu sa najnizom aritmetickom sredinom svih svojih vrijednosti.       Nije potrebno porediti sa nizom sa stvarnim temperaturama.)
-   
-  Napisati i kratak testni program za provjeru ispravnosti implementiranih funkcija.
-*/
-
 #include <iostream>
 #include <cmath>
 

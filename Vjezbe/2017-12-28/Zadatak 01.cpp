@@ -1,17 +1,3 @@
-/*
-  Napišite  program  poštujuæi  sve  faze  procesa  programiranja  u  kojem  se  od 
-  korisnika  traži  unos  tri  broja.  Program  treba  ispisati  najveæu  i  najmanju  od  unesenih 
-  vrijednosti.  Za  pronalaženje  najmanjeg  i  najveæeg  broja  upotrijebite  funkcije  najmanji  i 
-  najveci èiji su prototipovi dati u nastavku:
-  float najmanji (float, float, float);
-  float najveci (float, float, float);
-  
-  Prilikom pisanja definicija funkcija najveci i najmanji upotrebite i funkcije min i max koje
-  veæaju manji/veæi od dva broja, a èiji prototipovi su dati u nastavku: 
-  float min (float, float);
-  float max (float, float);
-*/
-
 #include <iostream>
 
 using namespace std;

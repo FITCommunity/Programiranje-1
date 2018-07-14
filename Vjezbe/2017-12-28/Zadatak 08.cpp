@@ -1,26 +1,6 @@
-/*
-  Napišite program koji æe omoguæiti kreiranje matrice prirodnih brojeva 2x3. 
-  Pretpostavka je da postoji funkcija koja omoguæava unos prirodnih brojeva (ne treba 
-  ju definirati); 
-  Kreirajte funkcije:
-  • void kopiraj(int[][3], int [][5]); zadaæa funkcije da kopira sve elemente iz 
-    jedne  matrice  (2x3)  u  drugu  matricu  (2x5)  pri  èemu  se  prve  dvije  kolone  prve 
-    matrice kopiraju dva puta;
-    Npr.        matrica1      matrica2
-                1  2  3     1  2  3  1  2
-                4  5  6     4  5  6  4  5
-  • funkcije:  int  suma(int  [],  int);  èija  je  zadaæa  izraèunati  sumu  retka  kojeg 
-    izabere korisnik za matricu koju izabere korisnik;   obavezno onemoguæiti korisnika 
-    da izabere nepostojeæu matricu i nepostojeæi redak;
-    
-  Ispis sume i izbor matrice i retka vršite u funkciji main.
-*/
-
 #include <iostream>
 
 using namespace std;
-
-
 
 void upis(int niz[][3])
 {

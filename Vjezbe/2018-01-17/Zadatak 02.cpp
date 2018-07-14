@@ -1,10 +1,3 @@
-/*
-  Napisati program koji æe uèitati prirodni broj n <= 10, a zatim n prirodnih trocifrenih 
-  brojeva koje treba pospremiti u odgovarajuæi niz.Taj niz brojeva treba sortirati uzlazno 
-  po srednjoj cifri. Nakon sortiranja treba ispisati dobiveni niz. Za sortiranje koristiti 
-  zasebnu funkciju kojoj se proslijeðuje nesortiran niz.
-*/
-
 #include <iostream>
 #include <cmath>
  

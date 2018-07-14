@@ -1,22 +1,3 @@
-/*
-  Napišite program, poštujuæi sve faze procesa programiranja, kojim æete 
-  simulirati usluge koje Telecom operater nudi prepaid korisnicima (odnosno vlasnicima 
-  Ultra, Hej i sliènih paketa).Dakle, korisnik paketa mora biti u moguænosti pristupiti 
-  sljedeæim uslugama:
-  o  Pristupiti izborniku usluga pomoæu svog broja mobitela
-  o  Provjeriti stanje kredita
-  o  Dopuniti kredit
-  o  Poslati dugom korisniku dio svog kredita
-  o  Završiti (okonèati) izbor.
-  Za svaku od aktivnosti definirajte zasebnu funkciju:
-  void meni(); // funkcija ispisuje sadržaj izbornika
-  bool  ProvjeraBroja(int);//funkcija provjerava je li broj s kojeg se traži pristup izborniku   validan
-  void Dopuna(double &);//funkcija omoguæava dopunu kredita
-  void  Slanje(double  &, double);//funkcija omoguæava slanje dijela kredita drugom korisniku
-  Sve dok korisnik ne izabere zadnju opciju (završi), nakon obavljene aktivnosti vratite ga 
-  na izbornik da odabere novu aktivnost.
-*/
-
 #include <iostream>
 #include <cmath>
 

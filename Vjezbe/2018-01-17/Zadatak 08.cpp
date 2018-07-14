@@ -1,21 +1,3 @@
-/*
-  Napisati funkciju koja niz od 10 cijelih brojeva sortira u opadajuæem 
-  ili rastuæem poretku. Unos elemenata niza se obavlja u glavnom programu, 
-  kao i odabir opcije koja odreðuje da li rezultirajuæi niz treba biti opadajuæi ili rastuæi. 
-  Obavezno testirati implementiranu funkciju vodeæi se datim primjerom ispisa. 
-  
-  (Pojasnjenje: Nema posebnog pojasnjenja jer se radi o najjednostavijem sortiranju uzlazno 
-  ili silazno u odnosu na korisnicki izbor.)
-  Unesite elemente niza: 12 2 3 0 45 6 98 -9 3 -10
-  
-  Kako zelite sortirati niz (unesite 1 ili 2): 
-	1. U opadajucem poretku
-	2. U rastucem poretku
-  1
-  
-  Rezultirajuci niz: 98 45 12 6 3 3 2 0 -9 -10
-*/
-
 #include <iostream>
 
 using namespace std;
