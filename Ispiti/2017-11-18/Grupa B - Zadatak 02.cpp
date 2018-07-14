@@ -1,22 +1,3 @@
-/*
-  Napisati program koji omoguæava unos realnog broja x,
-  cijelog broja m (m > 0) i odabir funkcije za proraèun
-  datog izraza. Korisnik bira funkciju unosom jednog od
-  sljedeæih karaktera: 's' (sabiranje), 'o' (oduzimanje),
-  'm' (množenje), 'd' (dijeljenje). U sluèaju da korisnik
-  unese karakter koji ne odgovara niti jednoj od predefinisanih
-  vrijednosti ispisati odgovarajuæu poruku i ponoviti odabir.
-  
-  Za odabir funkcije s izraz je:
-  f(x, m) = [(1 + x)/1] + [(2 + x)/2] + ... + [(m + x)/m]
-  Za odabir funkcije o izraz je:
-  f(x, m) = [(1 + x)/1] - [(2 + x)/2] - ... - [(m + x)/m]
-  itd.
-  
-  Broj faktora u izrazu odgovara unesenom broju m.
-  U rješenju obavezno iskoristiti switch iskaz.
-*/
-
 #include <iostream>
 
 using namespace std;

@@ -1,12 +1,3 @@
-/*
-  Napisati program koji izraèunava aritmetièku sredinu svih savršenih brojeva 
-  iz zadatog intervala. Za neki broj se kaže da je savršen ukoliko je jednak 
-  sumi svih svojih djelilaca (ne ukljuèujuæi njega samog). Na primjer, 28 je 
-  savršen broj: njegovi djelioci su 1, 2, 4, 7 i 14, a 1 + 2 + 4 + 7 + 14 = 28. 
-  Jedini savršeni brojevi u opsegu od 1 do 100 su brojevi 6 i 28. U rješenju 
-  koristiti funkciju sljedeæeg prototipa: bool IsSavrsen(int).
-*/
-
 #include <iostream>
 
 using namespace std;

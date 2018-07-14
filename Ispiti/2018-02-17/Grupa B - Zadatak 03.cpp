@@ -1,7 +1,3 @@
-/*
-    Napisati program koji æe omoguæiti unos minimalno trocifrenih cijelih brojeva u     jednodimenzionalni niz od 20 elemenata. Zatim napraviti funkciju koja æe u nizu pronaæi sve     brojeve kojima je prva cifra (poèetna cifra sa lijeve strane) parna i ukloniti ih iz niza.     Uklanjanje elemenata niza obavezno uraditi tako da ne ostaju prazni elementi veæ da se ostatak     niza pomjeri kako ne bi bilo prazni.Pomjeranje ostatka niza niza obavezno raditi prilikom     uklanjanja elemenata a ne sortiranjem poslije uklanjanja
-*/
-
 #include <iostream>
  
 using namespace std;

@@ -1,0 +1,30 @@
+Zadatak 01
+// --------------------------------------------------------------------------------------- //
+Napišite program, u kojem æete omoguæiti unos dva prirodna broja manja od 500 koji 
+predstavljaju granice intervala, te pronaæi i ispisati kojom znamenkom završava najveæi 
+prosti broj u zadanom intervalu ne ukljuèujuæi graniène vrijednosti.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 02
+// --------------------------------------------------------------------------------------- //
+Napisati program koji omoguæava unos realnog broja x, cijelog broja m (m > 0) i odabir 
+funkcije za proraèun datog izraza. Korisnik bira funkciju unosom jednog od sljedeæih karaktera: 
+'s' (sabiranje), 'o' (oduzimanje), 'm' (množenje), 'd' (dijeljenje). U sluèaju da korisnik
+unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuæu
+poruku i ponoviti odabir.
+  
+Za odabir funkcije s izraz je:
+f(x, m) = [(1 + x)/1] + [(2 + x)/2] + ... + [(m + x)/m]
+Za odabir funkcije o izraz je:
+f(x, m) = [(1 + x)/1] - [(2 + x)/2] - ... - [(m + x)/m]
+itd.
+  
+Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristiti switch iskaz.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 03
+// --------------------------------------------------------------------------------------- //
+Napisati program koji omoguæava unos pozitivnog broja n te pronalazi njegove neparne cifre i 
+formira novi broj u kojem su neparne cifre zamijenjene cifrom '2'. Dodatno program treba 
+ispisati razliku unesenog i broja koji se dobije nakon zamjene cifara.
+// --------------------------------------------------------------------------------------- //

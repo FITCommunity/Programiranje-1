@@ -1,7 +1,3 @@
-/*
-  Napišite program u kojem æete omoguæiti unos dva prirodna broja manja od       500 koji predstavljaju granice intervala, te pronaæi i ispisati kojom     cifrom/znamenkom završava umnožak svih prostih brojeva u zadanom intervalu     ukljuèujuæi graniène vrijednosti.
-*/
-
 #include <iostream>
 
 using namespace std;

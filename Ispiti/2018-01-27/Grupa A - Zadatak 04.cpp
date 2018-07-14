@@ -1,19 +1,3 @@
-/*
-  Napisati program koji æe uèitati elemente matrice dimenzije nxn (const int n vrijednost
-  izaberite po želji) te ispisati da li je matrica centralno simetrièna s obrzirom na
-  središnji element. Ako jeste, program treba ispisati 1, ako nije ispisati 0, a ako je
-  broj redova paran (pa nema središnjeg elementa) ispisati -1. Koristite posebne funkcije
-  za unos elemenata i provjeru simetriènosti.
-  
-  Primjer centralno simetriène matrice:
-  
-  3 1 2             [1]  4  [5]  8  [7]
-  5 4 5              3  [1] [2] [4]  6
-  2 1 3             [7] [5] [3] [5] [7]
-                     6  [4] [2] [1]  3
-                    [7]  8  [5]  4  [1]
-*/
-
 #include <iostream>
 #include <iomanip>
  

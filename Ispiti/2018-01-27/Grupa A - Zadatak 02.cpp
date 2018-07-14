@@ -1,10 +1,3 @@
-/*
-  Svaki paran broj se može prikazati kao suma dva prosta broja (tkz. Goldbachovo pravilo).
-  Napisati program koji æe najprije uèitati dva prirodna broja n1 i n2 (n2 > n1). Zatim
-  prikazati sve parne brojeve u intervalu od n1 do n2 kao sumu dva prosta broja. U glavnom
-  programu samo unijeti navedena dva prirodna broja i pozvati funkciju koja obavlja zadani posao.
-*/
-
 #include <iostream>
  
 using namespace std;

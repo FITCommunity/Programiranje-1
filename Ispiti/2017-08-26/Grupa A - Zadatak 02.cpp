@@ -1,15 +1,3 @@
-/*
-  Napisati program koji na osnovu unesenog cijelog broja N formira i ispisuje
-  broj sastavljen od istih cifara u rastuæem poretku uzimajuæi samo neparne 
-  cifre. Za sortiranje cifara koristiti pomoæni niz od najviše 10 elemenata.
-  
-  Unesite cijeli broj N: 4513982
-  Broj sa sortiranim ciframa: 1359
-
-  Unesite cijeli broj N: 109225
-  Broj sa sortiranim ciframa: 159
-*/
-
 #include <iostream>
 
 using namespace std;

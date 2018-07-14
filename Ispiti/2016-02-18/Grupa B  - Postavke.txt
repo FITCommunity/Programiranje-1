@@ -1,0 +1,51 @@
+Zadatak 01
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, u kojem æete za uneseni prirodni 
+broj n izraèunati sumu:
+ 
+S=3!-6!+9! -....+(-1)n+1(3n)!
+ 
+Upotrijebite funkcije:
+int faktorijel (int);
+int suma (int);
+
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 02
+// --------------------------------------------------------------------------------------- //
+Napišite program koji æe omoguæiti kreiranje matrice negativnih brojeva 5x5. Uz pomoæ funkcije:
+• void unos (int [][5]); omoguæite unos elemenata matrice; vodite raèuna da svi elementi 
+matrice moraju biti negativni brojevi;
+• bool pozicija(int[][5], int &); pronaæi prvi redak koji sadrži vrijednost -7; u sluèaju da 
+u matrici nema vrijednosti -7 funkcija treba vratiti vrijednost false, a program treba ispisati 
+odgovarajuæu poruku;
+• float prosjecna(int [][5], int); izraèunati prosjeènu vrijednost u retku za koji ste prethodnom 
+funkcijom utvrdili da sadrži vrijednost -7; u sluèaju da ste prethodnom funkcijom ustanovili 
+da u matrici nema broja -7 funkciju ne treba pozivati.
+ 
+Ispis prvog retka koji sadrži vrijednost -7, prosjeène vrijednosti u tom retku kao i zahtijevanih
+poruka vršite u funkciji main.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 03
+// --------------------------------------------------------------------------------------- //
+Napišite program koji omoguæava da se ispišu svi brojevi koji zadovoljavaju uvjet da im je 
+zapis jednak zapisu posljednjih znamenki njihovog kvadrata. (Npr. 6^2=36, 25^2=625 …) 
+Provjeru vršiti za prvih 150 prirodnih brojeva.
+Upotrijebite funkciju:
+bool provjera (int);
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 04
+// --------------------------------------------------------------------------------------- //
+Napišite program u kojem æete :
+· omoguæiti unos niza od 6 realnih brojeva u intervalu od -7.0 do +7.0 pomoæu funkcije: 
+void unos (float [], int);
+· definirati i upotrijebiti funkciju int najvecineg(float [], int); koja æe pronaæi i vratiti 
+poziciju najveæeg negativnog elementa u nizu; (Moguæe je da u nizu uopæe ne bude negativnih 
+brojeva – ispisati odgovarajuæu poruku.)
+· definirati i upotrijebiti funkciju float suman(float[], int); koja treba izraèunati i vratiti 
+sumu negativnih elemenata niza ;(Moguæe je da u nizu uopæe ne bude negativnih brojeva.)
+Ispis pozicije najveæeg negativnog elementa, sume negativnih elemenata kao i odgovarajuæih 
+poruka vršite u funkciji main.
+// --------------------------------------------------------------------------------------- //

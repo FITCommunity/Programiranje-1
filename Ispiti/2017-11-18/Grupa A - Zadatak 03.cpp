@@ -1,8 +1,3 @@
-/*
-  Napisati program koji omoguæava unos pozitivnog broja n te pronalazi       njegove parne cifri i formira novi broj u kojem su parne cifra zamijenjena      cifrom '5'. Dodatno program treba ispisati razliku unesenog i broja
-  koji se dobije nakon zamjene cifara.
-*/
-
 #include <iostream>
 #include <cmath>
 

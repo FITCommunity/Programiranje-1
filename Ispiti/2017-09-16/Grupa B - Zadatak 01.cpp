@@ -1,18 +1,3 @@
-/*
-  Poštujuæi sve faze procesa programiranja napraviti program koji pronalazi i ispisuje 
-  sve složene brojeve brojeve iz intervala m-n (10 < m < 100, 500 < n < 2000, m < n; 
-  ukoliko unesene vrijednosti nisu ispravne, uèitavanje treba ponavljati), te pronalazi 
-  i ispisuje njihovu aritmetièku sredinu. Napraviti sljedeæe funkcije:
-  - bool slozeni – koja æe ispitivati da li je broj složeni i
-  - ispis – koja koja æe ispisivati sve složene brojeve i vratiti main funkciji njihovu 
-    aritmetièku sredinu.
-    
-  U glavnom programu je potrebno ispisati aritmetièku sredinu. 
-  
-  Složeni broj je svaki broj koji nije prosti, odnosno koji ima bar jednog djelioca osim 
-  broja 1 i samog sebe.
-*/
-
 #include <iostream>
 
 using namespace std;

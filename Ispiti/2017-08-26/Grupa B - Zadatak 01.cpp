@@ -1,10 +1,3 @@
-/*
-  Kreirati program koji æe pronaæi i ispisati sve brojeve od X do Y (ukljuèujuæi
-  graniène vrijednosti) koji su deljivi svim svojim ciframa. Na primjer, broj 36 
-  je djeljiv sa brojevima 3 i 6. (36/6=6 i 36/3=12). Brojeve X i Y unosi korisnik 
-  i moraju biti u opsegu od 10 do 6000. Obavezno koristiti bar jednu funkciju.
-*/
-
 #include <iostream>
 
 using namespace std;

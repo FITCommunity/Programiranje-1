@@ -1,10 +1,3 @@
-/*
-    Napisati program koji omoguæava unos pozitivnog broja n te pronalazi 
-    njegove neparne cifre i formira novi broj u kojem su neparne cifre 
-    zamijenjene cifrom '2'. Dodatno program treba ispisati razliku unesenog 
-    i broja koji se dobije nakon zamjene cifara.
-*/
-
 #include <iostream>
 #include <cmath>
 

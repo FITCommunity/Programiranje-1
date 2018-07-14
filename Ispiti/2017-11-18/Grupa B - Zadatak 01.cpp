@@ -1,10 +1,3 @@
-/*
-  napišite program, u kojem æete omoguæiti unos dva prirodna broja 
-  manja od 500 koji predstavljaju granice intervala, te pronaæi i 
-  ispisati kojom znamenkom završava najveæi prosti broj u zadanom 
-  intervalu ne ukljuèujuæi graniène vrijednosti.
-*/
-
 #include <iostream>
 
 using namespace std;

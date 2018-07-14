@@ -1,0 +1,40 @@
+Zadatak 01
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji æe ispisati sve troznamenkaste 
+brojeve koji su jednaki sumi faktorijela svojih znamenki – ABC=A!+B!+C!
+Upotrijebite funkcije:
+· bool provjera (int);
+· int faktorijel(int);
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 02
+// --------------------------------------------------------------------------------------- //
+Napišite program u kojem æete deklarirati matricu 5x4. Redak u matrici je uèenik, a kolona 
+predmet. Uz pomoæ funkcije:
+· void unos (int [] [4]); omoguæite unos samo prolaznih ocjena (2-5) za sve uèenike;
+· float prosjek(int []); izraèunati prosjeènu ocjenu uèenika; za kojeg od uèenika æe se 
+raèunati prosjek bira korisnik;
+· int prebroji (int [][4], int); prebrojati koliko uèenika ima ocjenu 4 i više na predmetu po 
+izboru korisnika.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 03
+// --------------------------------------------------------------------------------------- //
+Napišite program u kojem æete omoguæiti unos prirodnog broja. Provjerite je li broj trivijalan 
+(prost) uz pomoæ funkcije:
+· bool trivijalan (int);
+u sluèaju da broj nije trivijalan (prost) odredite i ispište sve njegove djelitelje uz pomoæ 
+funkcije:
+· void djelitelji(int);
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 04
+// --------------------------------------------------------------------------------------- //
+Napišite program u kojem æete kreirati tri cjelobrojna niza i  to – prvi niz  od 3 elementa, 
+drugi niz od 4 elementa i treæi niz od 7 elemenata. Uz pomoæ funkcije:
+· void unos (int [], int); omoguæite unos elemenata u prvi i drugi niz;
+· void inicijalizacija (int [], int[], int []); omoguæite inicijalizaciju elemenata treæeg 
+niza tako što æete kopirati sve elemente prvog i drugog niza u treæi;
+· int sumiraj (int [], int); koja æe omoguæiti sumiranje svih elementa niza; korisnik bira 
+niz èije elemente treba sumirati;
+// --------------------------------------------------------------------------------------- //

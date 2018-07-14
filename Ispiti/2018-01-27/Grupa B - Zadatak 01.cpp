@@ -1,12 +1,3 @@
-/*
-  Napisati program koji æe za uneseni prirodni broj n raèunati:
-  
-  S = [1/(n+1)] - [1/(n+2!)] + [1/(n+3!)] - [1/(n+4!)] + ... + (-1)^(n-1) * [1/(n+n!)]
-  10 < n <= 100
-  
-  Obavezno koristiti i ispravne tipove podataka i optimizirati kod.
-*/
-
 #include <iostream>
 #include <cmath>
 

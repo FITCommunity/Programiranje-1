@@ -1,17 +1,3 @@
-/*
-  Napisati funkciju koja kao parametar prima reèenicu (niz od najviše 200 karaktera) 
-  i iz nje uklanja svaku rijeè koja poèinje malim ili velikim slovom „s“ (S i s). 
-  Pored toga, funkcija treba da prebroji ukupan broj rijeèi u reèenici prije izmjene. 
-  Koristiti sljedeæi prototip funkcije: int ukloniRijeci(char []).
-  Npr. ako je data reèenica:
-	"Stari most u Mostaru spaja obale rijeke Neretve."
-  funkcija je treba pretvoriti u:
-	"most u spaja obale rijeke"
-  Funkcija vraæa broj rijeèi u polaznoj reèenici (prije odsijecanja ostalih rijeèi). 
-  
-  Radi jednostavnosti rješenja, pretpostavite da je rijeè bilo koji niz znakova razdvojen znakom razmak. 
-*/
-
 #include <iostream>
 
 using namespace std;

@@ -1,14 +1,3 @@
-/*
-  U main funkciji kreirati niz velièine 200 (char recenica[200]) sa sljedeæim
-  inicijaliziranim vrijednostima "Most u Mostaru je Stari most a pored njega je
-  jos jedan most". Takoðer, dat je niz karaktera velièine 4 (char rijec[4]) koji
-  je inicijaliziran vrijednostima "most". (Nije potrebno praviti funkciju za unos.
-  koja æe primiti pomenute nizove kao argumente te pronaæi i prebrojati koliko puta
-  se ponavlja sekvenca karaktera iz niza rijec u nizu recenica. Voditi raèuna da se
-  rijeèju smatra bilo koji niz karaktera odvojen spaceom sa obje strane. Program u
-  main treba ispisati broj pronaðenih rijeèi.
-*/
-
 #include <iostream>
 
 using namespace std;

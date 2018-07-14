@@ -1,0 +1,36 @@
+Zadatak 01
+// --------------------------------------------------------------------------------------- //
+Napišite program u kojem æete deklarirati niz od 7 cijelih brojeva. Uz pomoæ funkcije:
+· void unos (int [], int); omoguæite unos elemenata u niz;
+· float prosjecna(int [], int); izraèunati prosjeènu vrijednost elemenata niza;
+· bool opadajuci (int [], int);provjeriti jesu li elementi niza poredani u opadajuæem poretku (n1>n2>n3>n4>n5>n6>n7);
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 02
+// --------------------------------------------------------------------------------------- //
+Napišite program u kojem æete deklarirati matricu 5x4. Redak u matrici je student, a kolona 
+predmet. Uz pomoæ funkcije:
+· void unos (int [] [4]); omoguæite unos samo prolaznih ocjena (6-10) za sve studente;
+· float prosjek(int []); izraèunati prosjeènu ocjenu jednog studenta; za kojeg od studenta 
+æe se raèunati prosjek bira korisnik;
+· int prebroji (int [][4], int); prebrojati koliko studenata ima ocjenu 8 i više na predmetu 
+po izboru korisnika.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 03
+// --------------------------------------------------------------------------------------- //
+Napišite program u kojem æete omoguæiti unos prirodnog broja. Provjerite je li broj trivijalan 
+(prost)uz pomoæ funkcije:
+· bool trivijalan (int);
+u sluèaju da broj nije trivijalan (prost) prebrojite sve njegove djelitelje uz pomoæ funkcije:
+· int djelitelji(int);
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 04
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji æe ispisati sve troznamenkaste 
+brojeve koji su jednaki sumi faktorijela svojih znamenki – ABC=(A+B)!+C!
+Upotrijebite funkcije:
+· bool provjera (int);
+· int faktorijel(int);
+// --------------------------------------------------------------------------------------- //

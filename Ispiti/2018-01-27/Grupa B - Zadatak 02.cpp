@@ -1,10 +1,3 @@
-/*
-  Napisati program koji æe omoguæiti korisniku unos dva minimalno trocifrena
-  prirodna broja m i n (n > m, m > 100, n < 500). Zatim napraviti funkciju koja
-  æe vratiti aritmetièku sredinu svih srednjih cifara svih brojeva u rangu od m
-  do n. Takoðer ta funkcija treba ispisati najveæu srednju cifru navedenog ranga.
-*/
-
 #include <iostream>
 
 using namespace std;

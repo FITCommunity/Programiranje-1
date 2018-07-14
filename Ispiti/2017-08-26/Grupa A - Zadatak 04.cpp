@@ -1,27 +1,3 @@
-/*
-  Neka je data matrica dimenzija 10x12 u kojoj svaki red predstavlja uposlenika 
-  odreðene kompanije, a svaka kolona mjesec u godini. Elementi matrice predstavljaju 
-  radne sate uposlenika po mjesecima jedne kalendarske godine. Kreirati, a potom 
-  u glavnom programu testirati, sljedeæe funkcije:
-  • Funkciju koja za odabranog uposlenika vrši ispis platne liste po mjesecima, 
-    ako je poznato da je satnica svih uposlenika 12 KM. Pored toga, funkcija kao 
-    rezultat vraæa prosjeènu mjeseènu platu tog uposlenika.
-  • Funkciju koja pronalazi uposlenika sa najviše prekovremenih radnih sati, ako
-    je usvojeno da jedna radna sedmica ima 40 obaveznih radnih sati, a svaki 
-    mjesec 4 sedmice.
-  • Funkciju koja za svaki mjesec u godini ispisuje prosjeèan iznos isplaæenih 
-    plata (za ukupne radne sate) uz posebno naznaèen iznos koji je izdvojen 
-    iskljuèivo za prekovremeni rad. Ispis za mjesec januar bi izgledao kako slijedi:
-    
-    -----------------Januar-----------------
-    Ukupno isplaceno: 25700 KM
-    Isplaceno za prekovremeni rad: 6500 KM
-
-    Napomena: Pretpostaviti da je u programu implementirana funkcija za unos radnih 
-              sati jedne kalendarske godine i koristiti je u glavnom programu 
-              (dakle, funkciju unos nije potrebno implementirati).
-*/
-
 #include <iostream>
 #include <iomanip>
 

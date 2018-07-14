@@ -1,27 +1,3 @@
-/*
-  Neka je data matrica dimenzija 11x12 u kojoj svaki red predstavlja fudbalera 
-  nekog tima, a svaka kolona utakmicu (fudbalski meè) u toku sezone. Elementi 
-  matrice predstavljaju broj postignutih golova po utakmici. Kreirati, a potom 
-  u glavnom programu testirati, sljedeæe funkcije:
-  • Funkciju za unos svih golova za odabranu utakmicu. Omoguæiti poziv funkcije 
-    iz main funkcije više puta kako bi se unijeli podaci za sve utakmice. 
-  • Funkciju koja za odabranog fudbalera vrši ispis postignutih golova po utakmicama.
-    Ukoliko fudbaler nije postigao niti jedan gol, podatak za tu utakmicu se ne 
-    ispisuje. Pored toga, funkcija kao rezultat vraæa prosjeèan broj postignutih 
-    golova za cijelu sezonu.
-  • Funkciju koja pronalazi fudbalera sa najboljim prosjekom postignutih golova
-    te ispisuje njegov prosjek u sezoni i vraæa index tog fudbalera.
-  • Funkciju koja vraæa najuspješniju utakmicu u sezoni i ispisuje procenat 
-    postignutih golova na toj utakmici (raèunajuæi svih 11 igraèa i sve postignute golove), 
-    ukupan broj golova i index igraèa koji je postigao najviše golova na toj utakmici. 
-    Primjer ispisa funkcije:
-    
-    -----------------Utakmica 3-----------------
-    Brog golova: 4
-    Procenat za tim – broj golova u odnosu na broj igraèa u timu: 36.36% (4/11*100)
-    Najuspješniji igraè: 6.
-*/
-
 #include <iostream>
 #include <ctime>
 #include <iomanip>

@@ -1,0 +1,53 @@
+Zadatak 01
+// --------------------------------------------------------------------------------------- //
+Napisati program koji rješava sljedeæi problem.
+Date su firma A, B i C sa godišnjim prihodima:
+   A - prihod 10M eura
+   B - prihod 7M eura
+   C - prihod 5M eura
+sa sljedeæim stabilnim fiksnim godišnjim rastom prihoda za koji pretpostavljamo da se neæe mijenjati
+   A - 2.05%
+   B - 2.80%
+   C - 4.30%
+Potrebno je pronaæi koja firma æe prva prestiæi firmu A u godišnjem prihodu i za koliko godina 
+æe se to desit. Takoðer potrebno je ispisati koliko æe sve tri firme imati godišnji prihod 
+u toj godini.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 02
+// --------------------------------------------------------------------------------------- //
+Svaki paran broj se može prikazati kao suma dva prosta broja (tkz. Goldbachovo pravilo).
+Napisati program koji æe najprije uèitati dva prirodna broja n1 i n2 (n2 > n1). Zatim
+prikazati sve parne brojeve u intervalu od n1 do n2 kao sumu dva prosta broja. U glavnom
+programu samo unijeti navedena dva prirodna broja i pozvati funkciju koja obavlja zadani posao.
+
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 03
+// --------------------------------------------------------------------------------------- //
+Napisati program koji æe uèitati niz od 50 integer vrijednosti. Napisati funkciju koja æe
+provjeriti da li se u nizu nalazi sekvenca od minimalno 4 uzastopna broja. Funkcija treba
+da provjeri i prebroji koliko takvih sekvenci postoji u nizu i da ispise broj takvih sekvenci.
+  
+Npr. 100, 322, 453, 454, 455, 456, 355, 235, 235, 236, 237, 238, 239, 111...
+453, 454, 455, 456 - 1. Sekvenca
+235, 236, 237, 238, 239 - 2. Sekvenca
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 04
+// --------------------------------------------------------------------------------------- //
+
+Napisati program koji æe uèitati elemente matrice dimenzije nxn (const int n vrijednost
+izaberite po želji) te ispisati da li je matrica centralno simetrièna s obrzirom na
+središnji element. Ako jeste, program treba ispisati 1, ako nije ispisati 0, a ako je
+broj redova paran (pa nema središnjeg elementa) ispisati -1. Koristite posebne funkcije
+za unos elemenata i provjeru simetriènosti.
+  
+Primjer centralno simetriène matrice:
+  
+  3 1 2             [1]  4  [5]  8  [7]
+  5 4 5              3  [1] [2] [4]  6
+  2 1 3             [7] [5] [3] [5] [7]
+                     6  [4] [2] [1]  3
+                    [7]  8  [5]  4  [1]
+// --------------------------------------------------------------------------------------- //
