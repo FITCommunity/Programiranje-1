@@ -2,12 +2,12 @@
 
 using namespace std;
 
-bool prost(int broj)
+bool slozen(int broj)
 {
     for(int i = 2; i < broj; i++)
         if(broj % i == 0)
-            return false;
-    return true;
+            return true;
+    return false;
 }
 
 double ispis(int m, int n)
@@ -16,7 +16,7 @@ double ispis(int m, int n)
     int suma = 0;
     for(int i = m; i <= n; i++)
     {
-        if(prost(i))
+        if(slozen(i))
         {
             cout << i << endl;
             suma += i;
