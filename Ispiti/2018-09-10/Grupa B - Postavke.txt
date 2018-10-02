@@ -1,0 +1,50 @@
+Zadatak 01
+// --------------------------------------------------------------------------------------- //
+Napisati program koji korisniku omoguæava unos realnog broja x i odabir funkcije za proracun
+datog izraza. Korisnik bira funkciju unosom jednog od sljedeæih karaktera: 's' (sin), 'c'
+(cos). U sluèaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih
+vrijednosti ispisati odgovarajuæu poruku i ponoviti odabir. Za odredenu funkciju sin() izraz je:
+
+f(x) = 1 + [1/(sin(x) + x)] + [2/(sin(x/2) + x)] + ... + [x/(sin(x/x) + x)]
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 02
+// --------------------------------------------------------------------------------------- //
+Napisati program koji simulira bacanje 3 kockice (jedna kockica ima 6 strana i na tim 
+stranama su brojevi 1 - 6). Simuliranje bacanja svake kockice ostvariti funkcijom rand() % 6 + 1.
+Simulirati konstantno bacanje sve tri kockice dok se u dva uzastopna bacanja ne desi da se 
+dobiju isti brojevi na sve tri kockice (npr. u šestom bacanju se dobiju brojevi 2, 2, 2 a u 
+sedmom 4,4,4 na sve tri kockice). Ispisati koliko je ukupno bilo bacanja dok se nije ispunio
+navedeni uslov. Nije potrebno tražiti bilo kakav unos od korisnika.
+// --------------------------------------------------------------------------------------- //
+
+
+Zadatak 03
+// --------------------------------------------------------------------------------------- //
+Napisati program koji æe omoguæiti unos cijelobrojnih parnih vrijednosti sa neparnim brojem
+cifara u jednodimenzionalni niz od 20 elemenata. Zatim napraviti funkciju koja æe primati
+kao argument taj niz. Funkcija treba da izbaci iz niza sve brojeve djeljive sa 6, a da
+ostavi u nizu sve ostale brojeve. Izbacivanje karaktera se treba napraviti tako da se ostatak 
+niza pomjeri u lijevo da ne bi bilo praznih elemenata. To pomjeranje je potrebno uraditi 
+prilikom izbacivanja svakog elementa a ne na kraju posto su svi elementi djeljivi sa 6.
+
+Obavezno voditi raèuna o optimizaciji coda-a koja posebno utièe na broj bodova u ovom zadatku.
+// --------------------------------------------------------------------------------------- //
+
+
+Zadatak 04
+// --------------------------------------------------------------------------------------- //
+Neka je data matrica dimenzija 10x12 u kojoj svaki red predstavlja uposlenika firme, a svaka
+kolona mjesec u godini. Elementi matrice predstavljaju evidentirane plate po mjesecima i
+uposlenicima (plata je iznos sa dvije decimalne cifre iza zareza). Kreirati a potom u glavnom
+programu testirati sljedeæe funkcije:
+
+• Funkciju za unos plata za sve uposlenike za odabrani mjesec. Omoguæiti poziv funkcije iz main
+  funkcije više puta kako bi se unijeli podaci za sve mjesece u godini.
+• Funkciju koja za odabranog uposlenika vrši ispis plata po mjesecima. Ukoliko je za neki od
+  mjeseci uposlenik bio na neplaæenom odsustvu, njegova plata æe biti 0 i neæe se ispisivati
+  za taj mjesec. Pored toga, funkcija kao rezultat vraæa prosjeænu platu za cijelu godinu za
+  odabranog uposlenika ukljuèujuæi i mjesece otsustva.
+• Funkciju koja pronalazi uposlenika sa najveæom prosjeènom platom i ispisuje iznos prosjeène
+  plate zaokruzen na dvije decimale, te vraæa indeks tog uposlenika
+// --------------------------------------------------------------------------------------- //
