@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
 	bool polozenIM = false,
-		 polozenPR = false,
-		 polozenAR = false,
-		 polozenIT = false,
-		 polozenEJ = false;
+             polozenPR = false,
+	     polozenAR = false,
+	     polozenIT = false,
+      	     polozenEJ = false;
 
 	while (!polozenIM || !polozenEJ || !polozenIT || !polozenAR || !polozenPR)
 	{
@@ -29,23 +29,23 @@ int main()
 			{
 				case 'M':
 					polozenIM ? cout << "IM se ne moze prijaviti" << endl
-							  : cout << "Uspjesno prijavljen predmet iz IM" << endl;
+					          : cout << "Uspjesno prijavljen predmet iz IM" << endl;
 					break;
 				case 'P':
 					polozenPR ? cout << "PR se ne moze prijaviti" << endl
-							  : cout << "Uspjesno prijavljen predmet iz PR" << endl;
+					          : cout << "Uspjesno prijavljen predmet iz PR" << endl;
 					break;
 				case 'A':
 					polozenAR ? cout << "AR se ne moze prijaviti" << endl
-							  : cout << "Uspjesno prijavljen predmet iz AR" << endl;
+						  : cout << "Uspjesno prijavljen predmet iz AR" << endl;
 					break;
 				case 'I':
 					polozenIT ? cout << "IT se ne moze prijaviti" << endl
-							  : cout << "Uspjesno prijavljen predmet iz IT" << endl;
+						  : cout << "Uspjesno prijavljen predmet iz IT" << endl;
 					break;
 				case 'E':
 					polozenEJ ? cout << "EJ se ne moze prijaviti" << endl
-							  : cout << "Uspjesno prijavljen predmet iz EJ" << endl;
+						  : cout << "Uspjesno prijavljen predmet iz EJ" << endl;
 					break;
 				default:
 					cout << "Greska!" << endl;
@@ -53,10 +53,10 @@ int main()
 			}
 
 			prijavljen = (!polozenIM && izbor == 'M') ||
-						 (!polozenPR && izbor == 'P') ||
-						 (!polozenAR && izbor == 'A') ||
-						 (!polozenIT && izbor == 'I') ||
-						 (!polozenEJ && izbor == 'E');
+				     (!polozenPR && izbor == 'P') ||
+				     (!polozenAR && izbor == 'A') ||
+				     (!polozenIT && izbor == 'I') ||
+				     (!polozenEJ && izbor == 'E');
 		}
 
 		int ocjena = 0;
