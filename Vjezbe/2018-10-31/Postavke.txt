@@ -1,0 +1,125 @@
+Zadatak 01
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, u kojem æete unijeti jedan 
+prirodan broj koji predstavlja vrijeme u minutama, a izraèunati i ispisati koliko je to 
+vremena u danima, satima i minutama.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 02
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja (analiza, specifikacija, dizajn, 
+kod, validacija/testiranje), u kojem æete omoguæi unos jednog malog slova engleske abecede.
+Program treba ispisati neposrednog prethodnika i neposrednog sljedbenika slova kojeg je
+korisnik upisao preko tastature. U sluèaju da je korisnik napravio pogrešan unos (upisao 
+karakter koji nije malo slovo) program treba ispisati odgovarajuæu poruku. Vodite raèuna
+da slovo a nema prethodnika, a slovo z nema sljedbenika. Omoguæite korisniku da ponavlja 
+unos slova dok god to želi.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 03
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji æe ispisati sve 
+èetveroznamenkaste brojeve kojima su: sve znamenke neparne i ne sadrži znamenku 0.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 04
+// --------------------------------------------------------------------------------------- //
+Napišite program koji æe korisniku omoguæiti unos znakova s tastature. Unos znakova se 
+prekida kad korisnik unese znak „0“. Program treba prebrojati i ispisati koliko je meðu 
+unesenim znakovima bilo malih slova, koliko velikih slova i koliko je meðu unesenim 
+znakovima bilo onih koji nisu slova (interpunkcijski znakovi, znamenke, zagrade i sl.) 
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 05
+// --------------------------------------------------------------------------------------- //
+Napišite program kojim se za uneseni datum (dan, mjesec i godina) odreðuje koji je to 
+redni broj dana u godini. Voditi raèuna da godina može biti i prijestupna. Omoguæite 
+korisniku da ponavlja unos datuma.
+Npr: ako korisnik unese 15 2 2018 program treba ispisati uneseni dan je 46. dan u 2018
+godini.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 06
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji omoguæava unos prirodnog 
+broja n preko tastature te izraèunava sumu: 
+S = [1/3^2] + [1/5^2] + ... + [1/(2n+1)^2]
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 07
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji za uneseni prirodni broj n 
+i realni broj x izraèunava: S= cos(x) + cos(x^2) + cos(x^3) + … + cos(x^n) 
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 08
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji za uneseni prirodni broj n 
+i realni broj x izraèunava: S = cos(x) + cos^2(x) + cos^3(x) + … + cos^n(x)
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 09
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, u kojem æete omoguæiti unos dva 
+prirodna broja te izraèunati i ispisati njihov najveæi zajednièki djelitelj.
+Npr. ako korisnik unese brojeve 12 i 16 program treba ispisati da je najveæi zajednièki 
+djelitelj ova dva broja broj 4.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 10
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji omoguæava da se ispišu 
+svi brojevi koji zadovoljavaju uvjet da im je zapis jednak zapisu posljednjih znamenki 
+njihovog  kvadrata.  (Npr.  6^2 = 36,  25^2 = 625 …) Provjeru vršiti za prvih 150 prirodnih 
+brojeva.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 11
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji korisniku omoguæava 
+da unese jedan pozitivan cijeli broj u dekadskom brojevnom sistemu, a ispisuje njegov 
+ekvivalent u binarnom brojevnom sistemu. 
+Npr. ako korisnik unese 123(10), program treba ispisati 1111011(2)
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 12
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, koji korisniku omoguæava da 
+unese jedan pozitivan cijeli broj u binarnom brojevnom sistemu, a ispisuje njegov ekvivalent 
+u dekadskom brojevnom sistemu. 
+Npr. ako korisnik unese 1111011(2), program treba ispisati 123(10).
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 13
+// --------------------------------------------------------------------------------------- //
+Napišite programu kojem æete omoguæiti unos dva prirodna broja. Provjerite èine li uneseni 
+brojevi prijateljski par. Prirodni brojevi a i b èine prijateljski par brojeva ako je zbir 
+pravih djelitelja broja a (onih koji su manji od a) jednak broju b i istovremeno zbir pravih 
+djelitelja broja b jednak je broju a.
+Npr. Brojevi 220 i 284 su prijateljski brojevi.
+Pravi djelitelji broja 220 su: 1, 2, 4, 5, 10, 11, 20, 22, 55, 110, a njihova suma iznosi 284;
+Pravi djelitelji broja 284 su: 1, 2, 4, 71, 142 a njihova suma iznosi 220.
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 14
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, prema sljedeæim zahtjevima:
+o za 7 studenata unijeti broj bodova postignutih na ispitu (bodovi su u rasponu od 0 do 100);
+o prebrojati i ispisati koliko je studenta bilo uspješno, a koliko neuspješno na ispitu 
+(ako je prag prolaznosti na 60 bodova);
+o za uspješne studente (one koji su položili ispit) izraèunati prosjeèan broj bodova;
+o ukoliko je više od polovice studenata bilo neuspješno na ispitu ispisati poruku – 
+Potrebno više sati instrukcija!
+// --------------------------------------------------------------------------------------- //
+
+Zadatak 15
+// --------------------------------------------------------------------------------------- //
+Napišite program, poštujuæi sve faze procesa programiranja, prema sljedeæim zahtjevima: 
+omoguæite prijavu ispita (za jednog studenta) iz 5 razlièita predmeta (IM, PRI, IT i EJ, AR); 
+• ispišite odgovarajuæe poruke korisniku (je li uspješno prijavio ispit i iz kojeg predmeta);
+• omoguæite nakon prijave, unos ocjene postignute na ispitu (od nezadovoljava do 10 - izvrstan);
+• omoguæite studentu ponavljanje prijave  ispita  sve dok ne postigne prolazne ocjene iz 
+svakog od predmeta;
+• ukoliko student pokuša prijaviti ispit koji je veæ položio, onemoguæite mu to i ispišite 
+odgovarajuæu poruku.
+// --------------------------------------------------------------------------------------- //

@@ -1,35 +1,42 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
+bool isBinarni(int broj)
+{
+    while(broj)
+    {
+        int temp = broj % 10;
+        if(temp != 0 && temp != 1) return false;
+        broj /= 10;
+    }
+    
+    return true;
+}
+
 int main()
 {
-	int broj1 = 0;
-	while (broj1 < 1)
+	int broj;
+	do
 	{
-		cout << "Unesite prirodan broj: ";
-		cin >> broj1;
-	}
-
-	int broj2 = 0;
-	while (broj2 < 1)
+	    cout << "Unesite binarni broj: ";
+	    cin >> broj;
+	    
+	}while(broj < 1 || !isBinarni(broj));
+	
+	int temp = broj;
+	int decimalniBroj = 0;
+	int brojac = 0;
+	while(temp)
 	{
-		cout << "Unesite prirodan broj: ";
-		cin >> broj2;
+	    decimalniBroj += temp % 10 * pow(2, brojac);
+	    brojac++;
+	    temp /= 10;
 	}
-
-	int suma1 = 0;
-	for (int i = 1; i <= broj1 / 2; i++)
-		if (broj1 % i == 0)
-			suma1 += i;
-
-	int suma2 = 0;
-	for (int i = 1; i <= broj2 / 2; i++)
-		if (broj2 % i == 0)
-			suma2 += i;
-
-	if (suma1 == broj2 && suma2 == broj1) 
-		cout << "Brojevi " << broj1 << " i " << broj2 << " su prijateljski par" << endl;
+	
+	cout << broj << " -> " << decimalniBroj << endl;
+	
 
 	system("pause>0");
 	return 0;

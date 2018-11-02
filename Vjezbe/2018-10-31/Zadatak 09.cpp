@@ -1,6 +1,7 @@
 #include <iostream>
- using namespace std;
- int main()
+using namespace std;
+
+int main()
 {
 	int broj1 = 0, broj2 = 0;
  	while (broj1 < 1)
@@ -21,4 +22,4 @@
 		}
  	system("pause>0");
 	return 0;
-} 
+}
