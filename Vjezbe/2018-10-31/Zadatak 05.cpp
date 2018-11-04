@@ -12,7 +12,7 @@ bool isPrestupna(int godina)
 
 bool isDatum(int d, int m, int g)
 {
-   if(isPrestupna(g)) daniUMjesecu[1]++;
+   isPrestupna(g) ? daniUMjesecu[1] = 29 : daniUMjesecu[1] = 28;
 
    return d <= daniUMjesecu[m - 1];
 }
