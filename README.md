@@ -28,4 +28,4 @@ ___
 ___
 
 ## Dodatak u vezi popravki zadataka
-Zadaci navedeni iznad ce biti modifikovani nakon parcijalnih ispita. U slucaju da ima neko ima pitanja u vezi navedenih zadataka i zasto su oznaceni za popravku ili bilo kojih drugih zadataka, bili oni uradeni ili ne mozete ih postaviti na discordu [<img src="https://discordapp.com/api/guilds/440055845552914433/widget.png" align="center">](https://discord.gg/6ehXw7F) u kanalu #pr1.
+Zadaci navedeni iznad ce biti modifikovani nakon parcijalnih ispita. U slucaju da neko ima pitanja u vezi navedenih zadataka i zasto su oznaceni za popravku ili bilo kojih drugih zadataka, bili oni uradeni ili ne mozete ih postaviti na discordu [<img src="https://discordapp.com/api/guilds/440055845552914433/widget.png" align="center">](https://discord.gg/6ehXw7F) u kanalu #pr1.
