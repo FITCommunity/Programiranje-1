@@ -18,32 +18,36 @@ int ukloniRijeci(char recenica[])
     int brRijeci = 0;
     for(int i = 0; i < duzina; i++)
     {
+	//Prolazak kroz znakove
         while(recenica[i] != ' ')
             i++;
         
         brRijeci++;
         
+	//Prolazak kroz razmak
         while(recenica[i] == ' ')
             i++;
     }
     
     for(int i = 0; i < duzina; i++)
     {
-        if((recenica[i] == 'S' || recenica[i] == 's') && (recenica[i - 1] == ' ' || i == 0))
+        if((recenica[i] == 'S' || recenica[i] == 's') && (recenica[i - 1] == ' ' || i == 0)) //Ako rijec pocinje slovom S/s
         {
             int j, k;
             j = k = i;
+            //Prolazi kroz rijec
             while(recenica[j] != ' ' && j < duzina)
                 j++;
+            //Prolazi kroz razmak koji se nalazi prije sljedece rijeci
             while(recenica[j] == ' ')
                 j++;
                 
-            
-                
+            //Prepisuje ostatak recenice u prostor gdje se nalazila rijec    
             while(recenica[k] != '\0')
                 recenica[k++] = recenica[j++];
             
-            duzina = duzina - j + k;
+            duzina = duzina - j + k; //skracuje duzinu recenice za duzinu rijeci
+	          i--; //vraca i na poziciju prije uklonjene rijeci
         }
     }
     

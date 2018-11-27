@@ -9,7 +9,8 @@ void ispis(int niz[], int duzina);
  
 int main()
 {
-    int niz[20], duzina = 20;
+    int duzina = 20;
+    int niz[20];
    
     unos(niz, duzina);
     ispis(niz, duzina);
@@ -40,16 +41,9 @@ void izbacivanje(int niz[], int &duzina)
  
 bool parnaCifra(int broj)
 {
-    do
-    {
-        broj /= 10;
-       
-    }while(broj > 9);
+    while(broj > 9) broj /= 10;
    
-    if(broj % 2 == 0)
-        return true;
-    else
-        return false;
+    return broj % 2 == 0;
 }
  
 void unos(int niz[], int duzina)

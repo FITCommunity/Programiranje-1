@@ -9,38 +9,54 @@ int duzina(const char niz[])
     return i;
 }
 
-void zamjena(char recenica[],const char rijec[], int &duzinaRecenice, const int duzinaRijeci)
+bool rijecPostoji(const char recenica[], int i, const char rijec[])
 {
-    char novaRijec[4] = "FIT";
+  int duzinaRijeci = duzina(rijec);
+
+  for(int j = 0; j < duzinaRijeci; j++)
+    if(recenica[i++] != rijec[j])
+      return false;
+  
+  return true;
+}
+
+void preklopiRijec(char recenica[], int &i, const char rijec[])
+{
+  int duzinaRijeci = duzina(rijec);
+  for(int j = 0; j < duzinaRijeci; j++)
+    recenica[i++] = rijec[j];
+}
+
+void zamjena(char recenica[], const char rijec[], int &duzinaRecenice)
+{
+    char novaRijec[] = "FIT";
+    int duzinaRijeci = duzina(rijec);
+
     for(int i = 0; i < duzinaRecenice; i++)
     {
-        int brojac = i;
-        bool flag = false;
-        if(recenica[brojac] == rijec[0])
+        if(rijecPostoji(recenica, i, rijec))
         {
-            flag = true;
-            for(int j = 0; j < duzinaRijeci; j++)
+            int novaDuzina = duzina(novaRijec);
+
+            if(novaDuzina < duzinaRijeci)
             {
-                if(recenica[brojac++] != rijec[j])
-                {
-                    flag = false;
-                    break;
-                }
+              preklopiRijec(recenica, i, novaRijec);
+
+              //Pomjeri recenicu do lokacije i tako da ne ostaje praznog mjesta ni starih karaktera
+              for(int j = i; j < duzinaRecenice - duzinaRijeci + novaDuzina + 1; j++)
+                recenica[j] = recenica[j + duzinaRijeci - novaDuzina];
             }
-            
-        }
-        
-        
-        if(flag)
-        {
-            for(int j = 0; j < duzina(novaRijec); j++)
-                recenica[i++] = novaRijec[j];
-            
-            
-            for(int j = i; j < duzinaRecenice - duzinaRijeci + duzina(novaRijec); j++)
-                recenica[j] = recenica[j + duzinaRijeci - duzina(novaRijec)];
-            
-            duzinaRecenice = duzinaRecenice - duzinaRijeci + duzina(novaRijec);
+            else
+            {
+              //Pomjeri recenicu nazad tako da se nova rijec ne napise preko ostatka recenice
+              for(int j = duzinaRecenice + novaDuzina - duzinaRijeci; j > i; j--)
+                recenica[j] = recenica[j - 1];
+              
+              preklopiRijec(recenica, i, novaRijec);
+            }
+
+            duzinaRecenice = duzinaRecenice - duzinaRijeci + novaDuzina;
+            i--;
         }
         
     }
@@ -54,18 +70,19 @@ int main()
     cout << "Unesite recenicu: ";
     cin.getline(recenica, 200, '.');
     
-    
     cout << "Unesite rijec: ";
     cin.ignore();
     cin.getline(rijec, 10, '.');
     
     int duzinaRecenice = duzina(recenica);
-    zamjena(recenica, rijec, duzinaRecenice, duzina(rijec));
+    zamjena(recenica, rijec, duzinaRecenice);
     
     cout << "Nakon izmjene: ";
     for(int i = 0; i < duzinaRecenice; i++)
-        cout << recenica[i];
-    
-    
+      cout << recenica[i];
+
+
+    system("pause>0");
     return 0;
+    
 }

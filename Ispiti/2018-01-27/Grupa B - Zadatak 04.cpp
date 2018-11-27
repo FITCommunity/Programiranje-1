@@ -14,8 +14,7 @@ void ispis(int niz[][d]);
 int main()
 {
     int matrica[d][d];
-    double avg_p = 0,
-           avg_np = 0;
+    double avg_p = 0, avg_np = 0;
            
     unos(matrica);
     ispis(matrica);
@@ -27,12 +26,17 @@ int main()
     aritmeticka(matrica, avg_p, avg_np);
     
     if(avg_p > avg_np)
-        cout << "Vecu aritmeticku sredinu imaju parni brojevi iznad glavne dijagonale i ona iznosi: " << avg_p << endl;
+    {
+      cout << "Vecu aritmeticku sredinu imaju parni brojevi iznad glavne dijagonale i ona iznosi: " << avg_p << endl;
+    }
     else if(avg_p < avg_np)
-		cout << "Vecu aritmeticku sredinu imaju neparni brojevi iznad sporedne dijagonale i ona iznosi: " << avg_np << endl;
+	{
+      cout << "Vecu aritmeticku sredinu imaju neparni brojevi iznad sporedne dijagonale i ona iznosi: " << avg_np << endl;
+    }
     else
-		cout << "Aritmeticke sredine su jednake i iznose: " << avg_p << endl;
-        
+    {
+      cout << "Aritmeticke sredine su jednake i iznose: " << avg_p << endl;
+    }        
     
 
 	system("pause>0");
@@ -44,10 +48,8 @@ void ispis(int niz[][d])
 {
     for(int i = 0; i < d; i++)
     {
-        for(int j = 0; j < d; j++)
-        {
+        for(int j = 0; j < d; j++) 
             cout << setw(4) << niz[i][j];
-        }
         cout << endl;
     }
 }

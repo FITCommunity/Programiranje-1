@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool prost(int broj)
+bool isProst(int broj)
 {
     for (int i = 2; i <= broj / 2; i++)
         if (broj % i == 0)
@@ -13,10 +13,11 @@ bool prost(int broj)
 void ispis(int broj)
 {
     int i = 2;
+    
     cout << broj << " = ";
-    while (broj)
+    while (broj != 1) //na zadnjem dijeljenju ce se uvijek dobiti 1
     {
-        if (prost(i) && broj % i == 0)
+        if (isProst(i) && broj % i == 0)
         {
             if (i != broj)
                 cout << i << " * ";
@@ -25,9 +26,9 @@ void ispis(int broj)
 
             broj /= i;
         }
-        else
-            i++;
+        else i++;
     }
+       
 }
 
 int main()
@@ -36,10 +37,11 @@ int main()
     while (cout << "Unesite prirodan broj: ", cin >> broj, broj < 1);
 
 
-    if (prost(broj))
-        cout << broj << " je prost broj" << endl;
+    if (isProst(broj))
+        cout << broj << " je isProst broj" << endl;
     else
         ispis(broj);
+    
 
     return 0;
     system("pause>0");

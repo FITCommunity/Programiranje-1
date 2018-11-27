@@ -1,103 +1,91 @@
 #include <iostream>
+#include <cmath>
 #include <iomanip>
 
 using namespace std;
 
-const int satnica = 12;
+const int brojUposlenika = 10;
+const char *imenaMjeseci[]
+            { 
+                "Januar", 
+                "Februar", 
+                "Mart", 
+                "April", 
+                "Maj", 
+                "Juni", 
+                "Juli", 
+                "August",
+                "Septembat", 
+                "Oktobar", 
+                "Novembar", 
+                "Decembar"
+            };
 
-char mjesec[12][10] = {"Januar", "Februar", "Mart", "April", "Maj", "Juni", "Juli",
-                     "August", "Septembar", "Oktobar", "Novembar", "Decembar"};
-                     
-void platnaLista(int radnik[])
+
+
+void Unos(float uposlenici[][12], int mjesec)
 {
-    for(int i = 0; i < 12; i++)
-        cout << setw(12) << mjesec[i] << " " << radnik[i] * satnica << endl;
-    cout << endl;
+    //if Test - komentarisati cin >>; koristiti rand()
+    cout << "Unesite plate za " << imenaMjeseci[mjesec - 1] << endl;
+    for (int i = 0; i < brojUposlenika; i++)
+        cin >> uposlenici[i][mjesec - 1]; 
+        //uposlenici[i][mjesec - 1] = rand() % 1000 + 1000;
 }
 
-int Prekovremeno(int radnik[])
+float IspisiPlate(float plate[])
 {
-    int suma = 0;
-    for(int i = 0; i < 12; i++)
-        if(radnik[i] > 160)
-            suma += radnik[i] - 160;
-    
-    return suma;
-}
-
-int najvisePrekovremenih(int radniSati[][12])
-{
-    int max = 0;
-    for(int i = 1; i < 10; i++)
-        if(Prekovremeno(radniSati[max]) < Prekovremeno(radniSati[i]))
-            max = i;
-            
-    return max;
-    
-}
-
-int duzinaRijeci(char rijec[][10], int brMjeseca)
-{
-    int brojac = 0;
-    while(rijec[brMjeseca][brojac] != '\0')
-        brojac++;
-        
-    return brojac;
-}
-
-void isplate(int radniSati[][12])
-{
-    
-    for(int i = 0; i < 12; i++)
+    float prosjek = 0;
+    for (int i = 0; i < 12; i++)
     {
-        int suma = 0;
-        int prekovremenoSuma = 0;
-        for(int j = 0; j < 10; j++)
-        {
-            suma += radniSati[j][i] * satnica;
-            if(radniSati[i][j] > 160)
-                prekovremenoSuma += (radniSati[j][i] - 160) * satnica;
-        }
+        if (plate[i] != 0)
+          cout << setw(12) << imenaMjeseci[i] << ": " << plate[i] << endl;
         
-        int k = 0;
-        int duzina = duzinaRijeci(mjesec, i);
-        while(k < (40 - duzina) / 2) 
-        {
-            cout << "-";
-            k++;
-        }
-        cout << mjesec[i]; 
-        k += duzina;
-        while(k < 40)
-        {
-            cout << "-";
-            k++;
-        }
-        
-        cout << "\nUkupno isplaceno: " << suma << " KM";
-        cout << "\nIsplaceno za prekovremeni rad: " << prekovremenoSuma << " KM";
-        cout << endl;
-        
+        prosjek += plate[i];
     }
+
+    cout << endl;
+    return prosjek / 12;
+}
+
+int najvecaProsjecnaPlata(float uposlenici[][12])
+{
+    float prosjeci[brojUposlenika] = { 0 };
+    for (int i = 0; i < brojUposlenika; i++)
+    {
+        for (int j = 0; j < 12; j++)
+            prosjeci[i] += uposlenici[i][j];
+        prosjeci[i] /= 12;
+    }
+
+    int max = 0;
+    for (int i = 0; i < brojUposlenika; i++)
+        if (prosjeci[i] > prosjeci[max])
+            max = i;
+
+    cout << "Najveca prosjecna plata je: " << round(prosjeci[max] * 100) / 100 << endl;
+
+    return max;
 }
 
 int main()
 {
-    int radniSati[10][12];
-    
-    //Za testiranje dodati u header #include <ctime>
-    //srand(time(NULL));
-    //i cin >> radniSati[i][j] zamjeniti sa radniSari[i][j] = "Formula za neke rand vrijednosti"
-    for(int i = 0; i < 10; i++)
-        for(int j = 0; j < 12; j++)
-            cin >> radniSati[i][j]//radniSati[i][j] = 160 + 4 * 5 * rand() % 6;
-            
-    for(int i = 0; i < 10; i++)
-        platnaLista(radniSati[i]);
-      
-    cout << "Najvise prekovremenih sati ima radnik broj " << najvisePrekovremenih(radniSati) + 1 << endl;
-    
-    isplate(radniSati);
-    
+    float uposlenici[brojUposlenika][12] = { 0 };
+
+    //if Test komentarisati
+    int izbor;
+    while (cout << "Izaberite mjesec: ", cin >> izbor, izbor > 0 && izbor < 13)
+        Unos(uposlenici, izbor);
+
+    while (cout << "Izaberite radnika: ", cin >> izbor, izbor > 0 && izbor < 11)
+        IspisiPlate(uposlenici[izbor - 1]);
+
+    //if Test odkomentarisati
+    // srand(time(0));
+    // for(int i = 1; i <= 12; i++) Unos(uposlenici, i);
+    // for(int i = 1; i <= 10; i++) IspisiPlate(uposlenici[i - 1]);
+
+    najvecaProsjecnaPlata(uposlenici);
+
+    system("pause>0");
     return 0;
 }

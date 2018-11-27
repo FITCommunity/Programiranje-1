@@ -11,35 +11,16 @@ void unos(int niz[], int duzina)
 void inicijalizacija(int niz1[], int niz2[], int niz3[])
 {
     for (int i = 0; i < 7; i++)
-    {
-        if (i < 3)
-            niz3[i] = niz1[i];
-        else
-            niz3[i] = niz2[i - 3];
-    }
+      if (i < 3)
+          niz3[i] = niz1[i];
+      else
+          niz3[i] = niz2[i - 3];
 }
 
-int sumiraj(int niz[], int izbor)
+int sumiraj(int niz[], int duzina)
 {
-    int pocetak, kraj;
-    if (izbor == 1)
-    {
-        pocetak = 0;
-        kraj = 3;
-    }
-    else if (izbor == 2)
-    {
-        pocetak = 3;
-        kraj = 7;
-    }
-    else
-    {
-        pocetak = 0;
-        kraj = 7;
-    }
-
     int suma = 0;
-    for (int i = pocetak; i < kraj; i++)
+    for (int i = 0; i < duzina; i++)
         suma += niz[i];
 
     return suma;
@@ -58,7 +39,16 @@ int main()
 
     int izbor;
     while (cout << "Izaberite niz:\n", cin >> izbor, izbor < 1 || izbor > 3);
-    cout << "Suma niza " << izbor << " je " << sumiraj(niz3, izbor) << endl;
+    
+    int suma;
+    switch(izbor)
+    {
+      case 1: suma = sumiraj(niz1, 3); break;
+      case 2: suma = sumiraj(niz2, 4); break;
+      case 3: suma = sumiraj(niz3, 7); break;
+    }
+
+    cout << "Suma niza " << izbor << " je " << suma << endl;
 
     system("pause>0");
     return 0;

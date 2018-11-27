@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -6,9 +7,9 @@ const int d = 8;
 
 void unos(int niz[][d]);
 void ispis(int niz[][d]);
-int provjeraUnosa(int broj);
+bool isUnos(int broj);
 int duzina(int broj);
-bool isCrniBijeli(int i, int j);
+bool isCrno(int i, int j);
 bool isSimetricna(int niz[][d]);
 void transponuj(int niz[][d]);
 
@@ -81,11 +82,10 @@ bool isSimetricna(int niz[][d])
     return flag;
 }
 
-bool isCrniBijeli(int i, int j)
+bool isCrno(int i, int j)
 {
-    // true - crna
-    // false - bijela
     return ((i % 2 == 0 && j % 2 == 0) || (i % 2 != 0 && j % 2 != 0));
+    //alternativno: return (i + j) % 2 == 0;
 }
 
 int duzina(int broj)
@@ -100,14 +100,11 @@ int duzina(int broj)
     return brojac;
 }
 
-int provjeraUnosa(int broj)
+bool isUnos(int niz[][d], int i, int j)
 {
-    if (broj % 2 == 0 && duzina(broj) % 2 != 0)
-        return 1;
-    else if (broj % 2 != 0 && duzina(broj) % 2 == 0)
-        return 0;
-    else
-        return -1;
+    return (niz[i][j] % 2 == 0 && duzina(niz[i][j]) % 2 != 0 && isCrno(i, j)) ||
+           (niz[i][j] % 2 != 0 && duzina(niz[i][j]) % 2 == 0 && !isCrno(i, j));
+    
 }
 
 void ispis(int niz[][d])
@@ -126,24 +123,12 @@ void unos(int niz[][d])
     {
         for (int j = 0; j < d; j++)
         {
-            if (isCrniBijeli(i, j))
+            do
             {
-                do
-                {
-                    cout << "Niz[" << i << "][" << j << "]: ";
-                    cin >> niz[i][j];
+              cout << "niz[" << i << "][" << j << "] = " << endl;
+              cin >> niz[i][j];
 
-                } while (provjeraUnosa(niz[i][j]) != 1);
-            }
-            else
-            {
-                do
-                {
-                    cout << "Niz[" << i << "][" << j << "]: ";
-                    cin >> niz[i][j];
-
-                } while (provjeraUnosa(niz[i][j]) != 0);
-            }
+            }while(!isUnos(niz, i, j));
         }
     }
 }
