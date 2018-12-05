@@ -1,165 +1,110 @@
 #include <iostream>
-#include <cmath>
- 
+
 using namespace std;
- 
-const int dimenzija = 4;
- 
-void unos(int niz[][dimenzija]);
-void transpozicija(int niz[][dimenzija]);
-float aritmeticka(int niz[][dimenzija]);
-bool prost_broj(int broj);
-void simpatican(int niz[][dimenzija]);
- 
-int main()
+
+const int d = 4;//10
+
+bool isProst(int broj)
 {
-    int niz[dimenzija][dimenzija];
-   
-   
-    unos(niz);
-    transpozicija(niz);
-   
-    for(int i = 0; i < dimenzija; i++)
+  for(int i = 2; i <= broj / 2; i++)
+    if(broj % i == 0)
+      return false;
+  return true;
+}
+
+int getSumaCifri(int broj)
+{
+  int suma = 0;
+  while(broj)
+  {
+    suma += broj % 10;
+    broj /= 10;
+  }
+
+  return suma;
+}
+
+void simpatican(int matrica[][d])
+{
+  for(int i = 0; i < d; i++)
+    for(int j = 0; j < d; j++)
+      if(i + j < d - 1)
+      {
+        int s1 = getSumaCifri(matrica[i][j]);
+        s1 *= s1;
+        int s2 = getSumaCifri(matrica[i][j] * matrica[i][j]);
+
+        if(s1 == s2)
+          cout << matrica[i][j] << " je simpatican" << endl;
+        else
+          cout << matrica[i][j] << " nije simpatican" << endl;
+      }
+}
+
+float aritmeticka(int matrica[][d])
+{
+  int brojac = 0;
+  float suma = 0;
+  
+  for(int i = 0; i < d; i++)
+    for(int j = 0; j < d; j++)
+      if(i + j > d - 1)
+      {
+        suma += matrica[i][j];
+        brojac++;
+      }
+
+  return brojac ? suma / brojac : 0;
+}
+
+void transpozicija(int matrica[][d])
+{
+  for(int i = 0; i < d; i++)
+    for(int j = i; j < d; j++)
     {
-        for(int j = 0; j < dimenzija; j++)
-        {
-            cout << niz[i][j] << " ";
-        }
-        cout << endl;
+      int temp = matrica[i][j];
+      matrica[i][j] = matrica[j][i];
+      matrica[j][i] = temp;
     }
+}
+
+void unos(int matrica[][d])
+{
+  for(int i = 0; i < d; i++)
+    for(int j = 0; j < d; j++)
+      while
+      (
+        cout << "Niz[" << i << "][" << j << "] = ", 
+        cin >> matrica[i][j], 
+        matrica[i][j] < 10 || matrica[i][j] > 99
+      );
+}
+
+void ispis(int matrica[][d])
+{
+  for(int i = 0; i < d; i++)
+  {
+    for(int j = 0; j < d; j++)
+      cout << matrica[i][j] << " ";
+    cout << endl;
+  }
+    
+}
+
+int main() 
+{
+   int matrica[d][d];
+   
+   
+    unos(matrica);
+    transpozicija(matrica);
+    ispis(matrica);
    
     cout << endl;
-    cout << "Aritmeticka sredina: " << aritmeticka(niz) << endl;
+    cout << "Aritmeticka sredina: " << aritmeticka(matrica) << endl;
     cout << endl;
-    simpatican(niz);
-   
-}
- 
-void simpatican(int niz[][dimenzija])
-{
-    int broj1,
-        broj2,
-        cifra,
-        s1 = 0,
-        s2 = 0;
-   
-    for(int i = 0; i < dimenzija; i++)
-    {
-        for(int j = 0; j < dimenzija; j++)
-        {
-            if(i + j  < dimenzija - 1)
-            {
-                // Trocifreni
-                broj1 = niz[i][j];
-                broj1 = broj1 * broj1;
-                s1 = 0;
-                while(broj1 != 0)
-                {
-                    cifra = broj1 % 10;
-                    broj1 /= 10;
-                   
-                    s1 += cifra;
-                }
-               
-                //Dvocifreni
-                broj2 = niz[i][j];
-                s2 = 0;
-                while(broj2 != 0)
-                {
-                    cifra = broj2 % 10;
-                    broj2 /= 10;
-                   
-                    s2 += cifra;
-                }
-               
-                s2 = s2 * s2;
-               
-                if(s1 == s2)
-                    cout << niz[i][j] << " je simpatican" << endl;
-                else
-                    cout << niz[i][j] << " nije simpatican" << endl;
-            }
-        }
-    }
-}
- 
-float aritmeticka(int niz[][dimenzija])
-{
-    // Sporedna dijagonala
-    // 00 01 02
-    // 10 11 12
-    // 20 21 22
-    // 2+0 = 1+1 = 0+2 = dimenzija - 1
-    // Ispod i + j > dimenzija - 1
-    // Iznad i + j < dimenzija - 1
-   
-    // Glavna dijagonala
-    // 00 01 02
-    // 10 11 12
-    // 20 21 22
-    // Iznad j > i
-    // Ispod i > j
-   
-    int suma = 0;
-    int brojac = 0;
-   
-    for(int i = 0; i < dimenzija; i++)
-    {
-        for(int j = 0; j < dimenzija; j++)
-        {
-            if(i + j  > dimenzija - 1)
-            {
-                if(prost_broj(niz[i][j]))
-                {
-                    suma += niz[i][j];
-                    brojac++;
-                }
-            }
-        }
-    }
-   
-    if(brojac == 0)
-        return 0;
-    else
-        return float(suma) / brojac;
-}
-bool prost_broj(int broj)
-{
-    for(int i = 2; i < broj; i++)
-        if(broj % i == 0)
-            return 0;
-           
-    return 1;
-}
- 
-void transpozicija(int niz[][dimenzija])
-{
-   
-    int noviniz[dimenzija][dimenzija];
-   
-    for(int i = 0; i < dimenzija; i++)
-      for(int j = 0; j < dimenzija; j++)
-          noviniz[j][i] = niz[i][j];
-   
-    for(int i = 0; i < dimenzija; i++)
-      for(int j = 0; j < dimenzija; j++)
-          niz[i][j] = noviniz[i][j];  
-   
-}
- 
-void unos(int niz[][dimenzija])
-{
-    cout << "Unesite niz: " << endl;
-    for(int i = 0; i < dimenzija; i++)
-    {
-        for(int j = 0; j < dimenzija; j++)
-        {
-            do
-            {
-                cout << "Niz[" << i << "][" << j << "] = ";
-                cin >> niz[i][j];
-               
-            }while(niz[i][j] < 10 || niz[i][j] > 99);
-        }
-    }
+    simpatican(matrica);
+
+    system("pause>0");
+    return 0;
 }
