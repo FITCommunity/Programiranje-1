@@ -16,7 +16,7 @@ int faktorijel(int);
   <tr>
     <td>2014×2015</td>
     <td>2016-01-13</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -39,7 +39,7 @@ Napišite program u kojem ćete deklarirati matricu 5x4. Redak u matrici je uče
   <tr>
     <td >2014×2015</td>
     <td >2016-01-13</td>
-    <td ><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td ><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -60,7 +60,7 @@ U slučaju da broj nije trivijalan (prost) odredite i ispište sve njegove djeli
   <tr>
     <td>2014×2015</td>
     <td>2016-01-13</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -83,7 +83,7 @@ Napišite program u kojem ćete kreirati tri cjelobrojna niza i  to – prvi niz
   <tr>
     <td>2014×2015</td>
     <td>2016-01-13</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -106,7 +106,7 @@ Napišite program u kojem ćete deklarirati niz od 7 cijelih brojeva. Uz pomoć 
   <tr>
     <td>2014×2015</td>
     <td>2016-01-13</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -129,7 +129,7 @@ Napišite program u kojem ćete deklarirati matricu 5x4. Redak u matrici je stud
   <tr>
     <td>2014×2015</td>
     <td>2016-01-13</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -156,7 +156,7 @@ int djelitelji(int);
   <tr>
     <td>2014×2015</td>
     <td>2016-01-13</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -180,7 +180,7 @@ int faktorijel(int);
   <tr>
     <td>2014×2015</td>
     <td>2016-01-13</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-01-13/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -204,7 +204,7 @@ int faktorijel(int);
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -229,7 +229,7 @@ Ispis prvog retka koji sadrži vrijednost 5, prosječne vrijednosti u tom retku 
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -257,7 +257,7 @@ bool provjera (int, int);
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -295,7 +295,7 @@ int bin(int broj)
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -321,7 +321,7 @@ int suma(int);
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -346,7 +346,7 @@ Ispis prvog retka koji sadrži vrijednost -7, prosječne vrijednosti u tom retku
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -371,7 +371,7 @@ bool provjera (int);
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -396,7 +396,7 @@ Ispis pozicije najvećeg negativnog elementa, sume negativnih elemenata kao i od
   <tr>
     <td>2014×2015</td>
     <td>2016-02-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-02-18/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -423,7 +423,7 @@ double umnozak (int);
   <tr>
     <td>2014×2015</td>
     <td>2016-06-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -447,7 +447,7 @@ Ispis sume i izbor matrice i retka vršite u funkciji main.
   <tr>
     <td>2014×2015</td>
     <td>2016-06-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -475,7 +475,7 @@ bool provjera (int, int);
   <tr>
     <td>2014×2015</td>
     <td>2016-02-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -501,12 +501,12 @@ Ispis sume recipročnih vrijednosti i broja pozitivnih elemenata vršiti u funkc
   <tr>
     <td>2014×2015</td>
     <td>2016-02-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2016-06-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -531,7 +531,7 @@ double umnozak (int);
   <tr>
     <td>2014×2015</td>
     <td>2016-06-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -556,7 +556,7 @@ Izbor redaka vršite u funkciji main.
   <tr>
     <td>2014×2015</td>
     <td>2016-06-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -586,7 +586,7 @@ void ispis (int);
   <tr>
     <td>2014×2015</td>
     <td>2016-06-23</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2016-06-23/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -611,7 +611,7 @@ bool IsSavrsen(int);
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -640,7 +640,7 @@ Broj sa sortiranim ciframa: 159
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -662,7 +662,7 @@ Radi jednostavnosti rješenja, pretpostavite da je riječ bilo koji niz znakova 
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -691,7 +691,7 @@ Napomena: Pretpostaviti da je u programu implementirana funkcija za unos radnih 
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -711,7 +711,7 @@ Kreirati program koji će pronaći i ispisati sve brojeve od X do Y (uključuju�
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -739,7 +739,7 @@ Broj sa sortiranim ciframa: 8622
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -761,7 +761,7 @@ Radi jednostavnosti rješenja, pretpostavite da je riječ bilo koji niz znakova 
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -792,7 +792,7 @@ Najuspješniji igrač: 6.
   <tr>
     <td>2014×2015</td>
     <td>2017-08-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -821,12 +821,12 @@ Potrebno je pronaći koja firma će prva prestići firmu A u godišnjem prihodu 
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -850,7 +850,7 @@ Npr. za broj 75631 srednja cifra je 6, najmanja integer vrijednost sa kojom treb
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -876,22 +876,22 @@ Obavezno u main funkciji omogučiti unos recenice, zatim tražene riječi i ispi
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-10-05</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-10-05/Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-10-05/Zadatak%2003.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2019-01-26/Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-01-26/Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -938,7 +938,7 @@ Neka je dat 2D niz tipa int dimenzija 10x10. Kreirati, a potom u glavnom program
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -966,7 +966,7 @@ Složeni broj je svaki broj koji nije prosti, odnosno koji ima bar jednog djelio
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1002,7 +1002,7 @@ forsirani prekid...
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1042,7 +1042,7 @@ Najveći zajednički djelitelj za brojeve 8 i 2584 je 8.
   <tr>
     <td>2014×2015</td>
     <td>2017-09-16</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-09-16/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1062,7 +1062,7 @@ Napišite program u kojem ćete omogućiti unos dva prirodna broja manja od 500 
   <tr>
     <td>2014×2015</td>
     <td>2017-11-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1090,7 +1090,7 @@ Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristit
   <tr>
     <td>2014×2015</td>
     <td>2017-11-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1110,7 +1110,7 @@ Napisati program koji omogućava unos pozitivnog broja n te pronalazi njegove pa
   <tr>
     <td>2014×2015</td>
     <td>2017-11-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1130,7 +1130,7 @@ Napišite program, u kojem ćete omogućiti unos dva prirodna broja manja od 500
   <tr>
     <td>2014×2015</td>
     <td>2017-11-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1158,7 +1158,7 @@ Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristit
   <tr>
     <td>2014×2015</td>
     <td>2017-11-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1178,7 +1178,7 @@ Napisati program koji omogućava unos pozitivnog broja n te pronalazi njegove ne
   <tr>
     <td>2014×2015</td>
     <td>2017-11-18</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1198,17 +1198,17 @@ Svaki paran broj se može prikazati kao suma dva prosta broja (tkz. Goldbachovo 
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-10-05</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-10-05/Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-10-05/Zadatak%2002.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2019-01-26/Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-01-26/Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1232,7 +1232,7 @@ Npr. 100, 322, 453, 454, 455, 456, 355, 235, 235, 236, 237, 238, 239, 111...
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1267,7 +1267,7 @@ Primjer centralno simetrične matrice:
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1292,7 +1292,7 @@ Obavezno koristiti i ispravne tipove podataka i optimizirati kod.
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1312,7 +1312,7 @@ Napisati program koji će omogućiti korisniku unos dva minimalno trocifrena pri
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1332,7 +1332,7 @@ U main funkciji kreirati niz veličine 200 (char recenica[200]) sa sljedećim in
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1366,7 +1366,7 @@ Pomoć: Broj je simpatičan ukoliko je zbir cifara njegovog kvadrata jednak kvad
   <tr>
     <td>2014×2015</td>
     <td>2018-01-27</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1387,7 +1387,7 @@ koji su djeljivi sa 5. Rezultat treba biti zaokružen na dvije decimale. Geometr
   <tr>
     <td>2014×2015</td>
     <td>2018-02-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1407,7 +1407,7 @@ Napisati program koji će generisati Fibonacci niz i smjestiti ga u jedan niz od
   <tr>
     <td>2014×2015</td>
     <td>2018-02-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1427,7 +1427,7 @@ Napisati program koji će omogućiti unos elemenata matrice dimenzija 10x10 cije
   <tr>
     <td>2014×2015</td>
     <td>2018-02-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1447,17 +1447,17 @@ Napisati program koji učitava prirodan broj n. Program treba ispisati najmanji 
   <tr>
     <td>2014×2015</td>
     <td>2018-02-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
     <td>2019-02-09</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1479,17 +1479,17 @@ Napomena: Po želji kreirati dodatne funkcije da se olakša rješavanje zadataka
   <tr>
     <td>2014×2015</td>
     <td>2018-02-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1509,7 +1509,7 @@ Napisati program koji će omogućiti unos minimalno trocifrenih cijelih brojeva 
   <tr>
     <td>2014×2015</td>
     <td>2018-02-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1551,7 +1551,7 @@ Dat je 2D niz koji simulira šahovsku tablu. Omogućiti korisniku unos cjelobroj
   <tr>
     <td>2014×2015</td>
     <td>2018-02-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1575,17 +1575,17 @@ Napomena: Po želji kreirati dodatne funkcije da se olakša rješavanje zadatka.
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1606,7 +1606,7 @@ uzlazno, a ako je primljen karakter "S" onda sortiranje treba biti silazno. Ukol
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1648,7 +1648,7 @@ Dat je 2D niz koji simulira šahovsku tablu. Omogućiti korisniku unos cjelobroj
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1669,7 +1669,7 @@ Napisati program koji korisniku omogućava unos cijelog broja n, te izračunava:
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1689,7 +1689,7 @@ Napisati program koji će generisati Fibonacci niz i smjestiti ga u jednodimenzi
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1712,7 +1712,7 @@ Neka je data matrica dimenzija 11x12 u kojoj svaki red predstavlja fudbalera nek
   <tr>
     <td>2014×2015</td>
     <td>2018-08-25</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-08-25/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1737,17 +1737,17 @@ Broj sastavljen od zadanih cifara je 28.
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1769,7 +1769,7 @@ Obavezno voditi računa o optimizaciji coda-a koja posebno utiče na broj bodova
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1811,7 +1811,7 @@ Dat je 2D niz koji simulira šahovsku tablu. Omogućiti korisniku unos cjelobroj
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1833,12 +1833,12 @@ Napisati program koji korisniku omogućava unos realnog broja x i odabir funkcij
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1860,7 +1860,7 @@ Obavezno voditi računa o optimizaciji coda-a koja posebno utiče na broj bodova
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1883,7 +1883,7 @@ Neka je data matrica dimenzija 10x12 u kojoj svaki red predstavlja uposlenika fi
   <tr>
     <td>2014×2015</td>
     <td>2018-09-10</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1922,12 +1922,12 @@ Predjeni put: 706.32
   <tr>
     <td>2014×2015</td>
     <td>2018-10-05</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-10-05/Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-10-05/Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2014×2015</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2019-01-26/Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-01-26/Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1947,7 +1947,7 @@ Poštujući sve faze procesa programiranja, napisati program koji korisniku omog
   <tr>
     <td>2014×2015</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1971,7 +1971,7 @@ Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristit
   <tr>
     <td>2014×2015</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1995,12 +1995,12 @@ Za uneseno n = 3, rezulat je: 1,817
   <tr>
     <td>2014×2015</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
     <td>2019-02-09</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2027,7 +2027,7 @@ Razlika brojeva iznosi: 2002
   <tr>
     <td>2014×2015</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2051,7 +2051,7 @@ Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristit
   <tr>
     <td>2014×2015</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2099,7 +2099,7 @@ c) Funkciju koja računa aritmetičku sredinu elemenata na "crnim poljima" iznad
   <tr>
     <td>2014×2015</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-11-17/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2119,7 +2119,7 @@ Poštujući sve faze procesa programiranja, napisati program koji korisniku omog
   <tr>
     <td>2018×2019</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2018-11-17/Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2018-11-17/Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2141,7 +2141,7 @@ Npr. Za uneseni broj 1234567 obrnuti broj bez neparnih cifara je 642.
   <tr>
     <td>2018×2019</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2018-11-17/Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2018-11-17/Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2180,7 +2180,7 @@ Dat je 2D niz dimenzija 8 x 8. Omogućiti korisniku unos cjelobrojnih elemenata 
   <tr>
     <td>2018×2019</td>
     <td>2018-11-17</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2018-11-17/Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2018-11-17/Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2200,7 +2200,7 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2229,7 +2229,7 @@ Redovi dvodimenzionalnog niza predstavljaju različite odjele firme u kojima rad
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2251,7 +2251,7 @@ Npr. brojevi 383, 727, 757, 787, 797, 919, 929 su u isto vrijeme i prosti brojev
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2271,7 +2271,7 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2323,7 +2323,7 @@ na memorijsku lokaciju u kojoj je upisana ta vrijednost.
   <tr>
     <td>2018×2019</td>
     <td>2019-01-26</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2343,7 +2343,7 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
   <tr>
     <td>2018×2019</td>
     <td>2019-02-09</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2372,7 +2372,7 @@ Redovi dvodimenzionalnog niza predstavljaju različite košarkaše a kolone razl
   <tr>
     <td>2018×2019</td>
     <td>2019-02-09</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2398,7 +2398,7 @@ Brojevi koji ispunjuju dati uslov: 18 20 21 24 27
   <tr>
     <td>2018×2019</td>
     <td>2019-02-09</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2418,7 +2418,7 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
   <tr>
     <td>2018×2019</td>
     <td>2019-02-09</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2446,7 +2446,7 @@ struct figura
   <tr>
     <td>2018×2019</td>
     <td>2019-02-09</td>
-    <td><a href="../blob/master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
