@@ -2461,7 +2461,7 @@ struct figura
 </table>
 </details>
 
-__
+___
 
 Napisati program koji izračunava ukupan zbir faktorijela od svih prostih brojeva koji su članovi prvih 100 elemenata Fibonacci niza (tzv. fibonacci prime).
 Napomena: Pazljivo pročitajte zadatak. Obavezno voditi računa da se uradi tačno ono što je trazeno u zadatku i da zadatak bude logicki ispravan. Obavezno koristiti bar jednu funkciju kojoj ćete proslijediti parametar po referenci.
@@ -2482,14 +2482,14 @@ Napomena: Pazljivo pročitajte zadatak. Obavezno voditi računa da se uradi tač
 </table>
 </details>
 
-__
+___
 
 Neka je data matrica dimenzija 7x24 u kojoj svaki red predstavlja dan u sedmici, sat u danu. Matrica predstavlja tabelu za unos temperatura svaki sat u toku cijele sedmice. (Voditi racuna o tipovima podataka.) Kreirati, a potom u glavnom programu testirati, sljedeće funkcije:
-•	Funkciju za unos svih temperatura za odabrani dan. Omogućiti poziv funkcije iz main funkcije više puta kako bi se unijeli podaci za sve dane. 
-•	Funkciju koja za odabrani dan vrši ispis temperatura po satima.
-•	Funkciju koja pronalazi i ispisuje dan sa najvišom i dan sa najnižom prosječnom temperaturom.
-•	Funkciju koja pronalazi sat u svim danima koji je imao najvišu temperaturu.
-•	Funkciju koja prinalazi i ispisuje prosječnu temperaturu u podne (12h) svih dana.
+*	Funkciju za unos svih temperatura za odabrani dan. Omogućiti poziv funkcije iz main funkcije više puta kako bi se unijeli podaci za sve dane.
+*	Funkciju koja za odabrani dan vrši ispis temperatura po satima.
+*	Funkciju koja pronalazi i ispisuje dan sa najvišom i dan sa najnižom prosječnom temperaturom.
+*	Funkciju koja pronalazi sat u svim danima koji je imao najvišu temperaturu.
+*	Funkciju koja prinalazi i ispisuje prosječnu temperaturu u podne (12h) svih dana.
 
 
 <details>

@@ -14,8 +14,8 @@ Napisati program koji će omogućiti unos minimalno trocifrenih cijelih brojeva 
 # Zadatak 04
 
 Neka je data matrica dimenzija 7x24 u kojoj svaki red predstavlja dan u sedmici, sat u danu. Matrica predstavlja tabelu za unos temperatura svaki sat u toku cijele sedmice. (Voditi racuna o tipovima podataka.) Kreirati, a potom u glavnom programu testirati, sljedeće funkcije:
-•	Funkciju za unos svih temperatura za odabrani dan. Omogućiti poziv funkcije iz main funkcije više puta kako bi se unijeli podaci za sve dane. 
-•	Funkciju koja za odabrani dan vrši ispis temperatura po satima.
-•	Funkciju koja pronalazi i ispisuje dan sa najvišom i dan sa najnižom prosječnom temperaturom.
-•	Funkciju koja pronalazi sat u svim danima koji je imao najvišu temperaturu.
-•	Funkciju koja prinalazi i ispisuje prosječnu temperaturu u podne (12h) svih dana.
+* Funkciju za unos svih temperatura za odabrani dan. Omogućiti poziv funkcije iz main funkcije više puta kako bi se unijeli podaci za sve dane.
+* Funkciju koja za odabrani dan vrši ispis temperatura po satima.
+* Funkciju koja pronalazi i ispisuje dan sa najvišom i dan sa najnižom prosječnom temperaturom.
+* Funkciju koja pronalazi sat u svim danima koji je imao najvišu temperaturu.
+* Funkciju koja prinalazi i ispisuje prosječnu temperaturu u podne (12h) svih dana.
