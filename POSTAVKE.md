@@ -1459,6 +1459,11 @@ Napisati program koji učitava prirodan broj n. Program treba ispisati najmanji 
     <td>2019-02-09</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-06-29</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/Zadatak%2001.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -1510,6 +1515,11 @@ Napisati program koji će omogućiti unos minimalno trocifrenih cijelih brojeva 
     <td>2014×2015</td>
     <td>2018-02-17</td>
     <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-02-17/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+  </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-06-29</td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-06-29/Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2447,6 +2457,53 @@ struct figura
     <td>2018×2019</td>
     <td>2019-02-09</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-02-09/Grupa%20B%20-%20Zadatak%2004.cpp">Link</a></td>
+  </tr>
+</table>
+</details>
+
+__
+
+Napisati program koji izračunava ukupan zbir faktorijela od svih prostih brojeva koji su članovi prvih 100 elemenata Fibonacci niza (tzv. fibonacci prime).
+Napomena: Pazljivo pročitajte zadatak. Obavezno voditi računa da se uradi tačno ono što je trazeno u zadatku i da zadatak bude logicki ispravan. Obavezno koristiti bar jednu funkciju kojoj ćete proslijediti parametar po referenci.
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-06-29</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-06-29Zadatak%2002.cpp">Link</a></td>
+  </tr>
+</table>
+</details>
+
+__
+
+Neka je data matrica dimenzija 7x24 u kojoj svaki red predstavlja dan u sedmici, sat u danu. Matrica predstavlja tabelu za unos temperatura svaki sat u toku cijele sedmice. (Voditi racuna o tipovima podataka.) Kreirati, a potom u glavnom programu testirati, sljedeće funkcije:
+•	Funkciju za unos svih temperatura za odabrani dan. Omogućiti poziv funkcije iz main funkcije više puta kako bi se unijeli podaci za sve dane. 
+•	Funkciju koja za odabrani dan vrši ispis temperatura po satima.
+•	Funkciju koja pronalazi i ispisuje dan sa najvišom i dan sa najnižom prosječnom temperaturom.
+•	Funkciju koja pronalazi sat u svim danima koji je imao najvišu temperaturu.
+•	Funkciju koja prinalazi i ispisuje prosječnu temperaturu u podne (12h) svih dana.
+
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-06-29</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-06-29Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
