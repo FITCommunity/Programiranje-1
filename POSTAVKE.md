@@ -2068,35 +2068,11 @@ Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristit
 
 ___
 
-Neka je dat 2D niz tipa int dimenzija 10x10. Kreirati, a potom u glavnom programu testirati, sljedeće funkcije:
-a) Funkciju koja za vrsi generisanje podataka u 2D nizu na nacin da se u elementu sa indexom [0][0] upise vrijednost 1 a svaki slijedeci element da ima vrijednost prethodnog elementa pomnozenog sa 2 kao na slici. Generisanje se prekida ako se desi overflow na varijabli int.
-b) Funkciju koja popunjenu matricu iz pod-zadatka a) transponuje tako sto joj zamjeni redove i kolone.
-c) Funkciju koja računa aritmetičku sredinu elemenata na "crnim poljima" iznad glavne dijagonale kao na slici
+Napisati program koji korisniku omogućava unos realnog broja x, cijelog broja m i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom sljedećih karaktera 's' (sin), 'c' (cos), 'q' (sqrt), 'p' (pow). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir. Za funkciju pow() drugi parametar treba biti 3.
 
-```
-     +------+------+------+------+------+------+------+------+------+------+
-     |  1   |  2   |  4   |  8   |  16  |  32  |  64  | 128  | 256  | 512  |
-     +------+------+------+------+------+------+------+------+------+------+
-     | 1024 | 2048 | itd. | itd. | itd. | itd. | itd. | itd. | itd. | itd. |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-     |      |      |      |      |      |      |      |      |      |      |
-     +------+------+------+------+------+------+------+------+------+------+
-```
-![sahovnica](https://imgur.com/Ts7ttZq)
+Za odabranu funkciju sin izraz je:
+![](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%28%5Csin%28x%29%20&plus;%201%29%20*%20%28%5Csin%28x%29%20&plus;%202%29%20*%20...%20*%20%28%5Csin%28x%29%20&plus;%20m%29)
+Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristiti switch iskaz.
 
 <details>
 <summary>Rješenja</summary><br>
@@ -2477,7 +2453,7 @@ Napomena: Pazljivo pročitajte zadatak. Obavezno voditi računa da se uradi tač
   <tr>
     <td>2014×2015</td>
     <td>2019-06-29</td>
-    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-06-29Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-06-29Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2503,7 +2479,7 @@ Neka je data matrica dimenzija 7x24 u kojoj svaki red predstavlja dan u sedmici,
   <tr>
     <td>2014×2015</td>
     <td>2019-06-29</td>
-    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-06-29Zadatak%2004.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-06-29Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>

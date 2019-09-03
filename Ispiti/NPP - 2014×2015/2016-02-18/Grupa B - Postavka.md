@@ -1,5 +1,5 @@
 # Zadatak 01
-___
+
 Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n izračunati sumu: ![S=3!-6!+9! -....+(-1)n+1(3n)!](https://latex.codecogs.com/gif.latex?S%3D3%21-6%21&plus;9%21%20-....&plus;%28-1%29%20*%20n&plus;1*%283n%29%21)
 
 Upotrijebite funkcije:
@@ -9,7 +9,7 @@ int suma(int);
 ```
 
 # Zadatak 02
-___
+
 Napišite program koji će omogućiti kreiranje matrice negativnih brojeva 5 x 5. Uz pomoć funkcije:
 * `void unos (int [][5]);` omogućite unos elemenata matrice; vodite računa da svi elementi matrice moraju biti negativni brojevi;
 * `bool pozicija(int[][5], int &);` pronaći prvi redak koji sadrži vrijednost -7; u slučaju da u matrici nema vrijednosti -7 funkcija treba vratiti vrijednost false, a program treba ispisati odgovarajuću poruku;
@@ -18,7 +18,7 @@ Napišite program koji će omogućiti kreiranje matrice negativnih brojeva 5 x 5
 Ispis prvog retka koji sadrži vrijednost -7, prosječne vrijednosti u tom retku kao i zahtijevanih poruka vršite u funkciji main.
 
 # Zadatal 03
-___
+
 Napišite program koji omogućava da se ispišu svi brojevi koji zadovoljavaju uvjet da im je zapis jednak zapisu posljednjih znamenki njihovog kvadrata. (Npr. ![6^2=36, 25^2=625](https://latex.codecogs.com/gif.latex?6%20%5E%202%20%3D%2036%2C%2025%20%5E%202%20%3D%20625) … ) 
 Provjeru vršiti za prvih 150 prirodnih brojeva.
 ```cpp
@@ -27,7 +27,7 @@ bool provjera (int);
 ```
 
 # Zadatak 04
-___
+
 Napišite program u kojem ćete :
 * omogućiti unos niza od 6 realnih brojeva u intervalu od -7.0 do +7.0 pomoću funkcije: `void unos (float [], int);`
 * definirati i upotrijebiti funkciju `int najvecineg(float [], int);` koja će pronaći i vratiti poziciju najvećeg negativnog elementa u nizu; (Moguće je da u nizu uopće ne bude negativnih brojeva – ispisati odgovarajuću poruku.)
