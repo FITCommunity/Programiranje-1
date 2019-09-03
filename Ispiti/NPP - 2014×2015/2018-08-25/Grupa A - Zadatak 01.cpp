@@ -2,38 +2,31 @@
 #include <cmath>
  
 using namespace std;
+
+int Potencija(int broj)
+{
+  int granica = 10;
+  for(int k = 2; k <= granica; k++)
+    for(int l = 2; l <= granica; l++)
+    {
+      int m = pow(l, k);
+      if(m >= broj)
+        return m;
+    }
+}
  
 int main()
 {
-    int n = 0, m, l, k;
-    int granica = 10;
-    bool potencija = false;
-   
-    while(n < 1)
+    int n;
+       
+    do
     {
         cout << "Unesite broj: " << endl;
         cin >> n;
        
-    }
+    }while(n < 1);
    
-    for(k = 2; k <= granica; k++)
-    {
-        for(l = 2; l <= granica; l++)
-        {
-            m = pow(l, k);
-           
-            if(m >= n)
-            {
-                cout << m << endl;
-                potencija = true;
-                break;
-            }
-           
-        }
-       
-        if(potencija) break;
-            
-    }
+    cout << Potencija(n);
    
     system("pause>0");
     return 0;

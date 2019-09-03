@@ -13,7 +13,7 @@ int main()
     while (cout << "Izaberte funkciju s - sin, c - cos: ", cin >> izbor, izbor != 's' && izbor != 'c')
         cout << "Odabrali ste nepostojucu funkciju" << endl;
 
-    float rezultat = 0;
+    float rezultat = 1;
     if (izbor == 's')
         for (int i = 1; i <= x; i++) rezultat += i / (sin(x / i) + x);
     else
