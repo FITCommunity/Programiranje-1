@@ -72,7 +72,7 @@ kosarkas *najuspjesnijiIgrac(kosarkas **m, int k, int klub)
 {
 	int maxI = 0;
 	for (int i = 1; i < k; i++)
-		if (*m[maxI][klub].postignutiKosevi < *m[i][maxI].postignutiKosevi)
+		if (*m[maxI][klub].postignutiKosevi < *m[i][klub].postignutiKosevi)
 			maxI = i;
 	return &m[maxI][klub];
 }
