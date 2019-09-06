@@ -68,13 +68,13 @@ void Ispis(const kosarkas &k)
 		<< "Postignuti kosevi: " << *k.postignutiKosevi << endl;
 }
 
-kosarkas *najuspjesnijiIgrac(kosarkas **m, int r, int klub)
+kosarkas *najuspjesnijiIgrac(kosarkas **m, int k, int klub)
 {
 	int maxI = 0;
-	for (int i = 1; i < r; i++)
-		if (*m[klub][maxI].postignutiKosevi < *m[klub][i].postignutiKosevi)
+	for (int i = 1; i < k; i++)
+		if (*m[maxI][klub].postignutiKosevi < *m[i][maxI].postignutiKosevi)
 			maxI = i;
-	return &m[klub][maxI];
+	return &m[maxI][klub];
 }
 
 kosarkas *najgoriKosarkas(kosarkas **m, int r, int k)
@@ -94,7 +94,7 @@ kosarkas *najgoriKosarkas(kosarkas **m, int r, int k)
 int *Razlika(kosarkas **m, int r, int k)
 {
 	int klub = najuspjesnijiKlub(m, r, k);
-	kosarkas *najuspjesniji = najuspjesnijiIgrac(m, r, klub);
+	kosarkas *najuspjesniji = najuspjesnijiIgrac(m, k, klub);
 	cout << "Najuspjesnihi klub: " << klub << ", a najuspjeniji igrac u tom klubu: " << endl;
 	Ispis(*najuspjesniji);
 	cout << endl;
