@@ -664,6 +664,11 @@ Radi jednostavnosti rješenja, pretpostavite da je riječ bilo koji niz znakova 
     <td>2017-08-26</td>
     <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-08-26/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-09-26</td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-09-26/Zadatak%2003.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -1112,6 +1117,11 @@ Napisati program koji omogućava unos pozitivnog broja n te pronalazi njegove pa
     <td>2017-11-18</td>
     <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2017-11-18/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-09-06/Zadatak%2002.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -1268,6 +1278,11 @@ Primjer centralno simetrične matrice:
     <td>2014×2015</td>
     <td>2018-01-27</td>
     <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-01-27/Grupa%20A%20-%20Zadatak%2004.cpp">Link</a></td>
+  </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-09-06/Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -1462,7 +1477,7 @@ Napisati program koji učitava prirodan broj n. Program treba ispisati najmanji 
   <tr>
     <td>2014×2015</td>
     <td>2019-06-29</td>
-    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/Zadatak%2001.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014×2015/2019-06-29/Zadatak%2001.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2188,6 +2203,11 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
     <td>2019-01-26</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2003.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-09-06/Zadatak%2003.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -2453,7 +2473,12 @@ Napomena: Pazljivo pročitajte zadatak. Obavezno voditi računa da se uradi tač
   <tr>
     <td>2014×2015</td>
     <td>2019-06-29</td>
-    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-06-29Zadatak%2002.cpp">Link</a></td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-06-29/Zadatak%2002.cpp">Link</a></td>
+  </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-09-06/Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2480,6 +2505,89 @@ Neka je data matrica dimenzija 7x24 u kojoj svaki red predstavlja dan u sedmici,
     <td>2014×2015</td>
     <td>2019-06-29</td>
     <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-06-29Zadatak%2004.cpp">Link</a></td>
+  </tr>
+</table>
+</details>
+
+___
+
+Poštujući sve faze programiranja napisati program koji omogućava unos prirodnog broja n preko tastature te izračunava sumu:  
+![1/3^2 + 1/5^2 + ... + 1/(2n+1)^2](https://latex.codecogs.com/png.latex?\frac{1}{3^2}&space;&plus;&space;\frac{1}{5^2}&space;&plus;&space;...&space;&plus;&space;\frac{1}{(2n&plus;1)^2})
+
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-09-06/Zadatak%2001.cpp">Link</a></td>
+  </tr>
+</table>
+</details>
+
+___
+
+Poštujući sve faze procesa programiranja, napišite program, koji za uneseni prirodni broj n i realni broj x izračunava: 
+![S = cos(x) + cos(x^2 + cos(x^3) + ... + cos(x^n))](https://latex.codecogs.com/gif.latex?S&space;=&space;\con(x)&space;&plus;&space;\cos(x^2)&space;&plus;&space;\cos(x^3)&space;&plus;&space;...&space;&plus;&space;\cos(x^n))
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2014×2015</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-09-06/Zadatak%2001.cpp">Link</a></td>
+  </tr>
+</table>
+</details>
+
+___
+
+# Zadatak 04
+
+Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa fudbaler (fudbaler je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
+
+```cpp
+struct fudbaler
+{
+	int *godRodjenja;
+	int *brojIgraca;
+	int *golovi;
+};
+```
+
+Redovi dvodimenzionalnog niza predstavljaju razlicite timove a kolone prestavljaju igrače u tim timovima. Omogućiti korisniku unos svih podataka za sve igrače, te napraviti (i testirati u main funkciji) funkciju koja će pronaći tim sa najvećim prosjekom. Zatim napraviti  (i testirati u main funkciji) funkciju koja će pronaći igrača sa najviše golova u timu sa najlošijim prosjekom golova.
+Radi lakšeg testiranja programa obavezno u funciji unosa podataka omogućiti da se podaci generišu tako što će se:
+* godRodjenja generisati: `1980 + rand() % ((2000 + 1) - 1980)` (uzmite ovaj dio code-a da dobijete slučajne brojeve u rangu 1980-2000)
+* brojIgraca generisati: `rand() % 30 + 1`
+* golovi generisati: `rand() % 5`
+
+U ovom zadatku je zabranjeno indexirati elemente niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivaca.
+
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-09-06/Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
