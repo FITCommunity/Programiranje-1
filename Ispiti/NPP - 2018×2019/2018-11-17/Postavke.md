@@ -1,14 +1,14 @@
-# Zadatak 01
+# [Zadatak 01](./Zadatak%2001.cpp)
 
 Poštujući sve faze procesa programiranja, napisati program koji korisniku omogućava unos cijelog broja N, te izračunava vrijednost sume faktorijela neparnih brojeva u intervalu [1, N]. Suma faktorijela prikazana je sljedećom formulom: S = 1! + 3! + 5! + ... + N!
 
-# Zadatak 02
+# [Zadatak 02](./Zadatak%2002.cpp)
 
 Napisati program koji omogućava korisniku unos prirodnog broja N (50 < N < 5000000). Zatim uneseni broj proslijediti funkciji kao parametar po referenci. U funkciji je od unesenog broja potrebno kreirati novi broj teko što će se poredak cifri unesenog broja obrnuti. Prilikom obrtanja potrebno je odbaciti neparne cifre.
 
 Npr. Za uneseni broj 1234567 obrnuti broj bez neparnih cifara je 642.
 
-# Zadatak 03
+# [Zadatak 03](./Zadatak%2003.cpp)
 
 Dat je 2D niz dimenzija 8 x 8. Omogućiti korisniku unos cjelobrojnih elemenata 2D niza tako da se u svaki neparni red unesu parni brojevi a svaki parni red neparni broj. Napraviti funkciju koja pronalazi kolonu sa najmanjim prosjekom elemenata. U istoj funkciji ispisati index pronađene kolone, a u main funkciji sve elemente te kolone.
 

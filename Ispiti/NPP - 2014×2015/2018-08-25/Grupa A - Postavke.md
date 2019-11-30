@@ -1,8 +1,8 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20A%20-%20Zadatak%2001.cpp)
 
 Napisati program koji učitava prirodan broj n. Program treba ispisati najmanji prirodan broj m, veći ili jednak n, koji je potencija nekog prirodnog broja, tj. ![m = k ^ l](https://latex.codecogs.com/gif.latex?m%20%3D%20k%20%5E%20l), gdje su k i l prirodni brojevi >= 2.
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20A%20-%20Zadatak%2002.cpp)
 
 Napisati program koji će omogućiti korisniku unos broja n (uz uslov 10 <= n <= 1000). Zatim simulirati unos n slučajnih vrijednosti. Simuliranje unosa ostvariti funkcijom rand() % 1000 + 1. Izračunati statističke podatke u kojem procentu se od n generisanih slučajnih vrijednosti pojavljuje prost broj.
 
@@ -10,12 +10,12 @@ Npr. Ako je generisano 10 brojeva (n = 10): 5,7,4,13,17,20,25,23,30,45, u ovom u
 
 Napomena: Po želji kreirati dodatne funkcije da se olakša rješavanje zadatka.
 
-# Zadatak 03
+# [Zadatak 03](./Grupa%20A%20-%20Zadatak%2003.cpp)
 
 Napisati program koji će omogućiti unos cijelih brojeva sa neparnih brojem cifara 
 (minimalno trocifrenih) u jednodimenzionalni niz od 20 elemenata i jedan karakter u main funkciji. Zatim napraviti funkciju koja će primati kao argumente taj niz i karakter. Funkcija treba da na osnovu karaktera izvrši sortiranje niza uzlazno ili silazno po srednjoj cifri i to ako je primljeni karakter "U" sortiranje treba biti uzlazno, a ako je primljen karakter "S" onda sortiranje treba biti silazno. Ukoliko karakter nije jedan od navedenih, treba se ispisati poruka "Sortiranje nedefinisano". Obavezno voditi računa o optimizaciji code-a koja posebno utiče na broj bodova u ovom zadatku.
 
-# Zadatak 04
+# [Zadatak 04](./Grupa%20A%20-%20Zadatak%2004.cpp)
 
 Dat je 2D niz koji simulira šahovsku tablu. Omogućiti korisniku unos cjelobrojnih elemenata 2D niza tako da se u svako "crno" polje unese parni broj sa neparnim brojem cifara, a u "bijelo" polje neparni broj sa parnim brojem cifara. Provjeriti da li je matrica simetrična po glavnoj dijagonali (dakle da li je broj na poziciji 1.0 jednak broju na poziciji 0.1, na 0.2 jednak onome na 2.0, na 3.1 jednak onome na 1.3 itd.) te ako jeste simetrična na taj način izvršiti transpoziciju matrice tako što će se zamjeniti redovi i kolone (ne samo ispisati nego potpuno zamjeniti elemente). Ako nije u potpunosti simetricna ispisati koliko ima simetricnih elemenata).
     

@@ -1,4 +1,4 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
 Poštujući sve faze procesa programiranja napraviti program koji pronalazi i ispisuje 
 sve složene brojeve brojeve iz intervala m-n (10 < m < 100, 500 < n < 2000, m < n; 
@@ -10,7 +10,7 @@ U glavnom programu je potrebno ispisati aritmetičku sredinu.
   
 Složeni broj je svaki broj koji nije prosti, odnosno koji ima bar jednog djelioca osim broja 1 i samog sebe.
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20B%20-%20Zadatak%2002.cpp)
 
 Napisati program koji će uzastopno učitatvati cijele brojeve m i n 
 (1 <= m <= 50, 1 <= n <= 500) i pronalaziti srednju cifru njihovog proizvoda/umnoška
@@ -30,7 +30,7 @@ unesi m i n: 150, 0
 forsirani prekid...
 ```
 
-# Zadatak 03
+# [Zadatak 03](./Grupa%20B%20-%20Zadatak%2003.cpp)
 
 Napisati funkciju koja kao parametare prima dva niza char recenica[200] i char rijec[10] odnosno rečenicu (niz od najviše 200 karaktera) i riječ (niz od najviše 10 karaktera) te u nizu recenica[200] pretrazuje i pronalazi sekvencu karaktera unesenih u niz rijec[10]. Radi jednostavnosti rjesenja podrazumjeva se da i recenica i rijec koja se pretrazuje zavrsavaju tackom. Poslije pronalaska tražene riječi, pomenutu riječ treba zamijeniti karakterima "FIT".
 
@@ -40,7 +40,7 @@ Npr. ako je data rečenica u nizu recenica[200]: "Ja studiram na fakultetu jer z
    
 Obavezno u main funkciji omogučiti unos recenice, zatim tražene riječi i ispisati novu rečenicu poslije zamjene.
 
-# Zadatak 04
+# [Zadatak 04](./Grupa%20B%20-%20Zadatak%2004.cpp)
 
 Neka je dat 2D niz tipa int dimenzija 5 x 5. Kreirati, a potom u glavnom programu 
 testirati, sljedeće funkcije:

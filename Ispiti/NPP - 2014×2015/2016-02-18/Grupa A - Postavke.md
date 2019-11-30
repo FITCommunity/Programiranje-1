@@ -1,4 +1,4 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20A%20-%20Zadatak%2001.cpp)
 
 Napišite program, poštujuæi sve faze procesa programiranja, u kojem æete za uneseni prirodni broj n izrčunati sumu: S = 1! + 2! + … +n! 
 Upotrijebite funkciju:
@@ -7,7 +7,7 @@ float suma (int);
 int faktorijel(int);
 ```
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20A%20-%20Zadatak%2002.cpp)
 
 Napišite program koji će omogućiti kreiranje matrice prirodnih brojeva 5x5. Uz pomoć funkcije:
 * `void unos (int [][5]);` omogućite unos elemenata matrice; vodite računa da svi elementi matrice moraju biti prirodni brojevi;
@@ -17,7 +17,7 @@ Napišite program koji će omogućiti kreiranje matrice prirodnih brojeva 5x5. U
 Ispis prvog retka koji sadrži vrijednost 5, prosječne vrijednosti u tom retku kao i zahtijevanih poruka vršite u funkciji main.
 
 
-# Zadatal 03
+# [Zadatak 03](./Grupa%20A%20-%20Zadatak%2003.cpp)
 
 Napišite program u kojem ćete omogućiti unos dva prirodna broja. Provjerite čine li uneseni brojevi prijateljski par. Prirodni brojevi a i b čine prijateljski par brojeva ako je zbir pravih djelitelja broja a (onih koji su manji od a) jednak broju b i istovremeno zbir pravih djelitelja broja b jednak je broju a.
 Npr. Brojevi 220 i 284 su prijateljski brojevi.
@@ -29,7 +29,7 @@ int suma_pravih_djelitelja (int);
 bool provjera (int, int);
 ```
 
-# Zadatak 04
+# [Zadatak 04](./Grupa%20A%20-%20Zadatak%2004.cpp)
 
 Napišite program u kojem ćete :
 * omoguæiti unos niza od 5  isključivo malih slova pomoæu funkcije: `void unos (char [], int);`

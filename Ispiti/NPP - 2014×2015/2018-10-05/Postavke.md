@@ -1,4 +1,4 @@
-# Zadatak 01
+# [Zadatak 01](./Zadatak%2001.cpp)
 
 Napisati program kojim će se izračunati 20 uzastopnih vrijednosti brzine i pređenog puta objekta u slobodnom padu u razmaku od po 3 sec. Prilikom računanja potrebno je i ispisati na ekran uzastopno brzinu i pređeni put zajedno za svaki period od 3sec. Obratiti pažnju da se koriste ispravni tipovi podataka.
 Formula za brzinu slobodnog pada je:
@@ -22,11 +22,11 @@ Brzina: 117.72
 Predjeni put: 706.32
 ```
 
-# Zadatak 02
+# [Zadatak 02](./Zadatak%2002.cpp)
 
 Svaki paran broj se može prikazati kao suma dva prosta broja (tkz. Goldbachovo pravilo). Napisati program koji će najprije učitati dva prirodna broja n1 i n2 (n2 > n1). Zatim prikazati sve parne brojeve u intervalu od n1 do n2 kao sumu dva prosta broja. U glavnom programu samo unijeti navedena dva prirodna broja i pozvati funkciju koja obavlja zadani posao.
 
-# Zadatak 03
+# [Zadatak 03](./Zadatak%2003.cpp)
 
 Napisati funkciju koja kao parametare prima dva niza char recenica[200] i char rijec[10] odnosno rečenicu (niz od najviše 200 karaktera) i riječ (niz od najviše 10 karaktera) te u nizu recenica[200] pretražuje i pronalazi sekvencu karaktera unesenih u niz rijec[10]. Radi jednostavnosti rješenja podrazumjeva se da i rečenica i riječ koja se pretražuje završavaju tačkom. Poslije pronalaska tražene riječi, pomenutu riječ treba zamijeniti karakterima "FIT".
 

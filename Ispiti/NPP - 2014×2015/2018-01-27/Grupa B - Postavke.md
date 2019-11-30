@@ -1,4 +1,4 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
 Napisati program koji će za uneseni prirodni broj n računati:
 
@@ -7,15 +7,15 @@ Napisati program koji će za uneseni prirodni broj n računati:
   
 Obavezno koristiti i ispravne tipove podataka i optimizirati kod.
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20B%20-%20Zadatak%2002.cpp)
 
 Napisati program koji će omogućiti korisniku unos dva minimalno trocifrena prirodna broja m i n (n > m, m > 100, n < 500). Zatim napraviti funkciju koja će vratiti aritmetičku sredinu svih srednjih cifara svih brojeva u rangu od m do n. Također ta funkcija treba ispisati najveću srednju cifru navedenog ranga.
 
-# Zadatak 03
+# [Zadatak 03](./Grupa%20B%20-%20Zadatak%2003.cpp)
 
 U main funkciji kreirati niz veličine 200 (char recenica[200]) sa sljedećim inicijaliziranim vrijednostima "Most u Mostaru je Stari most a pored njega je jos jedan most". Također, dat je niz karaktera veličine 4 (char rijec[4]) koji je inicijaliziran vrijednostima "most". (Nije potrebno praviti funkciju za unos. koja će primiti pomenute nizove kao argumente te pronaći i prebrojati koliko puta se ponavlja sekvenca karaktera iz niza rijec u nizu recenica. Voditi računa da se riječju smatra bilo koji niz karaktera odvojen spaceom sa obje strane. Program u main treba ispisati broj pronađenih riječi.
 
-# Zadatak 04
+# [Zadatak 04](./Grupa%20B%20-%20Zadatak%2004.cpp)
 
 Napisati program koji će omogučiti:
 * Unos 2D niza od 10x10 elemanata vodeći računa da su svi elementi dvocifreni (ukoliko unos nekog elementa ne zadovoljava uslov, ponavljati unos tog elementa dok se ne zadovolji uslov); Koristiti funkciju unos 

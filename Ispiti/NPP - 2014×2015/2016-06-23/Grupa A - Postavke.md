@@ -1,4 +1,4 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20A%20-%20Zadatak%2001.cpp)
 
 Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, ….. )  izračunati umnožak:
 ![S = (1 kroz korijen iz 2 puta 1 kroz korijen iz 2 plus korijen iz dva ..... )](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20&plus;%20%5Csqrt%7B2%7D%20*%20...%7D%7D%7D%7D)
@@ -9,7 +9,7 @@ Upotrijebite funkciju:
 double umnozak (int);
 ```
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20A%20-%20Zadatak%2002.cpp)
 
 Napišite program koji će omogućiti kreiranje matrice prirodnih brojeva 2x3. Pretpostavka je da postoji funkcija koja omogućava unos prirodnih brojeva (ne treba ju definirati); Kreirajte funkcije:
 * `void kopiraj(int[][3], int [][5]);` zadaća funkcije da kopira sve elemente iz jedne matrice (2x3) u drugu matricu (2x5) pri čemu se prve dvije kolone prve matrice kopiraju dva puta;
@@ -17,7 +17,7 @@ Napišite program koji će omogućiti kreiranje matrice prirodnih brojeva 2x3. P
  
 Ispis sume i izbor matrice i retka vršite u funkciji main.
 
-# Zadatal 03
+# [Zadatak 03](./Grupa%20A%20-%20Zadatak%2003.cpp)
 
 Napišite programu kojem ćete omogućiti provjeru i ispisati sve parove prijateljskih brojeva u intervalu od 1 do 1000. Prirodni brojevi a i b čine prijateljski par brojeva ako je zbir pravih djelitelja broja a (onih koji su manji od a) jednak broju b i istovremeno zbir pravih djelitelja broja b jednak je broju a.
 Npr. Brojevi 220 i 284 su prijateljski brojevi.
@@ -30,7 +30,7 @@ int suma_pravih_djelitelja (int);
 bool provjera (int, int);
 ```
 
-# Zadatak 04
+# [Zadatak 04](./Grupa%20A%20-%20Zadatak%2004.cpp)
 
 Napišite program u kojem ćete omogućiti kreiranje niza od 6 cjelobrojnih elemenata. 
 Pretpostavka je da postoji funkcija koja omogućava unos brojeva u niz (ne treba ju definirati);

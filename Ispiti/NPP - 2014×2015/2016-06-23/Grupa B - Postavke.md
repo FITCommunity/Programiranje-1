@@ -1,4 +1,4 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
 Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, … ) izračunati umnožak:
 ![S = (1 kroz korijen iz jedna trećina puta jedan kroz kroijen iz jedna trećina plus korijen iz jedna trećina...)](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20&plus;%20%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%7D%20*%20...%7D%7D%7D%7D)
@@ -8,7 +8,7 @@ Upotrijebite funkciju:
 double umnozak (int);
 ```
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20B%20-%20Zadatak%2002.cpp)
 
 Napišite program koji će omogućiti kreiranje matrice prirodnih brojeva 2x3. Pretpostavka je da postoji funkcija koja omogućava unos prirodnih brojeva (ne treba ju definirati);
 Kreirajte funkcije:
@@ -17,7 +17,7 @@ Kreirajte funkcije:
 
 Izbor redaka vršite u funkciji main.
 
-# Zadatal 03
+# [Zadatal 03](./Grupa%20B%20-%20Zadatak%2003.cpp)
 
 Napišite program koji omogućava da unese prirodni broj n i u slučaju da broj nije prost (broj koji je djeljiv samo sa 1 i sa samim sobom) potrebno ga je rastaviti na proste faktore. Svaki složeni broj se može rastaviti na proste faktore (brojeve) koji množenjem daju taj broj. Npr.
 ```
@@ -31,7 +31,7 @@ bool prost (int);
 void ispis (int);
 ```
 
-# Zadatak 04
+# [Zadatak 04](./Grupa%20B%20-%20Zadatak%2004.cpp)
 
 Napišite program u kojem ćete omogućiti kreiranje niza od 6 cjelobrojnih elemenata. 
 Pretpostavka je da postoji funkcija koja omogućava unos brojeva u niz (ne treba ju definirati);

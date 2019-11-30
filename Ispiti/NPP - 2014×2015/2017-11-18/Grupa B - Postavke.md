@@ -1,8 +1,8 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
 Napišite program, u kojem ćete omogućiti unos dva prirodna broja manja od 500 koji predstavljaju granice intervala, te pronaći i ispisati kojom znamenkom završava najveći prosti broj u zadanom intervalu ne uključujući granične vrijednosti.
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20B%20-%20Zadatak%2002.cpp)
 
 Napisati program koji omogućava unos realnog broja x, cijelog broja m (m > 0) i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom jednog od sljedećih karaktera: 's' (sabiranje), 'o' (oduzimanje), 'm' (množenje), 'd' (dijeljenje). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir.
   
@@ -14,6 +14,6 @@ itd.
   
 Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristiti switch iskaz.
 
-# Zadatak 03
+# [Zadatak 03](./Grupa%20B%20-%20Zadatak%2003.cpp)
 
 Napisati program koji omogućava unos pozitivnog broja n te pronalazi njegove neparne cifre i formira novi broj u kojem su neparne cifre zamijenjene cifrom '2'. Dodatno program treba ispisati razliku unesenog i broja koji se dobije nakon zamjene cifara.

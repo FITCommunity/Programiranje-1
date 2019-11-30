@@ -1,20 +1,20 @@
-# Zadatak 01
+# [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
 Napisati program koji korisniku omogućava unos realnog broja x i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom jednog od sljedećih karaktera: 's' (sin), 'c' (cos). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir. Za određenu funkciju sin() izraz je:
 
 ![f(x) = 1 + [1/(sin(x) + x)] + [2/(sin(x/2) + x)] + ... + [x/(sin(x/x) + x)]](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%201%20&plus;%20%5Cfrac%7B1%7D%7B%5Csin%28x%29%20&plus;%20x%7D%20&plus;%20%5Cfrac%7B2%7D%7B%5Csin%28%5Cfrac%7Bx%7D%7B2%7D%29%20&plus;%20x%7D%20&plus;%20...%20&plus;%20%5Cfrac%7Bn%7D%7B%5Csin%28%5Cfrac%7Bx%7D%7Bx%7D%29%20&plus;%20x%7D)
 
-# Zadatak 02
+# [Zadatak 02](./Grupa%20B%20-%20Zadatak%2002.cpp)
 
 Napisati program koji omogućava korisniku unos integer vrijednosti veće od 100.
 Napisati funckiju koja će provjeriti da li je uneseni broj u isto vrijeme i prost i "palindrom", odnosno da li je isti broj i kada se obrnnu sve cifre. Po potrebi koristiti dodatne funkcije.
 Npr. brojevi 383, 727, 757, 787, 797, 919, 929 su u isto vrijeme i prosti brojevi i "palindromi".
 
-# Zadatak 03
+# [Zadatak 03](./Grupa%20B%20-%20Zadatak%2003.cpp)
 
 Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzionalnog dinamičkog niza integer vrijednosti. Napisati funkciju koja će taj niz popuniti serijom Fibonacci brojeva počevši od broja 1. Za pronalazenje elemenata Fibonacci serije obavezno koristiti rekurzivnu funkciju. Punjenje niza se prekida kada se popuni cijeli niz ili kada se desi overflow na integer varijabli. U ovom zadatku je zabranjeno indeksirati niz uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.
 
-# Zadatak 04
+# [Zadatak 04](./Grupa%20B%20-%20Zadatak%2004.cpp)
 
 Kreirati dvodimenzionalni dinamički niz čiji su elementi objekti tipa figura (figura je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza, te omogućiti unos elemenata.
 ```cpp

@@ -1,5 +1,5 @@
-# Zadatak 01
-___
+# [Zadatak 01](./Zadatak%2001.cpp)
+ 
 
 Poštujući sve faze procesa programiranje, napisati program će odrediti i ispisati 
 zadnje tri cifre broja ![x^n](https://latex.codecogs.com/gif.latex?x%5En).Unos brojeva x i n vršiti u glavnoj funkciji uz uslov 10 < x < 100 i 2 < n < 10, a funkciju za određivanje zadnje tri cifre napraviti zasebno.
@@ -10,12 +10,12 @@ Unesite brojeve x i n: 64 5
 Zadnje tri cifre broja su: 824
 ```
 
-# Zadatak 02
-___
+# [Zadatak 02](./Zadatak%2002.cpp)
+ 
 Napisati program koji će učitati prirodni broj n <= 10, a zatim n prirodnih trocifrenih brojeva koje treba pospremiti u odgovarajući niz.Taj niz brojeva treba sortirati uzlazno po srednjoj cifri. Nakon sortiranja treba ispisati dobiveni niz. Za sortiranje koristiti zasebnu funkciju kojoj se proslijeđuje nesortiran niz.
 
-# Zadatak 03
-___
+# [Zadatak 03](./Zadatak%2003.cpp)
+ 
 Napisati program koji će omogučiti:
 * Unos 2D niza od 10 x 10 elemanata vodeći računa da su svi elementi dvocifreni (ukoliko unos nekog elementa ne zadovoljava uslov, ponavljati unos tog elementa dok se ne zadovolji uslov); Koristiti funkciju unos 
 * Izvršiti transpoziciju niza tako što će se zamjeniti redovi i kolone - Koristiti funkciju transpose, a zatim na osnovu izmijenjenog 2D niza:
@@ -32,8 +32,8 @@ Obavezno koristiti navedene funkcije, a parametre i eventualne povratne vrijedno
   ```
 Pomoć: Broj je simpatičan ukoliko je zbir cifara njegovog kvadrata jednak kvadratu zbira njegovih cifara. Broj 21 je simpatičan jer je s(441) = s(21) * s(21)  pri čemu je s(n) zbir cifara prirodnog broja n.
 
-# Zadatak 04
-___
+# [Zadatak 04](./Zadatak%2004.cpp)
+ 
 Napisati program koji od korisnika zahtijeva unos niza od najviše 20 realnih brojeva u rasponu od -100 do 100. U slučaju da korisnik unese bilo koji broj izvan datog raspona korisnik ponavlja unos tog elementa niza. Također, unos je moguće prekinuti prije nego što se dostigne kapacitet niza unosom broja 0 koji ne treba da bude element niza i služi samo za prekid. Nakon toga, program računa aritmetičku sredinu unesenih brojeva, te iz niza izbacuje sve one elemente čija je udaljenost od aritmetičke sredine veća od 10, na način da se sačuva redoslijed dodavanja elemenata. Implementaciju uraditi upotrebom sljedećih funkcija:
 * `void unos (double[], int, int&);` gdje je treći parametar stvarna veličina niza nakon unosa;
 * `double aritmeticka_sredina(double[], int);`
@@ -46,8 +46,8 @@ Aritmeticka sredina elemenata niza iznosi: 13.75
 Sadrzaj niza nakon uklanjanja: 15.89 16.78 11.00
 ```
 
-# Zadatak 05
-___
+# [Zadatak 05](./Zadatak%2005.cpp)
+ 
 Neka je data matrica kompetencija studenata dimenzija 10 x 5, gdje svaki red matrice predstavlja studenta, a svaka kolona matrice kompetenciju koju je potrebno evaluirati. Matrica sadrži podatke o studentima sa dva studijska programa, prvih 5 redova za jedan i drugih 5 redova za drugi program. Kompetencije se definišu putem sljedeće skale: 
 * A (ekspert), 
 * B (stručnjak), 
@@ -67,12 +67,12 @@ U glavnom programu testirati implementirane funkcije na način da se uz uspjeh k
 
 Npr. Najuspješniji student je S2 sa prosječnom ocjenom "stručnjak".
 
-# Zadatak 06
-___
+# [Zadatak 06](./Zadatak%2006.cpp)
+ 
 Napisati program koji će korisniku omogućiti unos pozitivnih neparnih cijelih brojeva za koje će se ispitivati da li im je prva cifra parna (npr. 4993 ili 4999). Ukoliko je zadovoljen uslov broj se smješta u niz od 10 elemenata. Unos se ponavlja dok se ne popuni niz od 10 elemenata koji zadovoljavaju uslov unosa. Unos se prekida ukoliko korisnik unese vrijednost 0 te se i izvršenje program završava uz poruku "Forsirani prekid". Zatim se za sve elementi niza ispituje da li je broj prost i da li ima samo jednu parnu cifru. Ako broj nije prost iako ima više od jedne parne cifre, broj se izbacuje iz niza tako što se njegova vrijednost mijenja sa 0. Na kraju niz sortirati od najvećeg ka najmanjem broju te ga ispisati. Koristiti odvojene funkcije za provjeru da li je broj prost, za sortiranje i ispis niza. 
 
-# Zadatak 07
-___
+# [Zadatak 07](./Zadatak%2007.cpp)
+ 
 Deklarisati kvadratnu matricu cijelih brojeva proizvoljnih dimenzija, te implementirati sljede�e funkcije:
 * Funkciju za unos i formiranje elemenata matrice prema sljedećem obrascu: elemente neparnih redova matrice (1., 3., 5. itd.) ćine minimalno trocifreni brojevi koje unosi korisnik programa (u slučaju unosa bilo kojeg broja koji ne zadovoljava postavljeni uslov, ponoviti unos); elementi parnih redova matrice se formiraju na osnovu elemenata iz prethodnog reda u istoj koloni matrice i to na način da je svaki novokreirani element matrice zapravo element s obrnutim redoslijedom cifri elementa iznad njega. 
 * Za određivanje broja s obrnutim redoslijedom cifri kreirati zasebnu funkciju obratno, te je pozvati u funkciji unos. 
@@ -91,8 +91,8 @@ Primjer matrice dimenzija 4 x 4 i očekivanih rezultata:
   Elementi iznad obje dijagonale su: 123, 30452
   Funkcija max će ispisati sljedeće brojeve: 30452, 25403, 741232, 232147 jer su to najveći brojevi po redovima.
 
-# Zadatak 08
-___
+# [Zadatak 08](./Zadatak%2008.cpp)
+ 
 Napisati funkciju koja niz od 10 cijelih brojeva sortira u opadajućem ili rastućem poretku. Unos elemenata niza se obavlja u glavnom programu, kao i odabir opcije koja određuje da li rezultirajući niz treba biti opadajući ili rastući. Obavezno testirati implementiranu funkciju vodeći se datim primjerom ispisa. 
   
 (Pojašnjenje: Nema posebnog pojašnjenja jer se radi o najjednostavijem sortiranju uzlazno ili silazno u odnosu na korisnicki izbor.)
@@ -107,8 +107,8 @@ Kako zelite sortirati niz (unesite 1 ili 2):
 Rezultirajuci niz: 98 45 12 6 3 3 2 0 -9 -10
 ```
 
-# Zadatak 09
-___
+# [Zadatak 09](./Zadatak%2009.cpp)
+ 
 Uz pomoć matrice realnih brojeva dimenzija 5x7 izraditi program za evidenciju i kalkulaciju uspješnosti vremenskih prognoza (prosječnih dnevnih temperatura) određenog grada. Redovi matrice predstavljaju meteorologe ćije se prognoze unose, dok se kolone odnose na vremenski period od 7 dana. Uz matricu je neophodno krerati globalni jednodimenzionalni niz od 7 elemenata koji će čuvati stvarna mjerenja temperatura za isti vremenski period, a na osnovu kojeg će se procijeniti uspješnost prognoza pojedinih meteorologa. Vrijednosti elemenata ovog niza prilikom deklaracije postaviti na: 25.5, 26.8, 21, 32, 35.6, 36, 33.5.
   
 Implementaciju programa uraditi pomoću sljedećih funkcija:
@@ -119,8 +119,8 @@ Implementaciju programa uraditi pomoću sljedećih funkcija:
    
 Napisati i kratak testni program za provjeru ispravnosti implementiranih funkcija.
 
-# Zadatak 10
-___
+# [Zadatak 10](./Zadatak%2010.cpp)
+ 
 Napisati funkciju koja kao parametare prima dva niza char recenica[200] i char rijec[10] odnosno rečenicu (niz od najviše 200 karaktera) i riječ (niz od najviše 10 karaktera) te u nizu recenica[200] pretrazuje i pronalazi sekvencu karaktera unesenih u niz rijec[10]. Radi jednostavnosti rješenja podrazumjeva se da i rečenica i riječ koja se pretrazuje završavaju tačkom. Poslije pronalaska tražene riječi, pomenutu riječ treba zamijeniti karakterima "FIT".
 
 (Pomoć: Treba voditi racuna koliko karaktera ima riječ koja je pronadjena i zamjenjena)
@@ -129,8 +129,8 @@ Npr. ako je data rečenica u nizu recenica[200]: "Ja studiram na fakultetu jer z
    
 Obavezno u main funkciji omogućiti unos rečenice, zatim tražene riječi i ispisati novu rečenicu poslije zamjene.
 
-# Zadatak 11
-___
+# [Zadatak 11](./Zadatak%2011.cpp)
+ 
 Neka je dat 2D niz tipa int dimenzija 5x5. Kreirati, a potom u glavnom programu 
 testirati, sljedeće funkcije:
 * Funkciju koja vrši generisanje Fibonaccijevih brojeva u 2D nizu dok se niz ne popuni
@@ -153,8 +153,8 @@ Najveći zajednički djelitelj za brojeve 610 i 34 je 2.
 Najveći zajednički djelitelj za brojeve 8 i 2584 je 8. 
 ```
 
-# Zadatak 12
-___
+# [Zadatak 12](./Zadatak%2012.cpp)
+ 
 Neka je dat 2D niz tipa int dimenzija 10x10. Kreirati, a potom u glavnom programu testirati, sljedeće funkcije:
 * Funkciju koja za vrsi generisanje podataka u 2D nizu na nacin da se u elementu sa indexom [0][0] upise vrijednost 1 a svaki slijedeci element da ima vrijednost prethodnog elementa pomnozenog sa 2 kao na slici. Generisanje se prekida ako se desi overflow na varijabli int.
 * Funkciju koja popunjenu matricu iz pod-zadatka a) transponuje tako sto joj zamjeni redove i kolone.
@@ -184,8 +184,8 @@ Neka je dat 2D niz tipa int dimenzija 10x10. Kreirati, a potom u glavnom program
      |      |      |      |      |      |      |      |      |      |      |
      +------+------+------+------+------+------+------+------+------+------+
 ```
-# Zadatak 13
-___
+# [Zadatak 13](./Zadatak%2013.cpp)
+ 
 Napisati program koji će učitati cijeli broj n (1 <= n <= 10), (ukoliko unesena vrijednost nije unutar intervala, učitavanje treba ponavljati sve dok se ne unese ispravna vrijednost) i elemente matrice dimenzije n x n te ispisati da li je matrica centralno simetrična s obrzirom na središnji element. Ako jeste, program treba ispisati 1, ako nije ispisati 0,a ako je broj redova paran (pa nema središnjeg elementa) ispisati -1. Koristite posebne funkcije za unos elemenata i provjeru simetričnosti.
   
 Primjer centralno simetrične matrice:
