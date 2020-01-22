@@ -26,7 +26,7 @@ int main()
     }while(n <= 10 || n > 100);
     
     for(int i = 1; i <= n; i++)
-        suma = suma + pow(-1, i - 1) * i / (n + faktorijal(i));
+        suma = suma + pow(-1, i - 1) * 1 / (n + faktorijal(i));
         
     cout << suma << endl;
     
