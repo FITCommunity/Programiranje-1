@@ -1,6 +1,6 @@
 # [Zadatak 01](./Zadatak%2001.cpp)
 
-Poštujući sve faze procesa programiranja, napišite program, koji za uneseni prirodni broj n i realni broj x izračunava: 
+Poštujući sve faze procesa programiranja, napišite program, koji za uneseni prirodni broj n i realni broj x izračunava:  
 ![S = cos(x) + cos(x^2 + cos(x^3) + ... + cos(x^n))](https://latex.codecogs.com/gif.latex?S&space;=&space;\con(x)&space;&plus;&space;\cos(x^2)&space;&plus;&space;\cos(x^3)&space;&plus;&space;...&space;&plus;&space;\cos(x^n))
 
 

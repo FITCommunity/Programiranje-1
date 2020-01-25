@@ -1,7 +1,7 @@
 # [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
-Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, … ) izračunati umnožak:
-![S = (1 kroz korijen iz jedna trećina puta jedan kroz kroijen iz jedna trećina plus korijen iz jedna trećina...)](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20&plus;%20%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%7D%20*%20...%7D%7D%7D%7D)
+Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, … ) izračunati umnožak:  
+![S = (1 kroz korijen iz jedna trećina puta jedan kroz kroijen iz jedna trećina plus korijen iz jedna trećina...)](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20&plus;%20%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%7D%20*%20...%7D%7D%7D%7D)  
 Kod posljednjeg faktora kvadratni korijen je primijenjen n puta.
 Upotrijebite funkciju:
 ```cpp

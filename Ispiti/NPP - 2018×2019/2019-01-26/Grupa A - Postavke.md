@@ -1,4 +1,4 @@
-# [Zadatak 02](./Grupa%20A%20-%20Zadatak%2001.cpp)
+# [Zadatak 01](./Grupa%20A%20-%20Zadatak%2001.cpp)
 
 Napisati program u kojem je potrebno unijeti odabrani broj cifara počevši od cifre najveće težinske vrijednosti, pa od njih sastaviti i ispisati prirodni broj. Unos cifara se prekida kada se unese broj manji od 0 ili veći od 9. Ispis neka bude oblika:
 ```

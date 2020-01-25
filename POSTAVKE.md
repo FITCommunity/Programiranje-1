@@ -302,7 +302,8 @@ int bin(int broj)
 
 ___         
 
-Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n izračunati sumu: ![S=3!-6!+9! -....+(-1)n+1(3n)!](https://latex.codecogs.com/gif.latex?S%3D3%21-6%21&plus;9%21%20-....&plus;%28-1%29%20*%20n&plus;1*%283n%29%21)
+Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n izračunati sumu:  
+![S=3!-6!+9! -....+(-1)n+1(3n)!](https://latex.codecogs.com/gif.latex?S%3D3%21-6%21&plus;9%21%20-....&plus;%28-1%29%20*%20n&plus;1*%283n%29%21)
 
 Upotrijebite funkcije:
 ```cpp
@@ -403,8 +404,8 @@ Ispis pozicije najvećeg negativnog elementa, sume negativnih elemenata kao i od
 
 ___            
 
-Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, ….. )  izračunati umnožak:
-![S = (1 kroz korijen iz 2 puta 1 kroz korijen iz 2 plus korijen iz dva ..... )](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20&plus;%20%5Csqrt%7B2%7D%20*%20...%7D%7D%7D%7D)
+Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, ….. )  izračunati umnožak:  
+![S = (1 kroz korijen iz 2 puta 1 kroz korijen iz 2 plus korijen iz dva ..... )](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20&plus;%20%5Csqrt%7B2%7D%20*%20...%7D%7D%7D%7D)  
 Kod posljednjeg faktora kvadratni korijen je primijenjen n puta.
 
 Upotrijebite funkciju:
@@ -513,8 +514,8 @@ Ispis sume recipročnih vrijednosti i broja pozitivnih elemenata vršiti u funkc
             
 ___
 
-Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, … ) izračunati umnožak:
-![S = (1 kroz korijen iz jedna trećina puta jedan kroz kroijen iz jedna trećina plus korijen iz jedna trećina...)](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20&plus;%20%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%7D%20*%20...%7D%7D%7D%7D)
+Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n (prirodni brojevi: 1, 2, 3, … ) izračunati umnožak:  
+![S = (1 kroz korijen iz jedna trećina puta jedan kroz kroijen iz jedna trećina plus korijen iz jedna trećina...)](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20*%20%5Cfrac%7B1%7D%7B%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%20&plus;%20%5Csqrt%7B%5Cfrac%7B1%7D%7B3%7D%7D%20*%20...%7D%7D%7D%7D)  
 Kod posljednjeg faktora kvadratni korijen je primijenjen n puta.
 Upotrijebite funkciju:
 ```cpp
@@ -1077,7 +1078,7 @@ ___
 Napisati program koji omogućava unos realnog broja x, cijelog broja m (m > 0) i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom jednog od sljedećih karaktera: 's' (sabiranje), 'o' (oduzimanje), 'm' (množenje), 'd' (dijeljenje). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir.
   
 Za odabir funkcije s izraz je:
-![f(x, m) = (x - 1) * 1 + (x - 2) * 2 + ... + (x - m) * m](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%28x%20-%201%29%20*%201%20&plus;%20%28x%20-%202%29%20*%202%20&plus;%20...%20&plus;%20%28x%20-%20m%29%20*%20m)
+![f(x, m) = (x - 1) * 1 + (x - 2) * 2 + ... + (x - m) * m](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%28x%20-%201%29%20*%201%20&plus;%20%28x%20-%202%29%20*%202%20&plus;%20...%20&plus;%20%28x%20-%20m%29%20*%20m)  
 Za odabir funkcije o izraz je:
 ![f(x, m) = (x - 1) * 1 - (x - 2) * 2 - ... - (x - m) * m](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%28x%20-%201%29%20*%201%20-%20%28x%20-%202%29%20*%202%20-%20...%20-%20%28x%20-%20m%29%20*%20m)
 itd.
@@ -1149,9 +1150,9 @@ ___
 
 Napisati program koji omogućava unos realnog broja x, cijelog broja m (m > 0) i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom jednog od sljedećih karaktera: 's' (sabiranje), 'o' (oduzimanje), 'm' (množenje), 'd' (dijeljenje). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir.
   
-Za odabir funkcije s izraz je:
-![f(x, m) = [(1 + x)/1] + [(2 + x)/2] + ... + [(m + x)/m]](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%5Cfrac%7B1%20&plus;%20x%7D%7B1%7D%20&plus;%20%5Cfrac%7B2%20&plus;%20x%7D%7B2%7D%20&plus;%20...%20&plus;%20%5Cfrac%7Bm%20&plus;%20x%7D%7Bm%7D)
-Za odabir funkcije o izraz je:
+Za odabir funkcije s izraz je:  
+![f(x, m) = [(1 + x)/1] + [(2 + x)/2] + ... + [(m + x)/m]](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%5Cfrac%7B1%20&plus;%20x%7D%7B1%7D%20&plus;%20%5Cfrac%7B2%20&plus;%20x%7D%7B2%7D%20&plus;%20...%20&plus;%20%5Cfrac%7Bm%20&plus;%20x%7D%7Bm%7D)  
+Za odabir funkcije o izraz je:  
 ![f(x, m) = [(1 + x)/1] - [(2 + x)/2] - ... - [(m + x)/m]](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%5Cfrac%7B1%20&plus;%20x%7D%7B1%7D%20-%20%5Cfrac%7B2%20&plus;%20x%7D%7B2%7D%20-%20...%20-%20%5Cfrac%7Bm%20&plus;%20x%7D%7Bm%7D)
 itd.
   
@@ -1291,7 +1292,7 @@ ___
 
 Napisati program koji će za uneseni prirodni broj n računati:
 
-![S = [1/(n+1)] - [1/(n+2!)] + [1/(n+3!)] - [1/(n+4!)] + ... + (-1)^(n-1) * [1/(n+n!)]](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7Bn%20&plus;%201%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%202%21%7D%20&plus;%20%5Cfrac%7B1%7D%7Bn%20&plus;%203%21%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%204%21%7D%20&plus;%20...%20&plus;%20%28-1%29%5E%7Bn-1%7D%20*%20%5Cfrac%7B1%7D%7Bn%20&plus;%20n%21%7D)
+![S = [1/(n+1)] - [1/(n+2!)] + [1/(n+3!)] - [1/(n+4!)] + ... + (-1)^(n-1) * [1/(n+n!)]](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7Bn%20&plus;%201%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%202%21%7D%20&plus;%20%5Cfrac%7B1%7D%7Bn%20&plus;%203%21%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%204%21%7D%20&plus;%20...%20&plus;%20%28-1%29%5E%7Bn-1%7D%20*%20%5Cfrac%7B1%7D%7Bn%20&plus;%20n%21%7D)  
 10 < n <= 100
   
 Obavezno koristiti i ispravne tipove podataka i optimizirati kod.
@@ -1774,6 +1775,11 @@ Broj sastavljen od zadanih cifara je 28.
     <td>2019-01-26</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-01-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2001.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
          
@@ -1981,8 +1987,8 @@ ___
 
 Napisati program koji korisniku omogućava unos realnog broja x, cijelog broja m i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom sljedećih karaktera 's' (sin), 'c' (cos), 'q' (sqrt), 'p' (pow). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir. Funkciji pow postavite broj 2 za drugi parametar:
 
-Za odabranu funkciju sin izraz je:
-![](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%201%20&plus;%20%5Cfrac%7B1%7D%7B%5Csin%28x%29%20&plus;%20x%7D%20&plus;%20%5Cfrac%7B2%7D%7B%5Csin%28%5Cfrac%7Bx%7D%7B2%7D%29%20&plus;%20x%7D%20&plus;%20...%20&plus;%20%5Cfrac%7Bm%7D%7B%5Csin%28%5Cfrac%7Bx%7D%7Bm%7D%29%20&plus;%20x%7D)
+Za odabranu funkciju sin izraz je:  
+![](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%201%20&plus;%20%5Cfrac%7B1%7D%7B%5Csin%28x%29%20&plus;%20x%7D%20&plus;%20%5Cfrac%7B2%7D%7B%5Csin%28%5Cfrac%7Bx%7D%7B2%7D%29%20&plus;%20x%7D%20&plus;%20...%20&plus;%20%5Cfrac%7Bm%7D%7B%5Csin%28%5Cfrac%7Bx%7D%7Bm%7D%29%20&plus;%20x%7D)  
 Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristiti switch iskaz.
 
 <details>
@@ -2085,8 +2091,8 @@ ___
 
 Napisati program koji korisniku omogućava unos realnog broja x, cijelog broja m i odabir funkcije za proračun datog izraza. Korisnik bira funkciju unosom sljedećih karaktera 's' (sin), 'c' (cos), 'q' (sqrt), 'p' (pow). U slučaju da korisnik unese karakter koji ne odgovara niti jednoj od predefinisanih vrijednosti ispisati odgovarajuću poruku i ponoviti odabir. Za funkciju pow() drugi parametar treba biti 3.
 
-Za odabranu funkciju sin izraz je:
-![](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%28%5Csin%28x%29%20&plus;%201%29%20*%20%28%5Csin%28x%29%20&plus;%202%29%20*%20...%20*%20%28%5Csin%28x%29%20&plus;%20m%29)
+Za odabranu funkciju sin izraz je:  
+![](https://latex.codecogs.com/gif.latex?f%28x%2C%20m%29%20%3D%20%28%5Csin%28x%29%20&plus;%201%29%20*%20%28%5Csin%28x%29%20&plus;%202%29%20*%20...%20*%20%28%5Csin%28x%29%20&plus;%20m%29)  
 Broj faktora u izrazu odgovara unesenom broju m. U rješenju obavezno iskoristiti switch iskaz.
 
 <details>
@@ -2208,6 +2214,11 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
     <td>2019-09-06</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-09-06/Zadatak%2003.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-01-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2003.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -2258,6 +2269,11 @@ Npr. brojevi 383, 727, 757, 787, 797, 919, 929 su u isto vrijeme i prosti brojev
     <td>2018×2019</td>
     <td>2019-01-26</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>20120-01-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2533,7 +2549,7 @@ Poštujući sve faze programiranja napisati program koji omogućava unos prirodn
 
 ___
 
-Poštujući sve faze procesa programiranja, napišite program, koji za uneseni prirodni broj n i realni broj x izračunava: 
+Poštujući sve faze procesa programiranja, napišite program, koji za uneseni prirodni broj n i realni broj x izračunava:  
 ![S = cos(x) + cos(x^2 + cos(x^3) + ... + cos(x^n))](https://latex.codecogs.com/gif.latex?S&space;=&space;\con(x)&space;&plus;&space;\cos(x^2)&space;&plus;&space;\cos(x^3)&space;&plus;&space;...&space;&plus;&space;\cos(x^n))
 
 <details>

@@ -1,6 +1,6 @@
 # [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
-Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n izračunati sumu: ![S=3!-6!+9! -....+(-1)n+1(3n)!](https://latex.codecogs.com/gif.latex?S%3D3%21-6%21&plus;9%21%20-....&plus;%28-1%29%20*%20n&plus;1*%283n%29%21)
+Napišite program, poštujući sve faze procesa programiranja, u kojem ćete za uneseni prirodni broj n izračunati sumu:   ![S=3!-6!+9! -....+(-1)n+1(3n)!](https://latex.codecogs.com/gif.latex?S%3D3%21-6%21&plus;9%21%20-....&plus;%28-1%29%20*%20n&plus;1*%283n%29%21)
 
 Upotrijebite funkcije:
 ```cpp

@@ -1,8 +1,7 @@
 # [Zadatak 01](./Grupa%20B%20-%20Zadatak%2001.cpp)
 
-Napisati program koji će za uneseni prirodni broj n računati:
-
-![S = [1/(n+1)] - [1/(n+2!)] + [1/(n+3!)] - [1/(n+4!)] + ... + (-1)^(n-1) * [1/(n+n!)]](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7Bn%20&plus;%201%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%202%21%7D%20&plus;%20%5Cfrac%7B1%7D%7Bn%20&plus;%203%21%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%204%21%7D%20&plus;%20...%20&plus;%20%28-1%29%5E%7Bn-1%7D%20*%20%5Cfrac%7B1%7D%7Bn%20&plus;%20n%21%7D)
+Napisati program koji će za uneseni prirodni broj n računati:  
+![S = [1/(n+1)] - [1/(n+2!)] + [1/(n+3!)] - [1/(n+4!)] + ... + (-1)^(n-1) * [1/(n+n!)]](https://latex.codecogs.com/gif.latex?S%20%3D%20%5Cfrac%7B1%7D%7Bn%20&plus;%201%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%202%21%7D%20&plus;%20%5Cfrac%7B1%7D%7Bn%20&plus;%203%21%7D%20-%20%5Cfrac%7B1%7D%7Bn%20&plus;%204%21%7D%20&plus;%20...%20&plus;%20%28-1%29%5E%7Bn-1%7D%20*%20%5Cfrac%7B1%7D%7Bn%20&plus;%20n%21%7D)  
 10 < n <= 100
   
 Obavezno koristiti i ispravne tipove podataka i optimizirati kod.
