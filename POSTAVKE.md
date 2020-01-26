@@ -2272,7 +2272,7 @@ Npr. brojevi 383, 727, 757, 787, 797, 919, 929 su u isto vrijeme i prosti brojev
   </tr>
   <tr>
     <td>2018×2019</td>
-    <td>20120-01-25</td>
+    <td>2020-01-25</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2002.cpp">Link</a></td>
   </tr>
 </table>
@@ -2676,6 +2676,37 @@ Za olaksanje rjesenja, mozete izabrati prototip funkcija po zelji te kreirati do
     | B70 | C71 | B72 | C73 | B74 | C75 | B76 | C77 |
     +-----+-----+-----+-----+-----+-----+-----+-----+
 ```
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2019-09-06</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2004.cpp">Link</a></td>
+  </tr>
+</table>
+</details>
+
+___
+
+
+Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa vozilo (vozilo je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.  
+```cpp
+struct vozilo
+{
+    char *markaVozila;
+    char *nazivVozila;
+    char *tipVozila; // omogućiti unos samo 'A', 'B','C'
+    float *potrosnja_goriva_po_km;
+};
+```
+Redovi matrice predstavljaju firme, kolone automobile. Izračunati u kojoj je firmi najveća potrošnja goriva po km. Naći i ispisati prosjek potrošnje goriva po km u vozilima tipa C u cijeloj matrici. U zadataku koristiti artimetiku pokazivaca.
 
 <details>
 <summary>Rješenja</summary><br>
