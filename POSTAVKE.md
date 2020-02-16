@@ -1780,6 +1780,11 @@ Broj sastavljen od zadanih cifara je 28.
     <td>2020-01-25</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2001.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-02-16</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-02-16/Zadatak%2001.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
          
@@ -2294,6 +2299,11 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
     <td>2018×2019</td>
     <td>2019-01-26</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2003.cpp">Link</a></td>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2019-01-26</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-02-15/Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
