@@ -18,7 +18,7 @@ void Popuni(int *niz, int velicina, int i = 0)
 	if(i == 0 || i == 1)
 		temp = 1;
 	else
-		temp = *(niz - 1) + *(niz - 2);
+		temp = *(niz + i - 1) + *(niz + i - 2);
 
 	if (temp < 0) return;
 
