@@ -125,7 +125,7 @@ int main()
     {
         for(int j = 0; j < sirina; j++)
             (*(*(matrica + i) + j)).Dealociraj();
-        delete[] (matrica + i);
+        delete[] *(matrica + i);
     }
     delete[] matrica;
 
