@@ -1221,6 +1221,11 @@ Svaki paran broj se može prikazati kao suma dva prosta broja (tkz. Goldbachovo 
     <td>2019-01-26</td>
     <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2019-01-26/Zadatak%2002.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-02-15</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-02-15/Zadatak%2002.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
             
@@ -2728,8 +2733,39 @@ Redovi matrice predstavljaju firme, kolone automobile. Izračunati u kojoj je fi
   </tr>
   <tr>
     <td>2018×2019</td>
-    <td>2019-09-06</td>
-    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-11-29/Zadatak%2003.cpp">Link</a></td>
+    <td>2020-01-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2004.cpp">Link</a></td>
+  </tr>
+</table>
+</details>
+
+___
+
+Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa `vremenska_prognoza` (prognoza je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
+```cpp
+struct vremenska_prognoza
+{
+    char *padavine; //dozvoliti unos rijeci npr. "kisa" ili "snijeg"
+    float *temperatura;
+    float *vlaznost_vazduha;
+}
+```
+Redovi dvodimenzionalnog niza predstavljaju različite meteorologe, a kolone različite dane. Omogućiti korisniku unos svih prognoza za sve meteorologe. Dodatno kreirati jednodimenzionalni dinamički niz čija će veličina biti uneseni broj dana u koji ćete omogućiti unos stvarnih izmjerenih vrijednosti za dane. Zatim napraviti funkciju koja će pronaći i ispisati index meteorologa čija je prognoza dnevnih temperatura bila najtačnija, odnosno koji je imao najmanju grešku u procjeni temperatura.  
+Pomoć: suma svih razlika između prognozirane i stvarne temperature za jednog meteorologa predstavlja njegovu ukupnu grešku.  
+U ovom zadatku je zabranjeno indeksirati elemente u niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-02-15</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-02-15/Zadatak%2004.cpp">Link</a></td>
   </tr>
 </table>
 </details>
