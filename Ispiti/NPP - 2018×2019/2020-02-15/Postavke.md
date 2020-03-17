@@ -20,3 +20,16 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
 
 # [Zadatak 04](./Zadatak%2004.cpp)
 
+Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa `vremenska_prognoza` (prognoza je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
+```cpp
+struct vremenska_prognoza
+{
+    char *padavine; //dozvoliti unos rijeci npr. "kisa" ili "snijeg"
+    float *temperatura;
+    float *vlaznost_vazduha;
+}
+```
+Redovi dvodimenzionalnog niza predstavljaju različite meteorologe, a kolone različite dane. Omogućiti korisniku unos svih prognoza za sve meteorologe. Dodatno kreirati jednodimenzionalni dinamički niz čija će veličina biti uneseni broj dana u koji ćete omogućiti unos stvarnih izmjerenih vrijednosti za dane. Zatim napraviti funkciju koja će pronaći i ispisati index meteorologa čija je prognoza dnevnih temperatura bila najtačnija, odnosno koji je imao najmanju grešku u procjeni temperatura.  
+Pomoć: suma svih razlika između prognozirane i stvarne temperature za jednog meteorologa predstavlja njegovu ukupnu grešku.  
+U ovom zadatku je zabranjeno indeksirati elemente u niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.
+
