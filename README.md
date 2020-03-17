@@ -5,5 +5,11 @@
 
 # Contributors
 
-* [Enis Mulić](https://github.com/PancakeAlchemist)  
-* [Erin Džinić](https://github.com/ErinDzinic)
+* Github
+    * [Enis Mulić](https://github.com/PancakeAlchemist)  
+    * [Erin Džinić](https://github.com/ErinDzinic)
+* Discord
+    * [Nedim Perva](https://github.com/nedimperva)
+    * Selim Mekić
+    * Nihad Hasanović
+    * Belmin Ibrić
