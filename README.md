@@ -5,5 +5,5 @@
 
 # Contributors
 
-[Enis Mulić](https://github.com/PancakeAlchemist)  
-[Erin Džinić](https://github.com/ErinDzinic)
+* [Enis Mulić](https://github.com/PancakeAlchemist)  
+* [Erin Džinić](https://github.com/ErinDzinic)
