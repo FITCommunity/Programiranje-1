@@ -21,27 +21,29 @@ void Popuni(int *niz, int velicina, int i = 0, int e = 1)
 	*(niz + i) = temp;
 	Popuni(niz, velicina, i + 1, e + 1);
 }
-int Postoji(int*niz, int vel,int broj, int i)
+
+int Postoji(int *niz, int vel, int broj, int i = 0)
 {
 	if (i >= vel)
 		return -1;
 	if (*(niz + i) == broj)
 		return i;
-	return postoji(niz, vel, broj, i + 1);
+	return Postoji(niz, vel, broj, i + 1);
 }
+
 int main()
 {
 	int brojElemenata,broj;
-	while (cin >> brojElemenata, brojElemenata <= 0);
+	while (cout << "Unesite broj elemenata niza: ", cin >> brojElemenata, brojElemenata <= 0);
 
 	int *niz = new int[brojElemenata] {};
 	Popuni(niz, brojElemenata);
 	Ispis(niz, brojElemenata);
 	
-	cout << "Koji broj u nizu trazite?";
+	cout << "Koji broj u nizu trazite? ";
 	cin >> broj;
 	
-	int broj2 = postoji(niz, vel, broj);
+	int broj2 = Postoji(niz, brojElemenata, broj);
 	
 	if (broj2 == -1)
 		cout << "Trazeni broj ne postoji u nizu." << endl;
