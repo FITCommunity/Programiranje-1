@@ -1226,6 +1226,11 @@ Svaki paran broj se može prikazati kao suma dva prosta broja (tkz. Goldbachovo 
     <td>2020-02-15</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-02-15/Zadatak%2002.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-09-08</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-09-08/Zadatak%2002.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
             
@@ -1802,6 +1807,11 @@ Broj sastavljen od zadanih cifara je 28.
     <td>2018×2019</td>
     <td>2020-02-16</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-02-16/Zadatak%2001.cpp">Link</a></td>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-08-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-08-25/Zadatak%2001.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
@@ -2805,6 +2815,11 @@ Napisati program koji će omogućiti unos prirodnog broja A (A > 100000), te kre
     <td>2020-08-25</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-08-25/Zadatak%2002.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-08-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-08-25/Zadatak%2002.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -2819,6 +2834,11 @@ Napisati program koji će omogućiti korisniku da unese veličinu n jednodimenzi
     <th>NPP</th>
     <th>Rok</th>
     <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-08-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-08-25/Zadatak%2003.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
@@ -2850,6 +2870,11 @@ Redovi dvodimenzionalnog niza predstavljaju različite firme a u kolone različi
     <th>NPP</th>
     <th>Rok</th>
     <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2020-08-25</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-08-25/Zadatak%2004.cpp">Link</a></td>
   </tr>
   <tr>
     <td>2018×2019</td>
