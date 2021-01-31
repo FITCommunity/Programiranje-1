@@ -1522,6 +1522,11 @@ Napomena: Po želji kreirati dodatne funkcije da se olakša rješavanje zadataka
     <td>2018-09-10</td>
     <td><a href="../master/Ispiti/NPP%20-%202014%C3%972015/2018-09-10/Grupa%20B%20-%20Zadatak%2002.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2021-01-30</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2021-01-30/Grupa%20A%20-%20Zadatak%2002.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -1909,6 +1914,11 @@ Napisati program koji korisniku omogućava unos realnog broja x i odabir funkcij
     <td>2019-01-26</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2019-01-26/Grupa%20B%20-%20Zadatak%2001.cpp">Link</a></td>
   </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2021-01-30</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2021-01-30/Grupa%20A%20-%20Zadatak%2001.cpp">Link</a></td>
+  </tr>
 </table>
 </details>
 
@@ -2256,6 +2266,11 @@ Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzion
     <td>2018×2019</td>
     <td>2020-01-25</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-01-25/Zadatak%2003.cpp">Link</a></td>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2021-01-30</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2021-01-30/Zadatak%2003.cpp">Link</a></td>
   </tr>
 </table>
 </details>
@@ -2881,5 +2896,37 @@ Redovi dvodimenzionalnog niza predstavljaju različite firme a u kolone različi
     <td>2020-08-25</td>
     <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2020-08-25/Zadatak%2004.cpp">Link</a></td>
   </tr>
+</table>
+</details>
+
+
+___
+
+Kreirati dinamički dvodimenzionalni niz čiji su elementi objekti tipa student (student je struktura čija su obilježja data u nastavku). Omogućiti korisniku da unese dimenzije niza.
+
+```cpp
+struct student
+{
+    char *ID;
+    char *imePrezime;
+    float *prosjek;
+};
+```
+Kompletan 2D niz predstavlja univerzitet. Redovi dvodimenzionalnog niza predstavljaju različite fakultete (radi jednostavnosti rješenja podrazumijevati da svaki fakultet ima isti broj studenata). Omogućiti korisniku unos svih podataka za sve studente, te napraviti funkciju koja će pronaći fakultet sa najvećim prosjekom te ispisati koji je to redni broj fakulteta (index reda sa najvećim prosjekom). Zatim pronaći i ispisati ID studenta koji ima najveći prosjek na cijelom univerzitetu. U ovom zadatku je zabranjeno indexirati elemente niza uglastim zagradama. Obavezno koristiti aritmetiku pokazivača. Obavezno voditi računa o dealociranju dinamički alociranje memorije.
+
+<details>
+<summary>Rješenja</summary><br>
+<table>
+  <tr>
+    <th>NPP</th>
+    <th>Rok</th>
+    <th>Rješenje</th>
+  </tr>
+  <tr>
+    <td>2018×2019</td>
+    <td>2021-01-30</td>
+    <td><a href="../master/Ispiti/NPP%20-%202018%C3%972019/2021-01-30/Zadatak%2004.cpp">Link</a></td>
+  </tr>
+ 
 </table>
 </details>
