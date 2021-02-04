@@ -30,7 +30,6 @@ void vozilo::Unos()
     char tempBrojSasije[20];
 
     cout << "Unesite broj sasije (max 20): ";
-    cin.ignore();
     cin.getline(tempBrojSasije, sizeof tempBrojSasije);
 
     int velicinaBS = strlen(tempBrojSasije);
@@ -71,7 +70,7 @@ void vozilo::Dealociraj()
 
 int FirmaNajvecaProsjecnaKubikaza(vozilo **m, int brFirmi, int brVozila)
 {
-    float *prosjek = new float[brFirmi];
+    float *prosjek = new float[brFirmi] {0};
     for(int i = 0; i < brFirmi; i++)
     {
         for(int j = 0; j < brVozila; j++)
