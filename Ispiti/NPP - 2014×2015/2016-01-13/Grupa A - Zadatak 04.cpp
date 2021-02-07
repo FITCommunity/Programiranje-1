@@ -2,54 +2,36 @@
 
 using namespace std;
 
-void unos(int niz[], int duzina)
-{
-    for (int i = 0; i < duzina; i++)
-        cin >> niz[i];
-}
+/*
+Napišite program, poštujući sve faze procesa programiranja, koji će ispisati sve troznamenkaste brojeve koji su jednaki sumi faktorijela svojih znamenki – ABC = (A + B)! + C! Upotrijebite funkcije:
 
-void inicijalizacija(int niz1[], int niz2[], int niz3[])
-{
-    for (int i = 0; i < 7; i++)
-      if (i < 3)
-          niz3[i] = niz1[i];
-      else
-          niz3[i] = niz2[i - 3];
-}
+bool provjera (int);
+int faktorijel(int);
+*/
 
-int sumiraj(int niz[], int duzina)
-{
-    int suma = 0;
-    for (int i = 0; i < duzina; i++)
-        suma += niz[i];
+bool provjera(int);
+int faktorijel(int);
 
-    return suma;
-}
 int main()
 {
-    int niz1[3], niz2[4], niz3[7];
+	for (int i = 100; i < 1000; i++) {
+		if (provjera(i)) {
+			cout << i << "\n";
+		}
+	}
+}
 
-    cout << "Unesite elemente u prvi niz: " << endl;
-    unos(niz1, 3);
+bool provjera(int n) {
+	int trecaCifra = n % 10;
+	int drugaCifra = n / 10 % 10;
+	int prvaCifra = n / 10 / 10 % 10;
 
-    cout << "Unesite elemente u drugi niz: " << endl;
-    unos(niz2, 4);
+	return (faktorijel(prvaCifra + drugaCifra) + faktorijel(trecaCifra)) == n;
+}
 
-    inicijalizacija(niz1, niz2, niz3);
-
-    int izbor;
-    while (cout << "Izaberite niz:\n", cin >> izbor, izbor < 1 || izbor > 3);
-    
-    int suma;
-    switch(izbor)
-    {
-      case 1: suma = sumiraj(niz1, 3); break;
-      case 2: suma = sumiraj(niz2, 4); break;
-      case 3: suma = sumiraj(niz3, 7); break;
-    }
-
-    cout << "Suma niza " << izbor << " je " << suma << endl;
-
-    system("pause>0");
-    return 0;
+int faktorijel(int n) {
+	if (n == 1 || n == 0) {
+		return 1;
+	}
+	return n * faktorijel(n - 1);
 }
