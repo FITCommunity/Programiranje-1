@@ -9,6 +9,8 @@ void Popuni(int *niz, int velicina, int i = 0)
 		return;
 
 	*(niz + i) = rand() % 100 + 1;
+	// Ostavljeno zbog testiranja
+	// *(niz + i) = rand() % 3 + 1;
 
 	if (*(niz + i) == *(niz + i - 1) && *(niz + i) == *(niz + i - 2))
 		return;
