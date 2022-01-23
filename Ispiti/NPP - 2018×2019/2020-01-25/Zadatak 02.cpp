@@ -37,7 +37,7 @@ int main()
 {
 	
 	int broj;
-	while (cout << "Unesite broj: ", cin >> broj, broj > 100)
+	while (cout << "Unesite broj: ", cin >> broj, broj < 100)
 		if (isProstPalindrom(broj))
 			cout << "Broj " << broj << " je i prost i palindrom" << endl;
 
