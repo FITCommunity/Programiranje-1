@@ -6,7 +6,7 @@ using namespace std;
 int obrni(int broj)
 {
     int noviBroj = 0;
-    while(broj)
+    while (broj)
     {
         noviBroj = noviBroj * 10 + broj % 10;
         broj /= 10;
@@ -23,8 +23,8 @@ bool isPalindrom(int broj)
 bool isProst(int broj)
 {
     for (int i = 2; i * i <= broj; i++)
-		if (broj % i == 0)
-			return false;
+        if (broj % i == 0)
+            return false;
     return true;
 }
 
@@ -35,13 +35,15 @@ bool isProstPalindrom(int broj)
 
 int main()
 {
-	
-	int broj;
-	while (cout << "Unesite broj: ", cin >> broj, broj > 100)
-		if (isProstPalindrom(broj))
-			cout << "Broj " << broj << " je i prost i palindrom" << endl;
 
-  
-	system("pause>0");
-	return 0;
+    int broj;
+    do {
+        cout << "Unesite broj: ";
+        cin >> broj;
+    } while (broj < 100);
+
+    cout << "Broj " << broj << (isProstPalindrom(broj) ? " je prost i palindrom." : " nije prost i palindrom.") << endl;
+
+    system("pause>0");
+    return 0;
 }
