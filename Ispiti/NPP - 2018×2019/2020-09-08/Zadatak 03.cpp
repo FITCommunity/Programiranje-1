@@ -46,7 +46,7 @@ int main()
 	Ispis(niz, vel);
 
 	cout << "Suma je: " << Suma(niz, vel) << endl;
-	
+	delete [] niz;//dealokacija niza
 	system("pause>0");
 	return 0;
 }
