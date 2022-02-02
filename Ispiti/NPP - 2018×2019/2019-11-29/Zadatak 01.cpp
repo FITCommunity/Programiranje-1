@@ -3,18 +3,29 @@
 
 using namespace std;
 
-int main() 
+int faktorijel(int broj)
 {
-	int n, X;
-	while(cout << "Unesite broj A: ", cin >> n, n <= 10);
-	while(cout << "Unesite broj B: ", cin >> X, X < 1);
+    int proizvod = 1;
+    for (int i = 2; i <= broj; i++)
+        proizvod *= i;
+    return proizvod;
+}
 
-	double S = 0;
-	for(int i = 0; i < n; i++)
-	{
-		S += pow(-1, i) * i / pow(X, i);
-	}
+float suma(int broj)
+{
+    float suma = 0;
+    for (int i = 1; i <= broj; i++)
+        suma += pow(-1, i - 1) * faktorijel(3 * i);
+    return suma;
+}
 
-	cout << S;
-	return 0;
+int main()
+{
+    int broj;
+
+    while (cout << "Unesite prirodan broj: ", cin >> broj, broj < 1);
+    cout << suma(broj) << endl;
+
+    system("pause>0");
+    return 0;
 }
