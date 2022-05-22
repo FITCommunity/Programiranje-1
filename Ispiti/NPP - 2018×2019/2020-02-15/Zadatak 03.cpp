@@ -26,7 +26,7 @@ void Popuni(int *niz, int velicina, int i = 0)
 	Popuni(niz, velicina, i + 1);
 }
 
-int Postoji(int *niz, int vel, int broj, int i)
+int Postoji(int *niz, int vel, int broj, int i=0)
 {
 	if (i >= vel)
 		return -1;
@@ -47,7 +47,7 @@ int main()
 	cout << "Koji broj u nizu trazite?";
 	cin >> broj;
 	
-	int broj2 = postoji(niz, vel, broj);
+	int broj2 = Postoji(niz, brojElemenata, broj);
 	
 	if (broj2 == -1)
 		cout << "Trazeni broj ne postoji u nizu." << endl;
