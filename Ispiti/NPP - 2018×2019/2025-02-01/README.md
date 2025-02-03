@@ -191,6 +191,35 @@ Kada program zavrsi izracunava se prosjek svih posljednjih cifara ranije prihvac
 
 <b>Primjer koristenja:</b>
 
+```
+Preskacemo broj: 9856
+Generisani broj: 1038
+===================================
+Preskacemo broj: 744
+Generisani broj: 6712
+===================================
+Generisani broj: 4028
+===================================
+Generisani broj: 1921
+===================================
+Preskacemo broj: 3826
+Preskacemo broj: 6417
+Generisani broj: 1256
+===================================
+Generisani broj: 4220
+===================================
+Preskacemo broj: 2195
+Preskacemo broj: 9290
+Preskacemo broj: 4492
+Preskacemo broj: 4646
+Preskacemo broj: 3366
+Preskacemo broj: 4724
+Preskacemo broj: 2764
+Generisani broj: 5771
+===================================
+Ukupni prosjek zadnjih cifri je: 4.16667
+```
+
 # [Zadatak 02](./Grupa-B/Zadatak-02.cpp)
 
 Napisite program koji simulira igru pogadanja broja prema sljedecim pravilima:
