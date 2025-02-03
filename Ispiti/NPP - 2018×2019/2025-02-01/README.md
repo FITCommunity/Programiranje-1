@@ -121,7 +121,7 @@ Prosjek niza je: 21.2857
 
 Neka je dat sljedeci prototip strukture Serija:
 
-```
+```cpp
 struct Serija {
 	char* imeSerije = nullptr;
 	char* zanrSerije = nullptr; // dozvoliti unos samo "Crime", "Romance", "Comedy"
@@ -278,7 +278,7 @@ Broj parnih brojeva u nizu je: 3
 
 Neka je dat sljedeci prototip strukture Student:
 
-```
+```cpp
 struct Student {
 	char* ime = nullptr;
 	char* prezime = nullptr;
