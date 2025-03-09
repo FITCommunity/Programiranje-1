@@ -19,6 +19,10 @@ int sumDigits(int num) {
 }
 
 int countDigits(int num) {
+    if (num == 0) {
+        return 1;
+    }
+
 	return std::log10(num) + 1;
 }
 
