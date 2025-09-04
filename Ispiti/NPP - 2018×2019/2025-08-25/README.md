@@ -75,7 +75,7 @@ struct Jelo {
 	char imeKuhara[40] = "";
 	int brojVarijacija = 0;
 	int brojKriticara = 0;
-	int** ocjene = nullptr;
+	int** ocjene = nullptr; // matrica brojVarijacija * brojKriticara
 };
 
 float* getAverageByCategory(Jelo* niz, int velNiza);

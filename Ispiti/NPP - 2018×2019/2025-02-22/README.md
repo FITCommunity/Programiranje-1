@@ -11,7 +11,7 @@ brojeva koji su imali srednju cifru vecu od posljednje cifre (npr. broj 154 odgo
 dok broj 216 ne odgovara).
 
 Output aplikacije:
-```cpp
+```
 502 734 364 751 165
 Program se je zavrsio sa brojem: 777 a ukupoan zbroj brojeva koji su imali srednju cifru vecu od posljednje cifre je: 3 dok je ukupna suma: 2516
 ```
@@ -142,7 +142,7 @@ sabirati znamenke novog broja (15 = 1 + 5 = 6), sve dok ne dobijete rezultat koj
 <b>OBAVEZNO KORISTITI REKURZIVNE FUNKCIJE</b>
 
 Output aplikacije:
-```cpp
+```
 Unesite broj u opsegu od 100 do 100 000
 68999
 Rezultat sume znamenki je: 41
