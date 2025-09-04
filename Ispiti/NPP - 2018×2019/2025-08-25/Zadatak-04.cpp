@@ -178,6 +178,8 @@ float* getAverageByCategory(Jelo* niz, int velNiza) {
 }
 
 int main() {
+	std::srand(std::time(nullptr));
+
 	int brojJela;
 
 	std::cout << "Unesite broj jela: ";
